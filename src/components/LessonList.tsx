@@ -15,7 +15,7 @@ const LessonList = ({ lessons, courseId, onSelect, gradient, completedLessons }:
     <div className="space-y-3">
       {lessons.map((lesson, i) => {
         const isCompleted = completedLessons.includes(`${courseId}__${lesson.id}`);
-        const isLocked = i > 0 && !completedLessons.includes(`${courseId}__${lessons[i - 1].id}`) && i > 1;
+        const isLocked = false;
 
         return (
           <motion.button
