@@ -1,59 +1,109 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Lesson } from "@/data/courses";
-import { ArrowLeft, BookOpen, MessageCircle, Lightbulb, Volume2 } from "lucide-react";
+import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight, BookOpen, MessageCircle, Volume2, Lightbulb, CheckCircle2, Plus } from "lucide-react";
 import QuizView from "./QuizView";
 
 interface LessonViewProps {
   lesson: Lesson;
   gradient: string;
+  courseId: string;
   onBack: () => void;
+  completedSteps: number[];
+  onStepComplete: (step: number) => void;
+  onQuizComplete: (score: number, total: number) => void;
+  onAddFlashcard: (word: { en: string; fr: string; phonetic?: string }) => void;
 }
 
-type Tab = "words" | "phrases" | "dialogue" | "quiz";
+const STEPS = [
+  { id: 0, label: "Mots", icon: BookOpen },
+  { id: 1, label: "Phrases", icon: MessageCircle },
+  { id: 2, label: "Dialogue", icon: Volume2 },
+  { id: 3, label: "Quiz", icon: Lightbulb },
+];
 
-const LessonView = ({ lesson, gradient, onBack }: LessonViewProps) => {
-  const [tab, setTab] = useState<Tab>("words");
+const LessonView = ({
+  lesson,
+  gradient,
+  courseId,
+  onBack,
+  completedSteps,
+  onStepComplete,
+  onQuizComplete,
+  onAddFlashcard,
+}: LessonViewProps) => {
+  const [currentStep, setCurrentStep] = useState(0);
+  const [wordIndex, setWordIndex] = useState(0);
+  const [phraseIndex, setPhraseIndex] = useState(0);
 
-  const tabs: { id: Tab; label: string; icon: React.ReactNode }[] = [
-    { id: "words", label: "Mots", icon: <BookOpen className="w-4 h-4" /> },
-    { id: "phrases", label: "Phrases", icon: <MessageCircle className="w-4 h-4" /> },
-    ...(lesson.dialogues ? [{ id: "dialogue" as Tab, label: "Dialogue", icon: <Volume2 className="w-4 h-4" /> }] : []),
-    { id: "quiz", label: "Quiz", icon: <Lightbulb className="w-4 h-4" /> },
-  ];
+  const hasDialogue = !!lesson.dialogues && lesson.dialogues.length > 0;
+  const availableSteps = STEPS.filter((s) => s.id !== 2 || hasDialogue);
+
+  const goNext = () => {
+    const currentIdx = availableSteps.findIndex((s) => s.id === currentStep);
+    if (currentIdx < availableSteps.length - 1) {
+      onStepComplete(currentStep);
+      setCurrentStep(availableSteps[currentIdx + 1].id);
+    }
+  };
+
+  const goPrev = () => {
+    const currentIdx = availableSteps.findIndex((s) => s.id === currentStep);
+    if (currentIdx > 0) {
+      setCurrentStep(availableSteps[currentIdx - 1].id);
+    }
+  };
+
+  const isLastStep = availableSteps.findIndex((s) => s.id === currentStep) === availableSteps.length - 1;
+  const isFirstStep = availableSteps.findIndex((s) => s.id === currentStep) === 0;
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-5">
+      {/* Header */}
       <div className="flex items-center gap-3">
-        <button onClick={onBack} className="p-2 rounded-lg bg-card hover:bg-muted transition-colors border border-border">
+        <button
+          onClick={onBack}
+          className="p-2 rounded-lg bg-card hover:bg-muted transition-colors border border-border"
+        >
           <ArrowLeft className="w-5 h-5 text-foreground" />
         </button>
-        <div>
-          <h2 className="text-xl font-display font-bold text-foreground">{lesson.title}</h2>
-          <p className="text-sm text-muted-foreground">{lesson.titleFr}</p>
+        <div className="flex-1 min-w-0">
+          <h2 className="text-lg font-display font-bold text-foreground truncate">{lesson.title}</h2>
+          <p className="text-sm text-muted-foreground truncate">{lesson.titleFr}</p>
         </div>
       </div>
 
-      {/* Tabs */}
-      <div className="flex gap-2 overflow-x-auto pb-1">
-        {tabs.map((t) => (
-          <button
-            key={t.id}
-            onClick={() => setTab(t.id)}
-            className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-all ${
-              tab === t.id
-                ? `${gradient} text-primary-foreground`
-                : "bg-card text-muted-foreground hover:text-foreground border border-border"
-            }`}
-          >
-            {t.icon}
-            {t.label}
-          </button>
-        ))}
+      {/* Step indicator */}
+      <div className="flex items-center gap-1">
+        {availableSteps.map((step, i) => {
+          const Icon = step.icon;
+          const isActive = currentStep === step.id;
+          const isDone = completedSteps.includes(step.id);
+          return (
+            <button
+              key={step.id}
+              onClick={() => setCurrentStep(step.id)}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                isActive
+                  ? `${gradient} text-primary-foreground`
+                  : isDone
+                  ? "bg-primary/20 text-primary border border-primary/30"
+                  : "bg-card text-muted-foreground border border-border"
+              }`}
+            >
+              {isDone && !isActive ? (
+                <CheckCircle2 className="w-3.5 h-3.5" />
+              ) : (
+                <Icon className="w-3.5 h-3.5" />
+              )}
+              {step.label}
+            </button>
+          );
+        })}
       </div>
 
       {/* Tips */}
-      {lesson.tips && (
+      {lesson.tips && currentStep === 0 && (
         <div className="bg-card border border-border rounded-xl p-4 space-y-2">
           {lesson.tips.map((tip, i) => (
             <p key={i} className="text-sm text-muted-foreground">{tip}</p>
@@ -61,52 +111,174 @@ const LessonView = ({ lesson, gradient, onBack }: LessonViewProps) => {
         </div>
       )}
 
+      {/* Content */}
       <AnimatePresence mode="wait">
-        {tab === "words" && (
-          <motion.div key="words" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-3">
-            {lesson.words.map((word, i) => (
+        {/* WORDS - One by one navigation */}
+        {currentStep === 0 && (
+          <motion.div
+            key="words"
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -30 }}
+            className="space-y-4"
+          >
+            <div className="flex items-center justify-between">
+              <span className="text-sm text-muted-foreground font-medium">
+                Mot {wordIndex + 1} / {lesson.words.length}
+              </span>
+              <div className="flex-1 h-1.5 bg-muted rounded-full mx-4 overflow-hidden">
+                <div
+                  className={`h-full ${gradient} rounded-full transition-all`}
+                  style={{ width: `${((wordIndex + 1) / lesson.words.length) * 100}%` }}
+                />
+              </div>
+            </div>
+
+            <AnimatePresence mode="wait">
               <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.05 }}
-                className="bg-card border border-border rounded-xl p-4"
+                key={wordIndex}
+                initial={{ opacity: 0, x: 40 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -40 }}
+                className="bg-card border border-border rounded-2xl p-6 min-h-[180px] flex flex-col justify-center"
               >
-                <div className="flex items-start justify-between mb-1">
-                  <span className="text-lg font-display font-bold text-foreground">{word.en}</span>
-                  {word.phonetic && <span className="text-xs text-muted-foreground font-mono">/{word.phonetic}/</span>}
+                <div className="flex items-start justify-between mb-2">
+                  <span className="text-2xl font-display font-bold text-foreground">
+                    {lesson.words[wordIndex].en}
+                  </span>
+                  {lesson.words[wordIndex].phonetic && (
+                    <span className="text-xs text-muted-foreground font-mono bg-muted px-2 py-1 rounded">
+                      /{lesson.words[wordIndex].phonetic}/
+                    </span>
+                  )}
                 </div>
-                <p className="text-sm text-primary font-medium">{word.fr}</p>
-                {word.example && (
-                  <div className="mt-2 pl-3 border-l-2 border-primary/30">
-                    <p className="text-sm text-foreground/90 italic">{word.example}</p>
-                    <p className="text-xs text-muted-foreground">{word.exampleFr}</p>
+                <p className="text-lg text-primary font-semibold mb-3">
+                  {lesson.words[wordIndex].fr}
+                </p>
+                {lesson.words[wordIndex].example && (
+                  <div className="pl-3 border-l-2 border-primary/30">
+                    <p className="text-sm text-foreground/90 italic">
+                      {lesson.words[wordIndex].example}
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                      {lesson.words[wordIndex].exampleFr}
+                    </p>
                   </div>
                 )}
               </motion.div>
-            ))}
-          </motion.div>
-        )}
+            </AnimatePresence>
 
-        {tab === "phrases" && (
-          <motion.div key="phrases" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-3">
-            {lesson.phrases.map((phrase, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.05 }}
-                className="bg-card border border-border rounded-xl p-4"
+            {/* Add to flashcards */}
+            <button
+              onClick={() => onAddFlashcard(lesson.words[wordIndex])}
+              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-card border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors text-sm"
+            >
+              <Plus className="w-4 h-4" />
+              Ajouter aux flashcards
+            </button>
+
+            {/* Word navigation */}
+            <div className="flex items-center justify-between gap-3">
+              <button
+                onClick={() => setWordIndex((i) => Math.max(0, i - 1))}
+                disabled={wordIndex === 0}
+                className="flex items-center gap-1 px-4 py-2.5 rounded-xl bg-card border border-border text-foreground disabled:opacity-30 hover:bg-muted transition-colors"
               >
-                <p className="text-foreground font-display font-semibold">{phrase.en}</p>
-                <p className="text-sm text-primary mt-1">{phrase.fr}</p>
-              </motion.div>
-            ))}
+                <ChevronLeft className="w-4 h-4" /> Précédent
+              </button>
+              <button
+                onClick={() => {
+                  if (wordIndex < lesson.words.length - 1) {
+                    setWordIndex((i) => i + 1);
+                  }
+                }}
+                disabled={wordIndex === lesson.words.length - 1}
+                className={`flex items-center gap-1 px-4 py-2.5 rounded-xl font-medium disabled:opacity-30 transition-colors ${gradient} text-primary-foreground`}
+              >
+                Suivant <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
           </motion.div>
         )}
 
-        {tab === "dialogue" && lesson.dialogues && (
-          <motion.div key="dialogue" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-3">
+        {/* PHRASES - One by one */}
+        {currentStep === 1 && (
+          <motion.div
+            key="phrases"
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -30 }}
+            className="space-y-4"
+          >
+            <div className="flex items-center justify-between">
+              <span className="text-sm text-muted-foreground font-medium">
+                Phrase {phraseIndex + 1} / {lesson.phrases.length}
+              </span>
+              <div className="flex-1 h-1.5 bg-muted rounded-full mx-4 overflow-hidden">
+                <div
+                  className={`h-full ${gradient} rounded-full transition-all`}
+                  style={{ width: `${((phraseIndex + 1) / lesson.phrases.length) * 100}%` }}
+                />
+              </div>
+            </div>
+
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={phraseIndex}
+                initial={{ opacity: 0, x: 40 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -40 }}
+                className="bg-card border border-border rounded-2xl p-6 min-h-[160px] flex flex-col justify-center"
+              >
+                <p className="text-xl font-display font-bold text-foreground mb-3">
+                  {lesson.phrases[phraseIndex].en}
+                </p>
+                <p className="text-lg text-primary font-medium">
+                  {lesson.phrases[phraseIndex].fr}
+                </p>
+              </motion.div>
+            </AnimatePresence>
+
+            <button
+              onClick={() => onAddFlashcard(lesson.phrases[phraseIndex])}
+              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-card border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors text-sm"
+            >
+              <Plus className="w-4 h-4" />
+              Ajouter aux flashcards
+            </button>
+
+            <div className="flex items-center justify-between gap-3">
+              <button
+                onClick={() => setPhraseIndex((i) => Math.max(0, i - 1))}
+                disabled={phraseIndex === 0}
+                className="flex items-center gap-1 px-4 py-2.5 rounded-xl bg-card border border-border text-foreground disabled:opacity-30 hover:bg-muted transition-colors"
+              >
+                <ChevronLeft className="w-4 h-4" /> Précédent
+              </button>
+              <button
+                onClick={() => {
+                  if (phraseIndex < lesson.phrases.length - 1) {
+                    setPhraseIndex((i) => i + 1);
+                  }
+                }}
+                disabled={phraseIndex === lesson.phrases.length - 1}
+                className={`flex items-center gap-1 px-4 py-2.5 rounded-xl font-medium disabled:opacity-30 transition-colors ${gradient} text-primary-foreground`}
+              >
+                Suivant <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
+          </motion.div>
+        )}
+
+        {/* DIALOGUE */}
+        {currentStep === 2 && lesson.dialogues && (
+          <motion.div
+            key="dialogue"
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -30 }}
+            className="space-y-3"
+          >
             {lesson.dialogues.map((line, i) => (
               <motion.div
                 key={i}
@@ -121,20 +293,62 @@ const LessonView = ({ lesson, gradient, onBack }: LessonViewProps) => {
               >
                 <p className="text-xs font-bold uppercase mb-1 opacity-70">{line.speaker}</p>
                 <p className="font-medium">{line.en}</p>
-                <p className={`text-sm mt-1 ${
-                  line.speaker === "A" || line.speaker === "You" ? "opacity-80" : "text-muted-foreground"
-                }`}>{line.fr}</p>
+                <p
+                  className={`text-sm mt-1 ${
+                    line.speaker === "A" || line.speaker === "You"
+                      ? "opacity-80"
+                      : "text-muted-foreground"
+                  }`}
+                >
+                  {line.fr}
+                </p>
               </motion.div>
             ))}
           </motion.div>
         )}
 
-        {tab === "quiz" && (
-          <motion.div key="quiz" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-            <QuizView lesson={lesson} gradient={gradient} />
+        {/* QUIZ */}
+        {currentStep === 3 && (
+          <motion.div
+            key="quiz"
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -30 }}
+          >
+            <QuizView
+              lesson={lesson}
+              gradient={gradient}
+              onComplete={(score, total) => {
+                onQuizComplete(score, total);
+                onStepComplete(3);
+              }}
+            />
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Step navigation (not for quiz) */}
+      {currentStep !== 3 && (
+        <div className="flex items-center justify-between gap-3 pt-4 border-t border-border">
+          <button
+            onClick={goPrev}
+            disabled={isFirstStep}
+            className="flex items-center gap-1 px-4 py-2.5 rounded-xl bg-card border border-border text-foreground disabled:opacity-30 hover:bg-muted transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" /> Étape précédente
+          </button>
+          <button
+            onClick={() => {
+              onStepComplete(currentStep);
+              goNext();
+            }}
+            disabled={isLastStep}
+            className={`flex items-center gap-1 px-4 py-2.5 rounded-xl font-medium transition-colors ${gradient} text-primary-foreground`}
+          >
+            Étape suivante <ArrowRight className="w-4 h-4" />
+          </button>
+        </div>
+      )}
     </div>
   );
 };
