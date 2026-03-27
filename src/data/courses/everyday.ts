@@ -735,9 +735,9 @@ export const everydayCourse: Course = {
       { speaker: "Mike", en: "See you!", fr: "À plus !" }
     ],
     tips: [
-      { topic: "The 'Check'", content: "In the US, it's increasingly common to 'split the bill' (go Dutch) on a first date, though traditionally the person who asked might offer to pay." },
-      { topic: "Dating Apps", content: "Apps like Tinder, Bumble, and Hinge are the primary way most Americans find partners today." },
-      { topic: "Directness", content: "Americans tend to be very direct about their feelings after a few dates. Labels like 'exclusive' are usually discussed explicitly." }
+      ": ",
+      ": ",
+      ": "
     ]
   },
   {
@@ -805,9 +805,9 @@ export const everydayCourse: Course = {
       { speaker: "You", en: "I'll be there. I'll bring some wings.", fr: "J'y serai. J'apporterai des ailes de poulet." }
     ],
     tips: [
-      { topic: "The Big Three", content: "American football, baseball, and basketball are the 'Big Three' sports in the US. Soccer is growing but still hasn't reached that level of popularity." },
-      { topic: "Tailgating", content: "A uniquely American tradition of grilling food and drinking in the stadium parking lot before a game." },
-      { topic: "Gym Etiquette", content: "Always 'wipe down' your equipment with a towel/spray when you're finished. It's considered very rude not to." }
+      ": ",
+      ": ",
+      ": "
     ]
   },
   {
@@ -875,9 +875,9 @@ export const everydayCourse: Course = {
       { speaker: "Tom", en: "Great, I'll book the tickets online.", fr: "Super, je vais réserver les billets en ligne." }
     ],
     tips: [
-      { topic: "Rotten Tomatoes", content: "Americans often check 'Rotten Tomatoes' or 'IMDb' for ratings before deciding to watch a movie." },
-      { topic: "Concessions", content: "American movie theaters make most of their money from snacks. A large popcorn and soda can often cost more than the ticket itself!" },
-      { topic: "Streaming", content: "Cord-cutting (canceling cable TV in favor of Netflix, Hulu, Disney+) is a major trend in the US." }
+      ": ",
+      ": ",
+      ": "
     ]
   },
   {
@@ -945,9 +945,9 @@ export const everydayCourse: Course = {
       { speaker: "Sarah", en: "You're the best! I can't wait.", fr: "Tu es le meilleur ! J'ai trop hâte." }
     ],
     tips: [
-      { topic: "Concert Tickets", content: "In the US, tickets are often sold through Ticketmaster, but be prepared for high 'service fees' which can add 30% to the price." },
-      { topic: "The 'Encore'", content: "It is standard for bands to come back for 1-3 more songs after their main set ends if the crowd keeps cheering." },
-      { topic: "Outdoor Festivals", content: "American festivals like Coachella or Lollapalooza are massive all-day events where fashion is often as important as the music." }
+      ": ",
+      ": ",
+      ": "
     ]
   },
   {
@@ -1015,9 +1015,9 @@ export const everydayCourse: Course = {
       { speaker: "Mark", en: "I'll just like it for now.", fr: "Je vais juste liker pour le moment." }
     ],
     tips: [
-      { topic: "Privacy", content: "Americans are very conscious of 'Data Privacy' but also very active on social media. Employers often check your public profiles before hiring." },
-      { topic: "Slang", content: "Internet slang (LOL, BRB, LMAO, TBH) is commonly used in casual texts and social media comments." },
-      { topic: "FOMO", content: "FOMO (Fear Of Missing Out) is a real cultural phenomenon caused by seeing others' highlights on social media." }
+      ": ",
+      ": ",
+      ": "
     ]
   },
   {
@@ -1085,9 +1085,9 @@ export const everydayCourse: Course = {
       { speaker: "Dave", en: "See you then!", fr: "À tout à l'heure !" }
     ],
     tips: [
-      { topic: "Drinking Age", content: "The legal drinking age in the US is 21. Bouncers are extremely strict and will 'card' (check ID) almost everyone who looks under 40." },
-      { topic: "Tipping Bartenders", content: "It's standard to tip $1 to $2 per drink, or 15-20% of the total tab if you pay at the end." },
-      { topic: "Last Call", content: "Most bars in the US close at 2 AM. 'Last call' is usually 15-30 minutes before closing time." }
+      ": ",
+      ": ",
+      ": "
     ]
   },
   {
@@ -1155,9 +1155,9 @@ export const everydayCourse: Course = {
       { speaker: "Owner", en: "Thanks, you too!", fr: "Merci, vous aussi !" }
     ],
     tips: [
-      { topic: "Dog Parks", content: "Most American cities have designated 'dog parks' where dogs can run off-leash. It's a great place to socialize." },
-      { topic: "Shelter Adoption", content: "There is a strong cultural movement in the US to 'Adopt, Don't Shop' rather than buying from breeders." },
-      { topic: "Cleaning Up", content: "Always bring plastic bags on walks. Not picking up dog waste can result in heavy fines in many US cities." }
+      ": ",
+      ": ",
+      ": "
     ]
   },
   {
@@ -1225,9 +1225,9 @@ export const everydayCourse: Course = {
       { speaker: "Sarah", en: "I hope it tastes as good as it smells.", fr: "J'espère que c'est aussi bon que ça en a l'air." }
     ],
     tips: [
-      { topic: "Measurements", content: "Americans usually use cups, tablespoons (tbsp), and teaspoons (tsp) instead of grams and milliliters." },
-      { topic: "Temperature", content: "Oven temperatures in the US are always in Fahrenheit. 350°F is roughly 175°C." },
-      { topic: "Dinner Time", content: "Dinner is usually the largest meal of the day and is typically eaten between 6 PM and 7:30 PM." }
+      ": ",
+      ": ",
+      ": "
     ]
   },
   {
@@ -1295,9 +1295,9 @@ export const everydayCourse: Course = {
       { speaker: "You", en: "Great, thank you. Have a good one!", fr: "Super, merci. Bonne journée !" }
     ],
     tips: [
-      { topic: "Tipping in Hotels", content: "It's customary to tip hotel bellhops $1-2 per bag and to leave a few dollars a day for housekeeping." },
-      { topic: "Road Trips", content: "The 'Great American Road Trip' is a cultural staple. Driving across states is common because public transport between cities is often poor." },
-      { topic: "TSA Rules", content: "Security (TSA) is very strict. You must remove shoes and take out electronics/liquids at most US airports." }
+      ": ",
+      ": ",
+      ": "
     ]
   },
   {
@@ -1363,9 +1363,9 @@ export const everydayCourse: Course = {
       { speaker: "You", en: "You're welcome. Bye.", fr: "De rien. Au revoir." }
     ],
     tips: [
-      { topic: "Emergency Number", content: "911 is the universal emergency number in the US for police, fire, and ambulance." },
-      { topic: "Medical Costs", content: "Emergency rooms (ER) in the US are very expensive. For non-life-threatening issues, 'Urgent Care' clinics are often a cheaper alternative." },
-      { topic: "Good Samaritan Laws", content: "Most US states have laws to protect people who give reasonable assistance to those who are injured or ill." }
+      ": ",
+      ": ",
+      ": "
     ]
   },
 {
