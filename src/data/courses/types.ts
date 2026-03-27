@@ -2,6 +2,7 @@ export interface Word {
   en: string;
   fr: string;
   phonetic?: string;
+  context?: string;
   example?: string;
   exampleFr?: string;
 }

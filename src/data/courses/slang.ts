@@ -14,6 +14,8 @@ export const slangCourse: Course = {
       id: "basic-slang",
       title: "Essential Slang",
       titleFr: "L'essentiel de l'argot",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "lit", fr: "génial / lourd", phonetic: "/lɪt/", example: "The party was lit.", exampleFr: "La fête était lourde." },
         { en: "vibe", fr: "ambiance", phonetic: "/vaɪb/", example: "I like his vibe.", exampleFr: "J'aime bien son style / son ambiance." },
@@ -80,6 +82,8 @@ export const slangCourse: Course = {
       id: "reactions-emotions",
       title: "Reactions & Emotions",
       titleFr: "Réactions & Émotions",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "shook", fr: "bouleversé / choqué", phonetic: "/ʃʊk/", example: "I'm still shook.", exampleFr: "Je suis encore sous le choc." },
         { en: "dead", fr: "mort (de rire)", phonetic: "/dɛd/", example: "Look at his face, I'm dead!", exampleFr: "Regarde sa tête, je suis mort !" },
@@ -146,6 +150,8 @@ export const slangCourse: Course = {
       id: "internet-culture",
       title: "Internet & Pop Culture",
       titleFr: "Internet & Pop Culture",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "GOAT", fr: "Le meilleur de tous les temps", phonetic: "/ɡoʊt/", example: "Messi is the GOAT.", exampleFr: "Messi est le meilleur de tous les temps." },
         { en: "simp", fr: "personne trop dévouée (amour)", phonetic: "/sɪmp/", example: "He's such a simp for her.", exampleFr: "C'est vraiment un canard pour elle." },
@@ -212,6 +218,8 @@ export const slangCourse: Course = {
       id: "money-hustle",
       title: "Money & Hustle Talk",
       titleFr: "Argent & Travail dur",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "bread", fr: "fric / argent", phonetic: "/brɛd/", example: "I'm just trying to get this bread.", exampleFr: "J'essaie juste de gagner mon pain." },
         { en: "guap", fr: "beaucoup d'argent", phonetic: "/ɡwɑːp/", example: "He’s making serious guap.", exampleFr: "Il se fait un max de thune." },
@@ -278,6 +286,8 @@ export const slangCourse: Course = {
       id: "dating-slang",
       title: "Dating Slang",
       titleFr: "L'argot des rencontres",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "talking stage", fr: "phase de flirt", phonetic: "/ˈtɔːkɪŋ steɪdʒ/", example: "We're just in the talking stage.", exampleFr: "On est juste dans la phase où on discute." },
         { en: "situationship", fr: "relation ambiguë", phonetic: "/ˌsɪtʃuˈeɪʃənʃɪp/", example: "It’s a complicated situationship.", exampleFr: "C’est une relation ambiguë compliquée." },
@@ -344,6 +354,8 @@ export const slangCourse: Course = {
       id: "insults-comebacks",
       title: "Insults & Comebacks",
       titleFr: "Insultes & Réparties",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "roast", fr: "vanner méchamment", phonetic: "/roʊst/", example: "They roasted him in the group chat.", exampleFr: "Ils l'ont vanné dans le groupe." },
         { en: "clap back", fr: "répliquer", phonetic: "/klæp bæk/", example: "She had a great clap back.", exampleFr: "Elle a eu une super répartie." },
@@ -410,6 +422,8 @@ export const slangCourse: Course = {
       id: "food-slang",
       title: "Food Slang",
       titleFr: "L'argot de la bouffe",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "munchies", fr: "faim soudaine", phonetic: "/ˈmʌntʃiz/", example: "I have the munchies.", exampleFr: "J'ai une dalle de dingue." },
         { en: "grub", fr: "la bouffe", phonetic: "/ɡrʌb/", example: "Let's get some grub.", exampleFr: "Allons chercher de la bouffe." },
@@ -476,6 +490,8 @@ export const slangCourse: Course = {
       id: "party-slang",
       title: "Party & Drinking Slang",
       titleFr: "L'argot de la fête",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "turnt", fr: "très excité / ivre", phonetic: "/tɜːrnt/", example: "We got so turnt last night.", exampleFr: "On était trop à fond hier soir." },
         { en: "faded", fr: "éméché / défoncé", phonetic: "/ˈfeɪdɪd/", example: "He’s looking a bit faded.", exampleFr: "Il a une tête à être un peu éméché." },
@@ -542,6 +558,8 @@ export const slangCourse: Course = {
       id: "compliments",
       title: "Compliments & Hype",
       titleFr: "Compliments & Hype",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "drip", fr: "style / classe", phonetic: "/drɪp/", example: "His drip is insane.", exampleFr: "Son style est incroyable." },
         { en: "clean", fr: "soigné / impeccable", phonetic: "/kliːn/", example: "That haircut is clean.", exampleFr: "Cette coupe est super propre." },
@@ -608,6 +626,8 @@ export const slangCourse: Course = {
       id: "agreement-disagreement",
       title: "Agreement & Disagreement",
       titleFr: "Accord & Désaccord",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "facts", fr: "c'est la vérité", phonetic: "/fækts/", example: "Summer is the best season. Facts.", exampleFr: "L'été est la meilleure saison. Grave." },
         { en: "word", fr: "d'accord / ok", phonetic: "/wɜːrd/", example: "I'll be there at 5. Word.", exampleFr: "Je serai là à 17h. Ok ça marche." },
@@ -674,6 +694,8 @@ export const slangCourse: Course = {
       id: "texting-abbreviations",
       title: "Texting & Abbreviations",
       titleFr: "SMS & Abréviations",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "OMG", fr: "Oh mon Dieu", phonetic: "/ˌoʊ.ɛmˈdʒiː/", example: "OMG, did you see that?", exampleFr: "Oh mon Dieu, t'as vu ça ?" },
         { en: "LMAO", fr: "Mort de rire", phonetic: "/ɛl.ɛm.eɪ.oʊ/", example: "LMAO that's hilarious.", exampleFr: "MDR c'est hilarant." },
@@ -740,6 +762,8 @@ export const slangCourse: Course = {
       id: "gen-z-speak",
       title: "Gen Z Speak",
       titleFr: "Le parler Gen Z",
+      description: "",
+      descriptionFr: "",
       words: [
         { en: "ate", fr: "avoir tout déchiré", phonetic: "/eɪt/", example: "She ate that outfit.", exampleFr: "Elle a tout déchiré avec cette tenue." },
         { en: "serve", fr: "proposer un look/vibe génial", phonetic: "/sɜːrv/", example: "You are serving look today.", exampleFr: "Tu sers un de ces looks aujourd'hui." },

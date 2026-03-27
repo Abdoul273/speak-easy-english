@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Lesson } from "@/data/courses";
-import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight, BookOpen, MessageCircle, Volume2, Lightbulb, CheckCircle2, Plus } from "lucide-react";
+import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight, BookOpen, MessageCircle, Volume2, Lightbulb, CheckCircle2, Plus, Info } from "lucide-react";
 import QuizView from "./QuizView";
+import WordCard from "./lesson/WordCard";
+import PhraseCard from "./lesson/PhraseCard";
+import DialogueChat from "./lesson/DialogueChat";
 
 interface LessonViewProps {
   lesson: Lesson;
@@ -75,7 +78,7 @@ const LessonView = ({
 
       {/* Step indicator */}
       <div className="flex items-center gap-1">
-        {availableSteps.map((step, i) => {
+        {availableSteps.map((step) => {
           const Icon = step.icon;
           const isActive = currentStep === step.id;
           const isDone = completedSteps.includes(step.id);
@@ -113,7 +116,7 @@ const LessonView = ({
 
       {/* Content */}
       <AnimatePresence mode="wait">
-        {/* WORDS - One by one navigation */}
+        {/* WORDS */}
         {currentStep === 0 && (
           <motion.div
             key="words"
@@ -134,41 +137,8 @@ const LessonView = ({
               </div>
             </div>
 
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={wordIndex}
-                initial={{ opacity: 0, x: 40 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -40 }}
-                className="bg-card border border-border rounded-2xl p-6 min-h-[180px] flex flex-col justify-center"
-              >
-                <div className="flex items-start justify-between mb-2">
-                  <span className="text-2xl font-display font-bold text-foreground">
-                    {lesson.words[wordIndex].en}
-                  </span>
-                  {lesson.words[wordIndex].phonetic && (
-                    <span className="text-xs text-muted-foreground font-mono bg-muted px-2 py-1 rounded">
-                      /{lesson.words[wordIndex].phonetic}/
-                    </span>
-                  )}
-                </div>
-                <p className="text-lg text-primary font-semibold mb-3">
-                  {lesson.words[wordIndex].fr}
-                </p>
-                {lesson.words[wordIndex].example && (
-                  <div className="pl-3 border-l-2 border-primary/30">
-                    <p className="text-sm text-foreground/90 italic">
-                      {lesson.words[wordIndex].example}
-                    </p>
-                    <p className="text-xs text-muted-foreground">
-                      {lesson.words[wordIndex].exampleFr}
-                    </p>
-                  </div>
-                )}
-              </motion.div>
-            </AnimatePresence>
+            <WordCard word={lesson.words[wordIndex]} gradient={gradient} />
 
-            {/* Add to flashcards */}
             <button
               onClick={() => onAddFlashcard(lesson.words[wordIndex])}
               className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-card border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors text-sm"
@@ -177,7 +147,6 @@ const LessonView = ({
               Ajouter aux flashcards
             </button>
 
-            {/* Word navigation */}
             <div className="flex items-center justify-between gap-3">
               <button
                 onClick={() => setWordIndex((i) => Math.max(0, i - 1))}
@@ -201,7 +170,7 @@ const LessonView = ({
           </motion.div>
         )}
 
-        {/* PHRASES - One by one */}
+        {/* PHRASES */}
         {currentStep === 1 && (
           <motion.div
             key="phrases"
@@ -222,22 +191,7 @@ const LessonView = ({
               </div>
             </div>
 
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={phraseIndex}
-                initial={{ opacity: 0, x: 40 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -40 }}
-                className="bg-card border border-border rounded-2xl p-6 min-h-[160px] flex flex-col justify-center"
-              >
-                <p className="text-xl font-display font-bold text-foreground mb-3">
-                  {lesson.phrases[phraseIndex].en}
-                </p>
-                <p className="text-lg text-primary font-medium">
-                  {lesson.phrases[phraseIndex].fr}
-                </p>
-              </motion.div>
-            </AnimatePresence>
+            <PhraseCard phrase={lesson.phrases[phraseIndex]} gradient={gradient} />
 
             <button
               onClick={() => onAddFlashcard(lesson.phrases[phraseIndex])}
@@ -272,39 +226,7 @@ const LessonView = ({
 
         {/* DIALOGUE */}
         {currentStep === 2 && lesson.dialogues && (
-          <motion.div
-            key="dialogue"
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -30 }}
-            className="space-y-3"
-          >
-            {lesson.dialogues.map((line, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, x: line.speaker === "A" || line.speaker === "You" ? -20 : 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: i * 0.15 }}
-                className={`rounded-xl p-4 max-w-[85%] ${
-                  line.speaker === "A" || line.speaker === "You"
-                    ? `${gradient} text-primary-foreground ml-0`
-                    : "bg-card border border-border text-foreground ml-auto"
-                }`}
-              >
-                <p className="text-xs font-bold uppercase mb-1 opacity-70">{line.speaker}</p>
-                <p className="font-medium">{line.en}</p>
-                <p
-                  className={`text-sm mt-1 ${
-                    line.speaker === "A" || line.speaker === "You"
-                      ? "opacity-80"
-                      : "text-muted-foreground"
-                  }`}
-                >
-                  {line.fr}
-                </p>
-              </motion.div>
-            ))}
-          </motion.div>
+          <DialogueChat dialogues={lesson.dialogues} gradient={gradient} />
         )}
 
         {/* QUIZ */}
