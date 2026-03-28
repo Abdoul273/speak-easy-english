@@ -825,7 +825,678 @@ export const slangCourse: Course = {
         "💡 Roman Empire: Refers to a TikTok trend where men were asked how often they think about the Roman Empire. Now it means any random obsession.",
         "💡 No Crumbs: To 'leave no crumbs' means you did something so well (eating/performing/dressing) that nothing was left to improve."
       ]
+    },
+    {
+      id: "workplace-slang",
+      title: "Workplace Slang",
+      titleFr: "Argot du travail",
+      description: "Informal work expressions",
+      descriptionFr: "Expressions informelles au travail",
+      words: [
+        { en: "grind", fr: "bosser dur", phonetic: "se dit 'graïnd'", example: "I've been on the grind all week.", exampleFr: "J'ai bossé dur toute la semaine." },
+        { en: "hustle", fr: "se débrouiller / bosser", phonetic: "se dit 'HA-seul'", example: "Respect the hustle.", exampleFr: "Respecte le travail acharné." },
+        { en: "side gig", fr: "boulot à côté", phonetic: "se dit 'saïd guig'", example: "My side gig pays well.", exampleFr: "Mon boulot à côté paye bien." },
+        { en: "clock in", fr: "pointer (arriver)", phonetic: "se dit 'klok inn'", example: "I clock in at 8 every morning.", exampleFr: "Je pointe à 8h chaque matin." },
+        { en: "clock out", fr: "pointer (partir)", phonetic: "se dit 'klok aout'", example: "I'm clocking out early today.", exampleFr: "Je pars plus tôt aujourd'hui." },
+        { en: "dead-end job", fr: "boulot sans avenir", phonetic: "se dit 'dèd-ènd djob'", example: "I quit that dead-end job.", exampleFr: "J'ai quitté ce boulot sans avenir." },
+        { en: "burnout", fr: "épuisement total", phonetic: "se dit 'BEURN-aout'", example: "I'm heading for a burnout.", exampleFr: "Je suis en train de m'épuiser." },
+        { en: "slack off", fr: "glander", phonetic: "se dit 'slak of'", example: "Don't slack off during meetings.", exampleFr: "Glande pas pendant les réunions." },
+        { en: "pull strings", fr: "tirer des ficelles", phonetic: "se dit 'poul stringz'", example: "He pulled strings to get the job.", exampleFr: "Il a tiré des ficelles pour avoir le poste." },
+        { en: "brown-noser", fr: "lèche-bottes", phonetic: "se dit 'braoun-NO-zeur'", example: "He's such a brown-noser.", exampleFr: "C'est un vrai lèche-bottes." },
+        { en: "micromanage", fr: "tout contrôler", phonetic: "se dit 'MAÏ-kro-ma-nadj'", example: "My boss micromanages everything.", exampleFr: "Mon patron contrôle tout." },
+        { en: "crunch time", fr: "moment critique", phonetic: "se dit 'krantch taïm'", example: "It's crunch time before the deadline.", exampleFr: "C'est le rush avant la deadline." },
+        { en: "get the boot", fr: "se faire virer", phonetic: "se dit 'guèt dhe bout'", example: "He got the boot last Friday.", exampleFr: "Il s'est fait virer vendredi dernier." },
+        { en: "water cooler talk", fr: "ragots du bureau", phonetic: "se dit 'OUA-teur KOU-leur tok'", example: "That's just water cooler talk.", exampleFr: "C'est juste des ragots de bureau." },
+        { en: "corner office", fr: "bureau du patron", phonetic: "se dit 'KOR-neur O-fiss'", example: "She finally got the corner office.", exampleFr: "Elle a enfin eu le bureau du patron." },
+        { en: "rat race", fr: "course effrénée", phonetic: "se dit 'rat reïss'", example: "I'm tired of the rat race.", exampleFr: "J'en ai marre de cette course effrénée." },
+        { en: "nine-to-five", fr: "boulot classique", phonetic: "se dit 'naïn-tou-faïv'", example: "I'm done with the nine-to-five.", exampleFr: "J'en ai marre du boulot classique." },
+        { en: "under the table", fr: "au noir / en cash", phonetic: "se dit 'AN-deur dhe TEÏ-beul'", example: "He gets paid under the table.", exampleFr: "Il est payé au noir." },
+        { en: "moonlight", fr: "travailler au noir", phonetic: "se dit 'MOUN-laït'", example: "She moonlights as a DJ.", exampleFr: "Elle fait DJ en plus de son travail." },
+        { en: "pink slip", fr: "lettre de licenciement", phonetic: "se dit 'pink slip'", example: "He got his pink slip today.", exampleFr: "Il a reçu sa lettre de licenciement aujourd'hui." }
+      ],
+      phrases: [
+        { en: "I'm swamped right now", fr: "Je suis débordé là", phonetic: "se dit 'aïm SOUAMPT raït nao'", example: "Can we talk later? I'm swamped.", exampleFr: "On peut parler plus tard ? Je suis débordé." },
+        { en: "Let's circle back on this", fr: "On en reparle plus tard", phonetic: "se dit 'lèts SER-keul bak on dhiss'", example: "Good point. Let's circle back on this.", exampleFr: "Bon point. On en reparle plus tard." },
+        { en: "I'll loop you in", fr: "Je te tiens au courant", phonetic: "se dit 'aïl loup you inn'", example: "I'll loop you in on the email.", exampleFr: "Je te mets en copie du mail." },
+        { en: "He's phoning it in", fr: "Il fait le minimum", phonetic: "se dit 'hiz FO-ning it inn'", example: "He's been phoning it in all month.", exampleFr: "Il fait le minimum depuis un mois." },
+        { en: "She's killing it", fr: "Elle cartonne", phonetic: "se dit 'chiz KI-ling it'", example: "She's killing it in sales.", exampleFr: "Elle cartonne dans les ventes." },
+        { en: "That's above my pay grade", fr: "C'est pas mon niveau", phonetic: "se dit 'dhats eu-BAV maï peï greïd'", example: "Sorry, that's above my pay grade.", exampleFr: "Désolé, c'est pas mon niveau." },
+        { en: "Don't throw me under the bus", fr: "Me balance pas", phonetic: "se dit 'dont thro mi AN-deur dhe bass'", example: "Whatever you do, don't throw me under the bus.", exampleFr: "Quoi que tu fasses, me balance pas." },
+        { en: "I need to put out some fires", fr: "J'ai des urgences à gérer", phonetic: "se dit 'aï niid tou pout aout sam faïeurz'", example: "Can't chat now, need to put out some fires.", exampleFr: "Pas le temps de discuter, j'ai des urgences." },
+        { en: "Let's take this offline", fr: "On en discute en privé", phonetic: "se dit 'lèts teïk dhiss OF-laïn'", example: "This is getting complicated, let's take it offline.", exampleFr: "Ça se complique, on en discute en privé." },
+        { en: "The ball is in your court", fr: "C'est à toi de jouer", phonetic: "se dit 'dhe bol iz in yor kort'", example: "I sent the proposal, the ball is in your court.", exampleFr: "J'ai envoyé la proposition, c'est à toi de jouer." }
+      ],
+      dialogues: [
+        { speaker: "Jake", en: "Bro, I'm so done with this nine-to-five.", fr: "Mec, j'en ai trop marre de ce boulot classique." },
+        { speaker: "Tom", en: "Same. My boss micromanages everything.", fr: "Pareil. Mon patron contrôle tout." },
+        { speaker: "Jake", en: "I've been moonlighting as a freelancer.", fr: "Je fais du freelance à côté." },
+        { speaker: "Tom", en: "For real? Is it worth the hustle?", fr: "Sérieux ? Ça vaut le coup de se défoncer ?" },
+        { speaker: "Jake", en: "Dude, I made more last month from my side gig than my actual job.", fr: "Mec, j'ai gagné plus le mois dernier avec mon boulot à côté qu'avec mon vrai travail." },
+        { speaker: "Tom", en: "That's insane. I need to get out of this rat race.", fr: "C'est dingue. Faut que je sorte de cette course effrénée." },
+        { speaker: "Jake", en: "Just don't slack off at work while you figure it out.", fr: "Juste glande pas au boulot pendant que tu réfléchis." },
+        { speaker: "Tom", en: "True. I don't want to get the boot.", fr: "Vrai. Je veux pas me faire virer." },
+        { speaker: "Jake", en: "Exactly. Play it cool, then make your move.", fr: "Exactement. Joue-la cool, puis fais ton move." },
+        { speaker: "Tom", en: "Respect the grind, bro.", fr: "Respect le travail, mec." }
+      ],
+      tips: [
+        "💡 'Grind' et 'hustle' sont les mots les plus utilisés par les jeunes entrepreneurs américains.",
+        "💡 'Getting the boot' vient de l'idée de se faire littéralement botter dehors.",
+        "💡 'Rat race' décrit la vie monotone de bureau - travailler juste pour payer ses factures."
+      ]
+    },
+    {
+      id: "car-driving-slang",
+      title: "Car & Driving Slang",
+      titleFr: "Argot de la route",
+      description: "Street talk about cars and driving",
+      descriptionFr: "Le parler de la rue sur les voitures et la conduite",
+      words: [
+        { en: "whip", fr: "caisse / voiture", phonetic: "se dit 'ouip'", example: "Check out my new whip.", exampleFr: "Regarde ma nouvelle caisse." },
+        { en: "ride", fr: "véhicule / trajet", phonetic: "se dit 'raïd'", example: "Nice ride, bro!", exampleFr: "Belle caisse, mec !" },
+        { en: "cop", fr: "flic", phonetic: "se dit 'kop'", example: "Watch out, there's a cop behind us.", exampleFr: "Attention, y'a un flic derrière nous." },
+        { en: "pull over", fr: "se garer sur le côté", phonetic: "se dit 'poul O-veur'", example: "The cop told me to pull over.", exampleFr: "Le flic m'a dit de me garer." },
+        { en: "speed", fr: "rouler vite", phonetic: "se dit 'spiid'", example: "Don't speed in a school zone.", exampleFr: "Roule pas vite dans une zone scolaire." },
+        { en: "flat tire", fr: "pneu crevé", phonetic: "se dit 'flat taïr'", example: "I got a flat tire on the highway.", exampleFr: "J'ai crevé un pneu sur l'autoroute." },
+        { en: "road rage", fr: "rage au volant", phonetic: "se dit 'rod reïdj'", example: "He's got serious road rage.", exampleFr: "Il a une rage au volant sérieuse." },
+        { en: "fender bender", fr: "petit accrochage", phonetic: "se dit 'FÈN-deur BÈN-deur'", example: "It was just a fender bender.", exampleFr: "C'était juste un petit accrochage." },
+        { en: "gas guzzler", fr: "voiture énergivore", phonetic: "se dit 'gaz GA-zleur'", example: "That truck is a gas guzzler.", exampleFr: "Ce camion bouffe de l'essence." },
+        { en: "shotgun", fr: "place du passager avant", phonetic: "se dit 'CHOT-gann'", example: "I call shotgun!", exampleFr: "Je prends la place du devant !" },
+        { en: "carpool", fr: "covoiturage", phonetic: "se dit 'KAR-poul'", example: "We carpool to work.", exampleFr: "On fait du covoiturage pour aller au boulot." },
+        { en: "tailgate", fr: "coller au cul", phonetic: "se dit 'TEÏL-geït'", example: "Stop tailgating me!", exampleFr: "Arrête de me coller au cul !" },
+        { en: "jaywalking", fr: "traverser hors du passage piéton", phonetic: "se dit 'DJEÏ-ouok-ing'", example: "You can get fined for jaywalking.", exampleFr: "Tu peux être verbalisé pour avoir traversé en dehors des clous." },
+        { en: "hit the road", fr: "prendre la route", phonetic: "se dit 'hit dhe rod'", example: "Let's hit the road early.", exampleFr: "Prenons la route tôt." },
+        { en: "floor it", fr: "appuyer à fond", phonetic: "se dit 'flor it'", example: "The light turned green, floor it!", exampleFr: "Le feu est passé au vert, appuie à fond !" }
+      ],
+      phrases: [
+        { en: "Step on it, we're late", fr: "Accélère, on est en retard", phonetic: "se dit 'stèp on it ouir leït'", example: "Step on it! The movie starts in 10.", exampleFr: "Accélère ! Le film commence dans 10 min." },
+        { en: "I got pulled over for speeding", fr: "Je me suis fait arrêter pour excès de vitesse", phonetic: "se dit 'aï got pouled O-veur for SPII-ding'", example: "I got pulled over and got a ticket.", exampleFr: "Je me suis fait arrêter et j'ai eu une amende." },
+        { en: "This car handles like a dream", fr: "Cette voiture se conduit comme un rêve", phonetic: "se dit 'dhiss kar HAN-deulz laïk eu driim'", example: "Test-drove a BMW, handles like a dream.", exampleFr: "J'ai essayé une BMW, elle se conduit comme un rêve." },
+        { en: "We're running on fumes", fr: "On roule sur la réserve", phonetic: "se dit 'ouir RA-ning on fioumz'", example: "Pull into a gas station, we're on fumes.", exampleFr: "Arrête-toi à une station, on est sur la réserve." },
+        { en: "He cut me off on the highway", fr: "Il m'a coupé la route sur l'autoroute", phonetic: "se dit 'hi kat mi of on dhe HAÏ-oueï'", example: "Some idiot cut me off.", exampleFr: "Un idiot m'a coupé la route." },
+        { en: "I need to fill up the tank", fr: "Je dois faire le plein", phonetic: "se dit 'aï niid tou fil ap dhe tank'", example: "Gas is cheap today, let's fill up.", exampleFr: "L'essence est pas chère aujourd'hui, faisons le plein." },
+        { en: "The traffic is bumper to bumper", fr: "C'est pare-chocs contre pare-chocs", phonetic: "se dit 'dhe TRA-fik iz BAM-peur tou BAM-peur'", example: "Rush hour is bumper to bumper.", exampleFr: "L'heure de pointe, c'est pare-chocs contre pare-chocs." },
+        { en: "Take a U-turn at the light", fr: "Fais demi-tour au feu", phonetic: "se dit 'teïk eu YOU-teurn at dhe laït'", example: "We missed it. Take a U-turn.", exampleFr: "On l'a raté. Fais demi-tour." }
+      ],
+      dialogues: [
+        { speaker: "Mike", en: "Yo, check out my new whip!", fr: "Yo, regarde ma nouvelle caisse !" },
+        { speaker: "Dave", en: "Dang! Is that a Tesla? That thing's clean.", fr: "Wahou ! C'est une Tesla ? Elle est belle." },
+        { speaker: "Mike", en: "Yeah bro. Zero to sixty in three seconds.", fr: "Ouais mec. De zéro à cent en trois secondes." },
+        { speaker: "Dave", en: "Let me call shotgun right now.", fr: "Je prends la place du devant tout de suite." },
+        { speaker: "Mike", en: "Hop in. Let's hit the road.", fr: "Monte. Prenons la route." },
+        { speaker: "Dave", en: "Don't floor it though, I saw a cop back there.", fr: "Appuie pas à fond par contre, j'ai vu un flic derrière." },
+        { speaker: "Mike", en: "Good looking out. I don't need another ticket.", fr: "Bien vu. J'ai pas besoin d'une autre amende." },
+        { speaker: "Dave", en: "Remember when you got pulled over last month?", fr: "Tu te souviens quand tu t'es fait arrêter le mois dernier ?" },
+        { speaker: "Mike", en: "Don't remind me. That was a $200 fine.", fr: "Me rappelle pas. C'était 200 dollars d'amende." },
+        { speaker: "Dave", en: "Well, at least this ride is smooth. No more gas guzzler.", fr: "Au moins cette caisse est douce. Plus de voiture énergivore." }
+      ],
+      tips: [
+        "💡 'Shotgun!' est un cri que les Américains lancent pour réserver la place du passager avant.",
+        "💡 'Road rage' est un vrai problème aux USA - certains conducteurs deviennent très agressifs.",
+        "💡 'Hit the road' vient de l'expression des voyageurs des années 50."
+      ]
+    },
+    {
+      id: "sports-bro-talk",
+      title: "Sports Bro Talk",
+      titleFr: "Parler sport entre potes",
+      description: "How guys talk about sports",
+      descriptionFr: "Comment les mecs parlent de sport",
+      words: [
+        { en: "GOAT", fr: "le meilleur de tous les temps", phonetic: "se dit 'gott'", example: "LeBron is the GOAT.", exampleFr: "LeBron est le meilleur de tous les temps." },
+        { en: "clutch", fr: "décisif / clutch", phonetic: "se dit 'klatch'", example: "That shot was clutch!", exampleFr: "Ce tir était décisif !" },
+        { en: "choke", fr: "craquer sous la pression", phonetic: "se dit 'tchok'", example: "He always chokes in the finals.", exampleFr: "Il craque toujours en finale." },
+        { en: "baller", fr: "un très bon joueur", phonetic: "se dit 'BO-leur'", example: "He's a real baller on the court.", exampleFr: "C'est un vrai baller sur le terrain." },
+        { en: "bench", fr: "banc de touche", phonetic: "se dit 'bèntch'", example: "He got benched for the whole game.", exampleFr: "Il est resté sur le banc tout le match." },
+        { en: "MVP", fr: "meilleur joueur", phonetic: "se dit 'èm-vi-pi'", example: "She won MVP this season.", exampleFr: "Elle a été élue MVP cette saison." },
+        { en: "trash talk", fr: "provoquer verbalement", phonetic: "se dit 'trach tok'", example: "He's known for his trash talk.", exampleFr: "Il est connu pour ses provocations." },
+        { en: "blowout", fr: "victoire écrasante", phonetic: "se dit 'BLO-aout'", example: "The game was a total blowout.", exampleFr: "Le match était une victoire écrasante." },
+        { en: "underdog", fr: "outsider", phonetic: "se dit 'AN-deur-dog'", example: "Everyone loves an underdog story.", exampleFr: "Tout le monde aime une histoire d'outsider." },
+        { en: "buzzer beater", fr: "panier au buzzer", phonetic: "se dit 'BA-zeur BI-teur'", example: "He hit a buzzer beater to win!", exampleFr: "Il a mis un panier au buzzer pour gagner !" },
+        { en: "ref", fr: "arbitre", phonetic: "se dit 'rèf'", example: "The ref made a bad call.", exampleFr: "L'arbitre a fait une mauvaise décision." },
+        { en: "rookie", fr: "débutant / rookie", phonetic: "se dit 'ROU-ki'", example: "He's just a rookie, give him time.", exampleFr: "C'est juste un rookie, laisse-lui du temps." },
+        { en: "playoff", fr: "phase éliminatoire", phonetic: "se dit 'PLEÏ-of'", example: "We made it to the playoffs!", exampleFr: "On est qualifiés pour les playoffs !" },
+        { en: "slam dunk", fr: "un smash / un dunk", phonetic: "se dit 'slam dank'", example: "That was an insane slam dunk.", exampleFr: "C'était un dunk de fou." },
+        { en: "home turf", fr: "terrain de jeu / chez soi", phonetic: "se dit 'hom terf'", example: "We play better on our home turf.", exampleFr: "On joue mieux sur notre terrain." }
+      ],
+      phrases: [
+        { en: "He left it all on the field", fr: "Il a tout donné sur le terrain", phonetic: "se dit 'hi lèft it ol on dhe fiild'", example: "Even though they lost, he left it all on the field.", exampleFr: "Même s'ils ont perdu, il a tout donné." },
+        { en: "That was a game changer", fr: "Ça a changé la donne", phonetic: "se dit 'dhat ouaz eu geïm TCHEÏN-djeur'", example: "That interception was a game changer.", exampleFr: "Cette interception a changé la donne." },
+        { en: "We got robbed by the ref", fr: "L'arbitre nous a volé le match", phonetic: "se dit 'oui got robd baï dhe rèf'", example: "That wasn't a foul! We got robbed.", exampleFr: "C'était pas une faute ! On s'est fait voler." },
+        { en: "He's on fire tonight", fr: "Il est en feu ce soir", phonetic: "se dit 'hiz on FAÏR tou-NAÏT'", example: "Curry's on fire! Three after three.", exampleFr: "Curry est en feu ! Trois points sur trois points." },
+        { en: "That team is stacked", fr: "Cette équipe est blindée de talent", phonetic: "se dit 'dhat tiim iz stakt'", example: "The Lakers are stacked this year.", exampleFr: "Les Lakers sont blindés de talent cette année." },
+        { en: "He's riding the bench", fr: "Il prend la poussière sur le banc", phonetic: "se dit 'hiz RAÏ-ding dhe bèntch'", example: "He's been riding the bench all season.", exampleFr: "Il prend la poussière sur le banc toute la saison." },
+        { en: "We need to step up our game", fr: "Faut qu'on hausse notre niveau", phonetic: "se dit 'oui niid tou stèp ap aour geïm'", example: "If we want to win, we need to step up.", exampleFr: "Si on veut gagner, faut hausser le niveau." },
+        { en: "He dropped 40 points", fr: "Il a mis 40 points", phonetic: "se dit 'hi dropt FOR-ti poïnts'", example: "LeBron dropped 40 last night.", exampleFr: "LeBron a mis 40 points hier soir." }
+      ],
+      dialogues: [
+        { speaker: "Jake", en: "Bro, did you watch the game last night?", fr: "Mec, t'as vu le match hier soir ?" },
+        { speaker: "Tom", en: "Yeah! Curry was on fire. He dropped 45.", fr: "Ouais ! Curry était en feu. Il a mis 45 points." },
+        { speaker: "Jake", en: "That buzzer beater was insane though.", fr: "Ce panier au buzzer était dingue par contre." },
+        { speaker: "Tom", en: "Clutch as always. The man is the GOAT.", fr: "Décisif comme toujours. Ce mec est le GOAT." },
+        { speaker: "Jake", en: "I don't know, LeBron's still in the conversation.", fr: "Je sais pas, LeBron est encore dans la discussion." },
+        { speaker: "Tom", en: "Nah, LeBron choked in the playoffs last year.", fr: "Nan, LeBron a craqué en playoffs l'année dernière." },
+        { speaker: "Jake", en: "Cap! He averaged 30 points a game.", fr: "Mytho ! Il avait 30 points de moyenne par match." },
+        { speaker: "Tom", en: "Whatever bro. We got robbed by the refs anyway.", fr: "Peu importe mec. L'arbitre nous a volé le match de toute façon." },
+        { speaker: "Jake", en: "Facts. That last foul call was trash.", fr: "C'est vrai. Cette dernière faute était bidon." },
+        { speaker: "Tom", en: "Next game is on our home turf though. We got this.", fr: "Le prochain match est chez nous par contre. On va gérer." }
+      ],
+      tips: [
+        "💡 GOAT = Greatest Of All Time. Utilisé pour LeBron, Messi, Brady... et même pour ta mère si elle cuisine bien.",
+        "💡 'Clutch' est un des mots les plus cool du vocabulaire sportif - quelqu'un de décisif dans les moments critiques.",
+        "💡 Le 'trash talk' fait partie de la culture sportive américaine - c'est presque un art."
+      ]
+    },
+    {
+      id: "music-slang",
+      title: "Music & Hip-Hop Slang",
+      titleFr: "Argot de la musique & du hip-hop",
+      description: "How Americans talk about music",
+      descriptionFr: "Comment les Américains parlent de musique",
+      words: [
+        { en: "banger", fr: "un tube / un banger", phonetic: "se dit 'BANG-eur'", example: "That song is a banger.", exampleFr: "Cette chanson est un tube." },
+        { en: "slaps", fr: "claque (musique)", phonetic: "se dit 'slaps'", example: "This beat slaps hard.", exampleFr: "Ce beat claque fort." },
+        { en: "drip", fr: "style / swag", phonetic: "se dit 'drip'", example: "His drip is crazy.", exampleFr: "Son style est dingue." },
+        { en: "flow", fr: "flow / rythme", phonetic: "se dit 'flo'", example: "His flow on that track is insane.", exampleFr: "Son flow sur ce morceau est dingue." },
+        { en: "bars", fr: "punchlines / paroles", phonetic: "se dit 'barz'", example: "He spits crazy bars.", exampleFr: "Il envoie des punchlines de fou." },
+        { en: "drop", fr: "sortir (un album)", phonetic: "se dit 'drop'", example: "When is Drake dropping his album?", exampleFr: "Quand est-ce que Drake sort son album ?" },
+        { en: "featuring", fr: "featuring / collaboration", phonetic: "se dit 'FII-tcheu-ring'", example: "There's a sick featuring on track 5.", exampleFr: "Y'a un featuring de malade sur la piste 5." },
+        { en: "beef", fr: "embrouille", phonetic: "se dit 'biif'", example: "Drake and Kendrick have beef.", exampleFr: "Drake et Kendrick sont en embrouille." },
+        { en: "lowkey", fr: "discrètement / un peu", phonetic: "se dit 'LO-ki'", example: "I lowkey love that song.", exampleFr: "J'aime discrètement cette chanson." },
+        { en: "highkey", fr: "carrément / ouvertement", phonetic: "se dit 'HAÏ-ki'", example: "I highkey think she's talented.", exampleFr: "Je pense carrément qu'elle est talentueuse." },
+        { en: "vibe", fr: "ambiance", phonetic: "se dit 'vaïb'", example: "This song has such a good vibe.", exampleFr: "Cette chanson a une trop bonne ambiance." },
+        { en: "beat", fr: "instru / beat", phonetic: "se dit 'biit'", example: "Who produced this beat?", exampleFr: "Qui a produit cette instru ?" },
+        { en: "hook", fr: "refrain accrocheur", phonetic: "se dit 'houk'", example: "The hook is stuck in my head.", exampleFr: "Le refrain est coincé dans ma tête." },
+        { en: "diss track", fr: "morceau de clash", phonetic: "se dit 'diss trak'", example: "He released a diss track.", exampleFr: "Il a sorti un morceau de clash." },
+        { en: "hype", fr: "excitation / buzz", phonetic: "se dit 'haïp'", example: "The hype for this album is real.", exampleFr: "Le buzz pour cet album est réel." }
+      ],
+      phrases: [
+        { en: "That track goes hard", fr: "Ce morceau claque", phonetic: "se dit 'dhat trak goz hard'", example: "Play it again, that track goes hard.", exampleFr: "Remets-le, ce morceau claque." },
+        { en: "He's spitting straight fire", fr: "Il envoie du lourd", phonetic: "se dit 'hiz SPI-ting streït FAÏR'", example: "Listen to this verse, he's spitting fire.", exampleFr: "Écoute ce couplet, il envoie du lourd." },
+        { en: "This is a certified banger", fr: "C'est un tube certifié", phonetic: "se dit 'dhiss iz eu SER-ti-faïd BANG-eur'", example: "No skip, this whole album is certified.", exampleFr: "Aucun skip, tout l'album est certifié." },
+        { en: "Put me on to some new music", fr: "Fais-moi découvrir de la nouvelle musique", phonetic: "se dit 'pout mi on tou sam niou MIOU-zik'", example: "I'm bored of my playlist, put me on.", exampleFr: "Ma playlist m'ennuie, fais-moi découvrir." },
+        { en: "He fell off hard", fr: "Il a grave perdu son niveau", phonetic: "se dit 'hi fèl of hard'", example: "His last album was mid, he fell off.", exampleFr: "Son dernier album était bof, il a perdu." },
+        { en: "This beat hits different", fr: "Cette instru frappe différemment", phonetic: "se dit 'dhiss biit hits DI-feu-rent'", example: "Late at night, this beat hits different.", exampleFr: "Tard le soir, cette instru frappe différemment." },
+        { en: "They're beefing over nothing", fr: "Ils s'embrouillent pour rien", phonetic: "se dit 'dhèïr BII-fing O-veur NA-thing'", example: "Those two rappers are beefing over nothing.", exampleFr: "Ces deux rappeurs s'embrouillent pour rien." },
+        { en: "That feature was fire", fr: "Ce featuring était feu", phonetic: "se dit 'dhat FII-tcheur ouaz FAÏR'", example: "Travis on that feature was fire.", exampleFr: "Travis sur ce featuring, c'était feu." }
+      ],
+      dialogues: [
+        { speaker: "Lisa", en: "Have you heard the new Kendrick album?", fr: "T'as écouté le nouveau Kendrick ?" },
+        { speaker: "Jay", en: "Bro, every single track slaps. No skips.", fr: "Mec, chaque morceau claque. Aucun skip." },
+        { speaker: "Lisa", en: "The beat on track 3 hits different at night.", fr: "L'instru du morceau 3 frappe différemment la nuit." },
+        { speaker: "Jay", en: "Facts. And his bars are insane on track 7.", fr: "Tellement vrai. Et ses punchlines sont dingues sur le morceau 7." },
+        { speaker: "Lisa", en: "I heard he and Drake are beefing again.", fr: "J'ai entendu que lui et Drake sont en embrouille encore." },
+        { speaker: "Jay", en: "Yeah, he dropped a diss track last week.", fr: "Ouais, il a sorti un morceau de clash la semaine dernière." },
+        { speaker: "Lisa", en: "Lowkey, I think Kendrick won that beef.", fr: "Discrètement, je pense que Kendrick a gagné cette embrouille." },
+        { speaker: "Jay", en: "Highkey, bro. It's not even close.", fr: "Carrément, mec. Y'a même pas débat." },
+        { speaker: "Lisa", en: "Put me on to more artists like him.", fr: "Fais-moi découvrir d'autres artistes comme lui." },
+        { speaker: "Jay", en: "Check out J. Cole. His flow is different.", fr: "Écoute J. Cole. Son flow est différent." }
+      ],
+      tips: [
+        "💡 'No skips' signifie que chaque morceau d'un album est bon - on n'en saute aucun.",
+        "💡 'Bars' vient de la musique - les 'bars' sont les mesures en musique où les rappeurs placent leurs rimes.",
+        "💡 'Beef' dans le hip-hop est une tradition - les clashs entre rappeurs font partie de la culture."
+      ]
+    },
+    {
+      id: "gaming-slang",
+      title: "Gaming Slang",
+      titleFr: "Argot du gaming",
+      description: "How gamers talk",
+      descriptionFr: "Comment les gamers parlent",
+      words: [
+        { en: "GG", fr: "bien joué", phonetic: "se dit 'dji-dji'", example: "GG, that was a close game.", exampleFr: "Bien joué, c'était un match serré." },
+        { en: "noob", fr: "débutant / nul", phonetic: "se dit 'noub'", example: "He's such a noob at this game.", exampleFr: "Il est tellement nul à ce jeu." },
+        { en: "tryhard", fr: "joueur qui force trop", phonetic: "se dit 'TRAÏ-hard'", example: "Stop being a tryhard, it's casual.", exampleFr: "Arrête de forcer, c'est une partie détente." },
+        { en: "nerf", fr: "réduire la puissance", phonetic: "se dit 'neurf'", example: "They nerfed my favorite weapon.", exampleFr: "Ils ont nerfé mon arme préférée." },
+        { en: "buff", fr: "renforcer", phonetic: "se dit 'baf'", example: "They need to buff this character.", exampleFr: "Ils doivent renforcer ce personnage." },
+        { en: "lag", fr: "latence / lag", phonetic: "se dit 'lag'", example: "I keep dying because of lag.", exampleFr: "Je meurs à cause du lag." },
+        { en: "rage quit", fr: "quitter de rage", phonetic: "se dit 'reïdj kouit'", example: "He rage quit after losing.", exampleFr: "Il a quitté de rage après avoir perdu." },
+        { en: "spawn", fr: "apparaître", phonetic: "se dit 'spon'", example: "I keep spawning near enemies.", exampleFr: "J'apparais toujours près des ennemis." },
+        { en: "camp", fr: "camper", phonetic: "se dit 'kamp'", example: "Stop camping in the corner!", exampleFr: "Arrête de camper dans le coin !" },
+        { en: "clutch", fr: "gagner in extremis", phonetic: "se dit 'klatch'", example: "He clutched that 1v4 situation.", exampleFr: "Il a gagné cette situation 1 contre 4." },
+        { en: "respawn", fr: "réapparaître", phonetic: "se dit 'ri-SPON'", example: "Wait for me to respawn.", exampleFr: "Attends que je réapparaisse." },
+        { en: "AFK", fr: "absent du clavier", phonetic: "se dit 'eï-èf-keï'", example: "I'll be AFK for 5 minutes.", exampleFr: "Je serai absent 5 minutes." },
+        { en: "griefer", fr: "joueur toxique", phonetic: "se dit 'GRI-feur'", example: "Report that griefer.", exampleFr: "Signale ce joueur toxique." },
+        { en: "loot", fr: "butin", phonetic: "se dit 'loutt'", example: "I found some rare loot.", exampleFr: "J'ai trouvé du butin rare." },
+        { en: "NPC", fr: "personnage non-joueur", phonetic: "se dit 'èn-pi-si'", example: "Talk to that NPC for a quest.", exampleFr: "Parle à ce PNJ pour une quête." }
+      ],
+      phrases: [
+        { en: "Get rekt, noob", fr: "Tu t'es fait détruire, le nul", phonetic: "se dit 'guèt rèkt noub'", example: "Haha, get rekt noob!", exampleFr: "Haha, tu t'es fait détruire !" },
+        { en: "I'm carrying the whole team", fr: "Je porte toute l'équipe", phonetic: "se dit 'aïm KA-ri-ing dhe hol tiim'", example: "I have 20 kills, I'm carrying.", exampleFr: "J'ai 20 kills, je porte toute l'équipe." },
+        { en: "He's hacking for sure", fr: "Il triche c'est sûr", phonetic: "se dit 'hiz HA-king for chour'", example: "No way he's that good, he's hacking.", exampleFr: "Impossible qu'il soit aussi bon, il triche." },
+        { en: "Let's run it back", fr: "On refait une partie", phonetic: "se dit 'lèts rann it bak'", example: "GG but let's run it back.", exampleFr: "Bien joué mais on refait une partie." },
+        { en: "I got sniped from across the map", fr: "Je me suis fait sniper de l'autre côté de la map", phonetic: "se dit 'aï got snaïpt from eu-KROS dhe map'", example: "Where was that shot from? I got sniped!", exampleFr: "Il était où ce tir ? Je me suis fait sniper !" },
+        { en: "This lobby is sweaty", fr: "Ce lobby est tryhard", phonetic: "se dit 'dhiss LO-bi iz SOUÉ-ti'", example: "Everyone's a tryhard, this lobby is sweaty.", exampleFr: "Tout le monde force, ce lobby est tryhard." },
+        { en: "Stop feeding the enemy team", fr: "Arrête de donner des kills à l'équipe adverse", phonetic: "se dit 'stop FII-ding dhi É-neu-mi tiim'", example: "You died 15 times, stop feeding!", exampleFr: "T'es mort 15 fois, arrête de nourrir l'adversaire !" },
+        { en: "He's one shot, push him", fr: "Il a plus de vie, fonce", phonetic: "se dit 'hiz ouann chot, pouch him'", example: "He's one shot! Go go go!", exampleFr: "Il a plus de vie ! Go go go !" }
+      ],
+      dialogues: [
+        { speaker: "Alex", en: "Yo, hop on, we need a fourth.", fr: "Yo, connecte-toi, on a besoin d'un quatrième." },
+        { speaker: "Sam", en: "Bet. Let me grab my headset.", fr: "Ça marche. Laisse-moi prendre mon casque." },
+        { speaker: "Alex", en: "Hurry up, this lobby is filling fast.", fr: "Dépêche-toi, ce lobby se remplit vite." },
+        { speaker: "Sam", en: "I'm in. Where we dropping?", fr: "J'suis là. On se pose où ?" },
+        { speaker: "Alex", en: "Tilted. I want action.", fr: "Tilted. Je veux de l'action." },
+        { speaker: "Sam", en: "Last time you died in 30 seconds there.", fr: "La dernière fois t'es mort en 30 secondes là-bas." },
+        { speaker: "Alex", en: "Cap! I got a clutch victory there.", fr: "Mytho ! J'ai fait un clutch là-bas." },
+        { speaker: "Sam", en: "Whatever. Just don't rage quit this time.", fr: "Ouais ouais. Juste quitte pas de rage cette fois." },
+        { speaker: "Alex", en: "That was ONE time! The lag was insane.", fr: "C'était UNE fois ! Le lag était dingue." },
+        { speaker: "Sam", en: "Sure, blame the lag. GG in advance.", fr: "Ouais, accuse le lag. GG d'avance." }
+      ],
+      tips: [
+        "💡 'GG' (Good Game) se dit après chaque partie - même si t'as perdu, c'est une question de respect.",
+        "💡 'Sweaty' décrit un lobby ou un joueur qui joue comme si sa vie en dépendait.",
+        "💡 'NPC' est aussi utilisé en dehors du gaming pour décrire quelqu'un qui n'a pas de personnalité."
+      ]
+    },
+    {
+      id: "school-campus-slang",
+      title: "School & Campus Slang",
+      titleFr: "Argot de l'école & de la fac",
+      description: "How students talk on campus",
+      descriptionFr: "Comment les étudiants parlent sur le campus",
+      words: [
+        { en: "ace", fr: "réussir facilement", phonetic: "se dit 'eïss'", example: "I aced that test.", exampleFr: "J'ai déchiré ce contrôle." },
+        { en: "cram", fr: "bachoter", phonetic: "se dit 'kram'", example: "I need to cram for finals.", exampleFr: "Je dois bachoter pour les finaux." },
+        { en: "ditch", fr: "sécher (un cours)", phonetic: "se dit 'ditch'", example: "Let's ditch third period.", exampleFr: "On sèche la troisième heure." },
+        { en: "pull an all-nighter", fr: "faire une nuit blanche", phonetic: "se dit 'poul an OL-naï-teur'", example: "I pulled an all-nighter studying.", exampleFr: "J'ai fait une nuit blanche à réviser." },
+        { en: "flunk", fr: "rater / échouer", phonetic: "se dit 'flank'", example: "I'm gonna flunk if I don't study.", exampleFr: "Je vais rater si je révise pas." },
+        { en: "GPA", fr: "moyenne générale", phonetic: "se dit 'dji-pi-eï'", example: "My GPA dropped this semester.", exampleFr: "Ma moyenne a baissé ce semestre." },
+        { en: "frat", fr: "fraternité étudiante", phonetic: "se dit 'frat'", example: "He's in a frat.", exampleFr: "Il est dans une fraternité." },
+        { en: "sorority", fr: "sororité étudiante", phonetic: "se dit 'so-RO-ri-ti'", example: "She joined a sorority.", exampleFr: "Elle a rejoint une sororité." },
+        { en: "syllabus", fr: "programme du cours", phonetic: "se dit 'SI-leu-bass'", example: "Check the syllabus for the due date.", exampleFr: "Vérifie le programme pour la date limite." },
+        { en: "extra credit", fr: "points bonus", phonetic: "se dit 'ÈKS-tra KRÉ-dit'", example: "I need extra credit to pass.", exampleFr: "J'ai besoin de points bonus pour valider." },
+        { en: "dean's list", fr: "tableau d'honneur", phonetic: "se dit 'diinz list'", example: "She made the dean's list!", exampleFr: "Elle est sur le tableau d'honneur !" },
+        { en: "dropout", fr: "décrocheur", phonetic: "se dit 'DROP-aout'", example: "Steve Jobs was a college dropout.", exampleFr: "Steve Jobs était un décrocheur universitaire." },
+        { en: "major", fr: "spécialisation", phonetic: "se dit 'MEÏ-djeur'", example: "What's your major?", exampleFr: "C'est quoi ta spécialisation ?" },
+        { en: "roommate", fr: "colocataire", phonetic: "se dit 'ROUM-meït'", example: "My roommate is so messy.", exampleFr: "Mon coloc est trop bordélique." },
+        { en: "dorm", fr: "résidence étudiante", phonetic: "se dit 'dorm'", example: "I live in the dorms.", exampleFr: "J'habite en résidence étudiante." }
+      ],
+      phrases: [
+        { en: "I'm pulling an all-nighter tonight", fr: "Je fais une nuit blanche ce soir", phonetic: "se dit 'aïm POU-ling an OL-naï-teur tou-NAÏT'", example: "Finals are tomorrow, all-nighter it is.", exampleFr: "Les finaux sont demain, nuit blanche obligée." },
+        { en: "I totally bombed that exam", fr: "J'ai complètement raté cet exam", phonetic: "se dit 'aï TO-teu-li bomd dhat ig-ZAM'", example: "I didn't study at all. Bombed it.", exampleFr: "J'ai pas du tout révisé. Raté total." },
+        { en: "Let's hit the library", fr: "Allons à la bibliothèque", phonetic: "se dit 'lèts hit dhe LAÏB-rè-ri'", example: "I need to focus. Let's hit the library.", exampleFr: "J'ai besoin de me concentrer. Allons à la bibli." },
+        { en: "My professor is a savage grader", fr: "Mon prof note comme un sauvage", phonetic: "se dit 'maï pro-FÈ-seur iz eu SA-vidj GREÏ-deur'", example: "Only 2 people got an A. Savage grader.", exampleFr: "Seulement 2 personnes ont eu A. Il note sèvèrement." },
+        { en: "I need to declare my major", fr: "Je dois choisir ma spécialisation", phonetic: "se dit 'aï niid tou di-KLÈR maï MEÏ-djeur'", example: "Sophomore year, you need to declare.", exampleFr: "En deuxième année, tu dois choisir ta spé." },
+        { en: "The party at the frat was wild", fr: "La fête à la fraternité était folle", phonetic: "se dit 'dhe PAR-ti at dhe frat ouaz ouaïld'", example: "Don't miss the frat party Friday.", exampleFr: "Rate pas la fête de la frat vendredi." },
+        { en: "Office hours saved my grade", fr: "Les heures de permanence ont sauvé ma note", phonetic: "se dit 'O-fiss AOURZ seïvd maï greïd'", example: "Go to office hours, the prof helps a lot.", exampleFr: "Va aux heures de permanence, le prof aide beaucoup." },
+        { en: "I'm changing my major again", fr: "Je change encore de spé", phonetic: "se dit 'aïm TCHEÏN-djing maï MEÏ-djeur eu-GUÈN'", example: "This is my third major change.", exampleFr: "C'est mon troisième changement de spé." }
+      ],
+      dialogues: [
+        { speaker: "Emma", en: "I'm so stressed. Finals are next week.", fr: "Je suis trop stressée. Les finaux sont la semaine prochaine." },
+        { speaker: "Ryan", en: "Same. I haven't even started studying for chem.", fr: "Pareil. J'ai même pas commencé à réviser la chimie." },
+        { speaker: "Emma", en: "Want to hit the library tonight?", fr: "Tu veux aller à la bibli ce soir ?" },
+        { speaker: "Ryan", en: "Bet. I need to cram big time.", fr: "Ça marche. J'ai grave besoin de bachoter." },
+        { speaker: "Emma", en: "I pulled an all-nighter yesterday and I'm dead.", fr: "J'ai fait une nuit blanche hier et je suis morte." },
+        { speaker: "Ryan", en: "Get some coffee first. The campus café has good espresso.", fr: "Prends un café d'abord. Le café du campus fait de bons expressos." },
+        { speaker: "Emma", en: "If I flunk this exam, my GPA is done.", fr: "Si je rate cet exam, ma moyenne est finie." },
+        { speaker: "Ryan", en: "Relax, you always ace your tests.", fr: "Relax, tu réussis toujours tes contrôles." },
+        { speaker: "Emma", en: "Not this class. The professor is a savage grader.", fr: "Pas ce cours. Le prof note comme un sauvage." },
+        { speaker: "Ryan", en: "Then let's focus up. No phones, no distractions.", fr: "Alors concentrons-nous. Pas de téléphones, pas de distractions." }
+      ],
+      tips: [
+        "💡 'Pull an all-nighter' est un rituel pour beaucoup d'étudiants américains avant les examens.",
+        "💡 Le système de 'GPA' va de 0 à 4.0 - un 4.0 signifie que tu as A partout.",
+        "💡 Les 'frat parties' sont un pilier de la vie sociale sur les campus américains."
+      ]
+    },
+    {
+      id: "fashion-drip",
+      title: "Fashion & Drip",
+      titleFr: "Mode & Style",
+      description: "How Americans talk about clothes and style",
+      descriptionFr: "Comment les Américains parlent de vêtements et de style",
+      words: [
+        { en: "drip", fr: "style / swag", phonetic: "se dit 'drip'", example: "Your drip is insane today.", exampleFr: "Ton style est dingue aujourd'hui." },
+        { en: "fit", fr: "tenue", phonetic: "se dit 'fit'", example: "Nice fit, where'd you get it?", exampleFr: "Belle tenue, tu l'as eue où ?" },
+        { en: "clean", fr: "propre / stylé", phonetic: "se dit 'kliin'", example: "Those shoes are clean.", exampleFr: "Ces chaussures sont propres." },
+        { en: "ice", fr: "bijoux", phonetic: "se dit 'aïss'", example: "He's got so much ice.", exampleFr: "Il a tellement de bijoux." },
+        { en: "kicks", fr: "baskets", phonetic: "se dit 'kiks'", example: "Those kicks are fire.", exampleFr: "Ces baskets sont feu." },
+        { en: "rocking", fr: "porter (avec style)", phonetic: "se dit 'RO-king'", example: "She's rocking a vintage jacket.", exampleFr: "Elle porte une veste vintage avec style." },
+        { en: "cop", fr: "acheter", phonetic: "se dit 'kop'", example: "I need to cop those Jordans.", exampleFr: "Faut que j'achète ces Jordans." },
+        { en: "drop", fr: "sortie (produit)", phonetic: "se dit 'drop'", example: "The new Yeezy drop is tomorrow.", exampleFr: "La sortie des nouvelles Yeezy est demain." },
+        { en: "hypebeast", fr: "accro aux marques", phonetic: "se dit 'HAÏP-biist'", example: "He's a total hypebeast.", exampleFr: "C'est un vrai accro aux marques." },
+        { en: "thrift", fr: "friper / acheter en friperie", phonetic: "se dit 'thrift'", example: "I thrifted this jacket for $5.", exampleFr: "J'ai trouvé cette veste en friperie pour 5 dollars." },
+        { en: "vintage", fr: "vintage / rétro", phonetic: "se dit 'VIN-tidj'", example: "Vintage is the new trend.", exampleFr: "Le vintage est la nouvelle tendance." },
+        { en: "basic", fr: "basique / sans originalité", phonetic: "se dit 'BEÏ-sik'", example: "That outfit is so basic.", exampleFr: "Cette tenue est trop basique." },
+        { en: "flex", fr: "frimer / montrer", phonetic: "se dit 'flèks'", example: "Stop flexing your designer bag.", exampleFr: "Arrête de frimer avec ton sac de marque." },
+        { en: "snatched", fr: "parfait / impeccable", phonetic: "se dit 'snatch't'", example: "Her waist is snatched.", exampleFr: "Sa taille est impeccable." },
+        { en: "dripped out", fr: "habillé de ouf", phonetic: "se dit 'dript aout'", example: "He came to school dripped out.", exampleFr: "Il est arrivé à l'école habillé de ouf." }
+      ],
+      phrases: [
+        { en: "You're dripping today", fr: "T'es trop stylé aujourd'hui", phonetic: "se dit 'your DRI-ping tou-DÈÏ'", example: "Wow, you're dripping today!", exampleFr: "Wow, t'es trop stylé aujourd'hui !" },
+        { en: "Where'd you cop that?", fr: "Tu l'as acheté où ?", phonetic: "se dit 'ouèrd you kop dhat'", example: "Those shoes are hard, where'd you cop them?", exampleFr: "Ces chaussures sont stylées, tu les as achetées où ?" },
+        { en: "That fit goes crazy", fr: "Cette tenue est dingue", phonetic: "se dit 'dhat fit goz KREÏ-zi'", example: "The color combination? That fit goes crazy.", exampleFr: "La combinaison de couleurs ? Cette tenue est dingue." },
+        { en: "He stays rocking designer", fr: "Il porte toujours du designer", phonetic: "se dit 'hi steïz RO-king di-ZAÏ-neur'", example: "From head to toe, he stays rocking designer.", exampleFr: "De la tête aux pieds, il porte toujours du designer." },
+        { en: "I'm on a budget, I thrift everything", fr: "J'ai un petit budget, je fripe tout", phonetic: "se dit 'aïm on eu BA-djèt aï thrift ÈV-ri-thing'", example: "This whole fit is thrifted.", exampleFr: "Toute cette tenue vient de la friperie." },
+        { en: "The sneaker drop sold out in seconds", fr: "La sortie des sneakers s'est vendue en secondes", phonetic: "se dit 'dhe SNII-keur drop sold aout in SÈ-keundz'", example: "I missed the drop, sold out instantly.", exampleFr: "J'ai raté la sortie, tout vendu instantanément." },
+        { en: "Stop being such a hypebeast", fr: "Arrête d'être accro aux marques", phonetic: "se dit 'stop BII-ing satch eu HAÏP-biist'", example: "You bought it just for the logo? Hypebeast.", exampleFr: "Tu l'as acheté juste pour le logo ? Accro aux marques." },
+        { en: "Your whole aesthetic is fire", fr: "Tout ton style est feu", phonetic: "se dit 'yor hol ès-THÉ-tik iz FAÏR'", example: "Instagram, outfits, room - your aesthetic is fire.", exampleFr: "Instagram, tenues, chambre - tout ton style est feu." }
+      ],
+      dialogues: [
+        { speaker: "Mia", en: "Girl, your fit is snatched today!", fr: "Meuf, ta tenue est impeccable aujourd'hui !" },
+        { speaker: "Zara", en: "Thanks! I thrifted most of it.", fr: "Merci ! J'ai fripé la plupart." },
+        { speaker: "Mia", en: "No way! Where'd you cop that jacket?", fr: "Sérieux ! T'as trouvé cette veste où ?" },
+        { speaker: "Zara", en: "Goodwill, $8. The kicks are from the Nike drop last week.", fr: "Goodwill, 8 dollars. Les baskets viennent de la sortie Nike la semaine dernière." },
+        { speaker: "Mia", en: "You're not a hypebeast, you're smart with money.", fr: "T'es pas une accro aux marques, t'es maligne avec l'argent." },
+        { speaker: "Zara", en: "Exactly. I don't need to flex with designer.", fr: "Exactement. J'ai pas besoin de frimer avec du designer." },
+        { speaker: "Mia", en: "Meanwhile, Jake came in dripped out in Gucci.", fr: "Pendant ce temps, Jake est arrivé habillé en Gucci de la tête aux pieds." },
+        { speaker: "Zara", en: "He's such a basic hypebeast. All logo, no style.", fr: "C'est un accro aux marques basique. Que du logo, pas de style." },
+        { speaker: "Mia", en: "Tea! Vintage with a twist beats any logo.", fr: "Tellement vrai ! Du vintage avec une touche perso bat n'importe quel logo." },
+        { speaker: "Zara", en: "That's facts. Style over hype, always.", fr: "C'est ça. Le style avant le buzz, toujours." }
+      ],
+      tips: [
+        "💡 'Cop' a deux sens en argot : acheter ET policier. Le contexte est clé.",
+        "💡 'Drip' est devenu LE mot pour décrire le style en 2024-2026, remplaçant 'swag'.",
+        "💡 Le 'thrifting' (friperie) est devenu très tendance chez les jeunes Américains - c'est cool ET économique."
+      ]
+    },
+    {
+      id: "hood-street-talk",
+      title: "Hood & Street Talk",
+      titleFr: "Parler de la rue",
+      description: "Raw street expressions from American neighborhoods",
+      descriptionFr: "Expressions brutes des quartiers américains",
+      words: [
+        { en: "hood", fr: "quartier / ghetto", phonetic: "se dit 'houd'", example: "I grew up in the hood.", exampleFr: "J'ai grandi dans le quartier." },
+        { en: "crib", fr: "chez soi / baraque", phonetic: "se dit 'krib'", example: "Come to my crib later.", exampleFr: "Viens chez moi plus tard." },
+        { en: "homie", fr: "pote / frère", phonetic: "se dit 'HO-mi'", example: "That's my homie since day one.", exampleFr: "C'est mon pote depuis le début." },
+        { en: "OG", fr: "vétéran / ancien", phonetic: "se dit 'o-dji'", example: "He's an OG in the game.", exampleFr: "C'est un vétéran dans le game." },
+        { en: "plug", fr: "contact / fournisseur", phonetic: "se dit 'plag'", example: "He's my plug for sneakers.", exampleFr: "C'est mon contact pour les sneakers." },
+        { en: "whip", fr: "voiture", phonetic: "se dit 'ouip'", example: "He pulled up in a new whip.", exampleFr: "Il est arrivé dans une nouvelle caisse." },
+        { en: "posted up", fr: "posé quelque part", phonetic: "se dit 'POS-tid ap'", example: "We were posted up on the block.", exampleFr: "On était posés dans le quartier." },
+        { en: "strapped", fr: "armé", phonetic: "se dit 'strapt'", example: "Don't mess with him, he's strapped.", exampleFr: "Cherche pas les embrouilles, il est armé." },
+        { en: "snitch", fr: "balance / mouchard", phonetic: "se dit 'snitch'", example: "Nobody likes a snitch.", exampleFr: "Personne n'aime un mouchard." },
+        { en: "bread", fr: "argent / fric", phonetic: "se dit 'brèd'", example: "I need to stack my bread.", exampleFr: "Faut que j'empile mon fric." },
+        { en: "glow up", fr: "transformation physique", phonetic: "se dit 'glo ap'", example: "She had a crazy glow up.", exampleFr: "Elle a eu une transformation dingue." },
+        { en: "finesse", fr: "arnaquer avec style", phonetic: "se dit 'fi-NÈSS'", example: "He finessed the system.", exampleFr: "Il a arnaqué le système avec style." },
+        { en: "slide", fr: "passer / venir", phonetic: "se dit 'slaïd'", example: "Slide to my crib tonight.", exampleFr: "Passe chez moi ce soir." },
+        { en: "link up", fr: "se rejoindre", phonetic: "se dit 'link ap'", example: "Let's link up this weekend.", exampleFr: "On se rejoint ce week-end." },
+        { en: "opps", fr: "ennemis / adversaires", phonetic: "se dit 'ops'", example: "Watch out for the opps.", exampleFr: "Fais gaffe aux ennemis." }
+      ],
+      phrases: [
+        { en: "Keep it real", fr: "Reste authentique", phonetic: "se dit 'kiip it riil'", example: "No matter what, keep it real.", exampleFr: "Quoi qu'il arrive, reste authentique." },
+        { en: "Stay in your lane", fr: "Mêle-toi de tes affaires", phonetic: "se dit 'steï in yor leïn'", example: "Don't start drama, stay in your lane.", exampleFr: "Crée pas de drama, mêle-toi de tes affaires." },
+        { en: "Real ones know", fr: "Les vrais savent", phonetic: "se dit 'riil ouanz no'", example: "I don't need to explain. Real ones know.", exampleFr: "J'ai pas besoin d'expliquer. Les vrais savent." },
+        { en: "He's moving different now", fr: "Il a changé de vie", phonetic: "se dit 'hiz MOU-ving DI-feu-rent nao'", example: "Since he got rich, he's moving different.", exampleFr: "Depuis qu'il est riche, il a changé de vie." },
+        { en: "We come from nothing", fr: "On vient de rien", phonetic: "se dit 'oui kam from NA-thing'", example: "We come from nothing and made it.", exampleFr: "On vient de rien et on a réussi." },
+        { en: "Don't fold under pressure", fr: "Craque pas sous la pression", phonetic: "se dit 'dont fold AN-deur PRÈ-cheur'", example: "Whatever happens, don't fold.", exampleFr: "Quoi qu'il arrive, craque pas." },
+        { en: "Stack your bread and stay humble", fr: "Empile ton fric et reste humble", phonetic: "se dit 'stak yor brèd and steï AM-beul'", example: "Best advice: stack bread, stay humble.", exampleFr: "Meilleur conseil : empile ton fric, reste humble." },
+        { en: "He switched up on me", fr: "Il m'a trahi / retourné sa veste", phonetic: "se dit 'hi souitcht ap on mi'", example: "We were cool, then he switched up.", exampleFr: "On était bien, puis il a retourné sa veste." }
+      ],
+      dialogues: [
+        { speaker: "Marcus", en: "Yo, slide to the crib tonight. We're linking up.", fr: "Yo, passe à la baraque ce soir. On se rejoint." },
+        { speaker: "Dre", en: "Bet. Who's pulling up?", fr: "Ça marche. Qui vient ?" },
+        { speaker: "Marcus", en: "Just the homies. No fake ones.", fr: "Juste les potes. Pas de faux." },
+        { speaker: "Dre", en: "Facts. Too many people switched up lately.", fr: "C'est vrai. Trop de gens ont retourné leur veste récemment." },
+        { speaker: "Marcus", en: "Real talk. Real ones stay, fake ones fade.", fr: "Vrai parler. Les vrais restent, les faux disparaissent." },
+        { speaker: "Dre", en: "That's why I keep my circle small.", fr: "C'est pour ça que je garde un petit cercle." },
+        { speaker: "Marcus", en: "Smart. Stack your bread, trust nobody.", fr: "Malin. Empile ton fric, ne fais confiance à personne." },
+        { speaker: "Dre", en: "Speaking of bread, I got a new gig.", fr: "En parlant de fric, j'ai un nouveau taf." },
+        { speaker: "Marcus", en: "Word? That's a glow up from last year.", fr: "Sérieux ? C'est une sacrée évolution depuis l'année dernière." },
+        { speaker: "Dre", en: "No cap. We come from nothing, bro.", fr: "Sans mentir. On vient de rien, mec." }
+      ],
+      tips: [
+        "💡 'OG' = Original Gangster, mais aujourd'hui c'est utilisé pour dire 'vétéran' ou 'quelqu'un de respecté'.",
+        "💡 'Keep it real' est une des expressions les plus importantes de la culture de rue américaine.",
+        "💡 'Slide' est utilisé de manière très courante - 'slide into DMs' (envoyer un message) ou 'slide to my crib' (viens chez moi)."
+      ]
+    },
+    {
+      id: "relationship-drama",
+      title: "Relationship Drama",
+      titleFr: "Drames de couple",
+      description: "How Americans talk about relationship issues",
+      descriptionFr: "Comment les Américains parlent des problèmes de couple",
+      words: [
+        { en: "ghosting", fr: "ignorer quelqu'un", phonetic: "se dit 'GOS-ting'", example: "She's been ghosting me for a week.", exampleFr: "Elle m'ignore depuis une semaine." },
+        { en: "situationship", fr: "relation floue", phonetic: "se dit 'si-tchou-EÏ-cheun-chip'", example: "We're in a situationship.", exampleFr: "On est dans une relation floue." },
+        { en: "red flag", fr: "signal d'alarme", phonetic: "se dit 'rèd flag'", example: "That's a major red flag.", exampleFr: "C'est un gros signal d'alarme." },
+        { en: "green flag", fr: "bon signe", phonetic: "se dit 'griin flag'", example: "He remembered my birthday. Green flag.", exampleFr: "Il s'est souvenu de mon anniversaire. Bon signe." },
+        { en: "toxic", fr: "toxique", phonetic: "se dit 'TOK-sik'", example: "That relationship was so toxic.", exampleFr: "Cette relation était tellement toxique." },
+        { en: "the ick", fr: "le dégoût soudain", phonetic: "se dit 'dhi ik'", example: "He gave me the ick.", exampleFr: "Il m'a dégoûtée d'un coup." },
+        { en: "breadcrumbing", fr: "donner de faux espoirs", phonetic: "se dit 'BRÈD-kram-bing'", example: "He's breadcrumbing me with those texts.", exampleFr: "Il me donne de faux espoirs avec ces messages." },
+        { en: "love-bombing", fr: "bombarder d'amour", phonetic: "se dit 'lav-BOM-bing'", example: "Watch out for love-bombing.", exampleFr: "Méfie-toi du bombardement d'amour." },
+        { en: "rebound", fr: "relation rebond", phonetic: "se dit 'RI-baound'", example: "She's his rebound.", exampleFr: "Elle est sa relation rebond." },
+        { en: "ex", fr: "ex", phonetic: "se dit 'èks'", example: "My ex won't stop calling.", exampleFr: "Mon ex arrête pas d'appeler." },
+        { en: "crush", fr: "béguin / crush", phonetic: "se dit 'krach'", example: "I have a crush on her.", exampleFr: "J'ai un crush sur elle." },
+        { en: "DTR", fr: "définir la relation", phonetic: "se dit 'di-ti-ar'", example: "We need to DTR.", exampleFr: "On doit définir notre relation." },
+        { en: "caught feelings", fr: "tombé amoureux", phonetic: "se dit 'kot FII-lingz'", example: "I wasn't supposed to catch feelings.", exampleFr: "J'étais pas censé tomber amoureux." },
+        { en: "talking stage", fr: "phase de discussion", phonetic: "se dit 'TO-king steïdj'", example: "We're in the talking stage.", exampleFr: "On est dans la phase de discussion." },
+        { en: "bench", fr: "garder en réserve", phonetic: "se dit 'bèntch'", example: "She's benching three guys.", exampleFr: "Elle garde trois mecs en réserve." }
+      ],
+      phrases: [
+        { en: "We need to talk", fr: "Faut qu'on parle", phonetic: "se dit 'oui niid tou tok'", example: "Sit down, we need to talk.", exampleFr: "Assieds-toi, faut qu'on parle." },
+        { en: "It's not you, it's me", fr: "C'est pas toi, c'est moi", phonetic: "se dit 'its not you, its mi'", example: "Classic breakup line: it's not you, it's me.", exampleFr: "Phrase de rupture classique : c'est pas toi, c'est moi." },
+        { en: "She's playing hard to get", fr: "Elle joue les difficiles", phonetic: "se dit 'chiz PLEÏ-ing hard tou guèt'", example: "Don't chase her, she's playing hard to get.", exampleFr: "Cours pas après elle, elle joue les difficiles." },
+        { en: "He's not worth your tears", fr: "Il mérite pas tes larmes", phonetic: "se dit 'hiz not oueurth yor tirz'", example: "Forget him, he's not worth your tears.", exampleFr: "Oublie-le, il mérite pas tes larmes." },
+        { en: "I got friend-zoned", fr: "Je me suis fait friend-zoner", phonetic: "se dit 'aï got FRÈND-zond'", example: "I told her how I feel. Got friend-zoned.", exampleFr: "Je lui ai dit ce que je ressentais. Friend-zoné." },
+        { en: "She's giving mixed signals", fr: "Elle envoie des signaux contradictoires", phonetic: "se dit 'chiz GI-ving mikst SI-gneulz'", example: "One day she likes me, next day she doesn't. Mixed signals.", exampleFr: "Un jour elle m'aime, le lendemain non. Signaux contradictoires." },
+        { en: "We're on a break", fr: "On fait une pause", phonetic: "se dit 'ouir on eu breïk'", example: "We're on a break, like Ross and Rachel.", exampleFr: "On fait une pause, comme Ross et Rachel." },
+        { en: "He slid into my DMs", fr: "Il m'a envoyé un DM", phonetic: "se dit 'hi slid IN-tou maï di-èmz'", example: "He slid into my DMs with a cheesy pickup line.", exampleFr: "Il m'a envoyé un DM avec une phrase de drague ringarde." }
+      ],
+      dialogues: [
+        { speaker: "Jess", en: "Girl, he's been ghosting me for three days.", fr: "Meuf, il m'ignore depuis trois jours." },
+        { speaker: "Kira", en: "Ugh, that's such a red flag.", fr: "Beurk, c'est un gros signal d'alarme." },
+        { speaker: "Jess", en: "But when he texts, it's all love-bombing.", fr: "Mais quand il texte, c'est que du bombardement d'amour." },
+        { speaker: "Kira", en: "Classic breadcrumbing. He's keeping you on the bench.", fr: "Classique faux espoirs. Il te garde en réserve." },
+        { speaker: "Jess", en: "I think I caught feelings though.", fr: "Mais je crois que je suis tombée amoureuse." },
+        { speaker: "Kira", en: "Bestie, you're in a situationship. DTR or leave.", fr: "Meilleure amie, t'es dans une relation floue. Définis ou pars." },
+        { speaker: "Jess", en: "What if he gives me the 'it's not you, it's me' speech?", fr: "Et s'il me sort le discours 'c'est pas toi, c'est moi' ?" },
+        { speaker: "Kira", en: "Then he's not worth your tears. Period.", fr: "Alors il mérite pas tes larmes. Point." },
+        { speaker: "Jess", en: "You're right. I deserve a green flag guy.", fr: "T'as raison. Je mérite un mec qui montre des bons signes." },
+        { speaker: "Kira", en: "That's the energy! Keep it real, queen.", fr: "C'est l'énergie qu'il faut ! Reste authentique, reine." }
+      ],
+      tips: [
+        "💡 'Ghosting' est le fléau des relations modernes - disparaître sans explication.",
+        "💡 'Situationship' est un mot né des réseaux sociaux pour décrire ces relations pas définies.",
+        "💡 'The ick' est quand quelqu'un fait un truc qui te dégoûte soudainement - souvent irrrationnel."
+      ]
+    },
+    {
+      id: "money-flex",
+      title: "Money & Flexing",
+      titleFr: "Argent & Frime",
+      description: "How Americans talk about money and showing off",
+      descriptionFr: "Comment les Américains parlent d'argent et de frime",
+      words: [
+        { en: "baller", fr: "quelqu'un de riche", phonetic: "se dit 'BO-leur'", example: "He's living like a baller.", exampleFr: "Il vit comme un riche." },
+        { en: "guap", fr: "beaucoup d'argent", phonetic: "se dit 'gouap'", example: "He made some serious guap.", exampleFr: "Il a fait beaucoup d'argent." },
+        { en: "broke", fr: "fauché", phonetic: "se dit 'brok'", example: "I'm broke until payday.", exampleFr: "Je suis fauché jusqu'au jour de paye." },
+        { en: "loaded", fr: "plein aux as", phonetic: "se dit 'LO-did'", example: "Her family is loaded.", exampleFr: "Sa famille est pleine aux as." },
+        { en: "stacks", fr: "liasses d'argent", phonetic: "se dit 'staks'", example: "He's got stacks on stacks.", exampleFr: "Il a des liasses sur des liasses." },
+        { en: "bag", fr: "argent / gains", phonetic: "se dit 'bag'", example: "Secure the bag.", exampleFr: "Assure le gain." },
+        { en: "balling", fr: "vivre dans le luxe", phonetic: "se dit 'BO-ling'", example: "She's balling after her promotion.", exampleFr: "Elle vit dans le luxe depuis sa promotion." },
+        { en: "splurge", fr: "dépenser sans compter", phonetic: "se dit 'spleurdj'", example: "I splurged on a new watch.", exampleFr: "J'ai dépensé sans compter pour une nouvelle montre." },
+        { en: "finesse", fr: "arnaquer avec style", phonetic: "se dit 'fi-NÈSS'", example: "He finessed a free upgrade.", exampleFr: "Il a arnaqué un surclassement gratuit." },
+        { en: "cheap", fr: "radin", phonetic: "se dit 'tchiip'", example: "Don't be cheap, tip the waiter.", exampleFr: "Sois pas radin, laisse un pourboire." },
+        { en: "stunting", fr: "frimer", phonetic: "se dit 'STAN-ting'", example: "He's always stunting on Instagram.", exampleFr: "Il frime toujours sur Instagram." },
+        { en: "clout", fr: "influence / notoriété", phonetic: "se dit 'klaout'", example: "He's doing it for the clout.", exampleFr: "Il fait ça pour la notoriété." },
+        { en: "drip", fr: "style luxueux", phonetic: "se dit 'drip'", example: "All that drip costs money.", exampleFr: "Tout ce style coûte de l'argent." },
+        { en: "bands", fr: "des milliers de dollars", phonetic: "se dit 'bandz'", example: "That car costs a few bands.", exampleFr: "Cette voiture coûte quelques milliers." },
+        { en: "paper", fr: "argent", phonetic: "se dit 'PEÏ-peur'", example: "I'm chasing paper, not people.", exampleFr: "Je cours après l'argent, pas les gens." }
+      ],
+      phrases: [
+        { en: "Money talks, everything else walks", fr: "L'argent parle, le reste se tait", phonetic: "se dit 'MA-ni toks, ÈV-ri-thing èlss ouoks'", example: "In this city, money talks.", exampleFr: "Dans cette ville, l'argent parle." },
+        { en: "Secure the bag first", fr: "Assure le gain d'abord", phonetic: "se dit 'si-KIOUR dhe bag feurst'", example: "Before you flex, secure the bag.", exampleFr: "Avant de frimer, assure le gain." },
+        { en: "He's all cap, no stacks", fr: "C'est que du bluff, pas d'argent", phonetic: "se dit 'hiz ol kap, no staks'", example: "Talks rich but he's all cap, no stacks.", exampleFr: "Il parle riche mais c'est que du bluff." },
+        { en: "Stop being cheap and treat yourself", fr: "Arrête d'être radin et fais-toi plaisir", phonetic: "se dit 'stop BII-ing tchiip and triit yor-SÈLF'", example: "It's your birthday, stop being cheap.", exampleFr: "C'est ton anniversaire, arrête d'être radin." },
+        { en: "She's chasing clout, not cash", fr: "Elle court après la célébrité, pas l'argent", phonetic: "se dit 'chiz TCHEÏ-sing klaout, not kach'", example: "All those posts are for clout.", exampleFr: "Tous ces posts sont pour la célébrité." },
+        { en: "We went from rags to riches", fr: "On est passés de la misère à la richesse", phonetic: "se dit 'oui ouènt from ragz tou RI-tchiz'", example: "True story: rags to riches in 5 years.", exampleFr: "Histoire vraie : de la misère à la richesse en 5 ans." },
+        { en: "He's living paycheck to paycheck", fr: "Il vit d'un salaire à l'autre", phonetic: "se dit 'hiz LI-ving PEÏ-tchèk tou PEÏ-tchèk'", example: "In this economy, everyone's paycheck to paycheck.", exampleFr: "Dans cette économie, tout le monde vit d'un salaire à l'autre." },
+        { en: "Don't flex what you can't afford", fr: "Frime pas avec ce que tu peux pas te permettre", phonetic: "se dit 'dont flèks ouat you kant eu-FORD'", example: "That Gucci bag on credit? Don't flex what you can't afford.", exampleFr: "Ce sac Gucci à crédit ? Frime pas avec ce que tu peux pas te permettre." }
+      ],
+      dialogues: [
+        { speaker: "Rico", en: "Bro, I just copped a Rolex.", fr: "Mec, je viens d'acheter une Rolex." },
+        { speaker: "Jay", en: "No cap? Let me see.", fr: "Sans mentir ? Fais voir." },
+        { speaker: "Rico", en: "Look at this drip. Pure gold.", fr: "Regarde ce style. Or pur." },
+        { speaker: "Jay", en: "That's hard. How much did you splurge?", fr: "C'est stylé. T'as dépensé combien ?" },
+        { speaker: "Rico", en: "Let's just say a few bands.", fr: "Disons quelques milliers." },
+        { speaker: "Jay", en: "You're balling. Meanwhile I'm broke.", fr: "Tu vis dans le luxe. Pendant ce temps je suis fauché." },
+        { speaker: "Rico", en: "Don't worry, your time's coming. Secure the bag.", fr: "T'inquiète, ton moment va venir. Assure le gain." },
+        { speaker: "Jay", en: "Easy for you to say, mister loaded.", fr: "Facile à dire pour toi, monsieur plein aux as." },
+        { speaker: "Rico", en: "I was broke two years ago. From rags to riches.", fr: "J'étais fauché il y a deux ans. De la misère à la richesse." },
+        { speaker: "Jay", en: "Respect. Money talks for real.", fr: "Respect. L'argent parle, c'est vrai." }
+      ],
+      tips: [
+        "💡 'Secure the bag' est devenu un mantra pour la génération Z - ça veut dire assurer ses revenus.",
+        "💡 'Bands' = des milliers de dollars. '10 bands' = 10 000 dollars.",
+        "💡 'Clout chasing' est très mal vu - faire des choses juste pour être célèbre sans substance."
+      ]
+    },
+    {
+      id: "social-media-talk",
+      title: "Social Media Language",
+      titleFr: "Langage des réseaux sociaux",
+      description: "How Americans talk about social media",
+      descriptionFr: "Comment les Américains parlent des réseaux sociaux",
+      words: [
+        { en: "viral", fr: "viral", phonetic: "se dit 'VAÏ-reul'", example: "That video went viral.", exampleFr: "Cette vidéo est devenue virale." },
+        { en: "clout", fr: "influence", phonetic: "se dit 'klaout'", example: "She's got clout on TikTok.", exampleFr: "Elle a de l'influence sur TikTok." },
+        { en: "ratio", fr: "se faire ratio", phonetic: "se dit 'REÏ-chi-o'", example: "He got ratioed hard.", exampleFr: "Il s'est fait ratio sévèrement." },
+        { en: "stan", fr: "fan hardcore", phonetic: "se dit 'stan'", example: "I stan Taylor Swift.", exampleFr: "Je suis un fan hardcore de Taylor Swift." },
+        { en: "troll", fr: "troll / provocateur", phonetic: "se dit 'trol'", example: "Don't feed the troll.", exampleFr: "Ne nourris pas le troll." },
+        { en: "cancel", fr: "cancel / boycotter", phonetic: "se dit 'KAN-seul'", example: "Twitter tried to cancel him.", exampleFr: "Twitter a essayé de le cancel." },
+        { en: "shade", fr: "pic / sous-entendu", phonetic: "se dit 'cheïd'", example: "She's throwing shade.", exampleFr: "Elle lance des pics." },
+        { en: "tea", fr: "ragot / potin", phonetic: "se dit 'tii'", example: "Spill the tea, sis!", exampleFr: "Balance les ragots, sœur !" },
+        { en: "simp", fr: "quelqu'un qui fait tout pour quelqu'un", phonetic: "se dit 'simp'", example: "He's simping for her.", exampleFr: "Il fait tout pour elle." },
+        { en: "catfish", fr: "fausse identité en ligne", phonetic: "se dit 'KAT-fich'", example: "I got catfished on Tinder.", exampleFr: "Je me suis fait catfish sur Tinder." },
+        { en: "influencer", fr: "influenceur", phonetic: "se dit 'IN-flou-en-seur'", example: "She's a beauty influencer.", exampleFr: "Elle est influenceuse beauté." },
+        { en: "content", fr: "contenu", phonetic: "se dit 'KON-tènt'", example: "I need to create more content.", exampleFr: "J'ai besoin de créer plus de contenu." },
+        { en: "algorithm", fr: "algorithme", phonetic: "se dit 'AL-go-ri-dheum'", example: "The algorithm blessed my video.", exampleFr: "L'algorithme a béni ma vidéo." },
+        { en: "clout chaser", fr: "chasseur de notoriété", phonetic: "se dit 'klaout TCHEÏ-seur'", example: "He's a clout chaser.", exampleFr: "C'est un chasseur de notoriété." },
+        { en: "main character", fr: "personnage principal", phonetic: "se dit 'meïn KA-rak-teur'", example: "She lives like she's the main character.", exampleFr: "Elle vit comme si elle était le personnage principal." }
+      ],
+      phrases: [
+        { en: "Spill the tea, what happened?", fr: "Balance les ragots, il s'est passé quoi ?", phonetic: "se dit 'spil dhe tii, ouat HA-peund'", example: "I saw your ex at the party. Spill the tea!", exampleFr: "J'ai vu ton ex à la fête. Balance les ragots !" },
+        { en: "She's living her main character moment", fr: "Elle vit son moment de personnage principal", phonetic: "se dit 'chiz LI-ving heur meïn KA-rak-teur MO-meunt'", example: "Walking in the rain with music? Main character moment.", exampleFr: "Marcher sous la pluie avec de la musique ? Moment de personnage principal." },
+        { en: "Don't feed the trolls", fr: "Ne nourris pas les trolls", phonetic: "se dit 'dont fiid dhe trolz'", example: "Ignore the hate comments, don't feed the trolls.", exampleFr: "Ignore les commentaires haineux, ne nourris pas les trolls." },
+        { en: "The algorithm is rigged", fr: "L'algorithme est truqué", phonetic: "se dit 'dhi AL-go-ri-dheum iz rigd'", example: "My video should have more views, the algorithm is rigged.", exampleFr: "Ma vidéo devrait avoir plus de vues, l'algorithme est truqué." },
+        { en: "He got cancelled for that tweet", fr: "Il s'est fait cancel pour ce tweet", phonetic: "se dit 'hi got KAN-seul'd for dhat touiit'", example: "Old tweets resurfaced and he got cancelled.", exampleFr: "D'anciens tweets ont refait surface et il s'est fait cancel." },
+        { en: "She's been throwing shade all day", fr: "Elle lance des pics depuis ce matin", phonetic: "se dit 'chiz biin THRO-ing cheïd ol deï'", example: "Her stories are full of shade.", exampleFr: "Ses stories sont pleines de sous-entendus." },
+        { en: "I'm not simping, I'm just being nice", fr: "Je simpe pas, je suis juste gentil", phonetic: "se dit 'aïm not SIM-ping, aïm djast BII-ing naïss'", example: "Buying her flowers isn't simping!", exampleFr: "Lui acheter des fleurs c'est pas simper !" },
+        { en: "That's giving main character energy", fr: "Ça dégage une énergie de perso principal", phonetic: "se dit 'dhats GI-ving meïn KA-rak-teur È-neur-dji'", example: "The way she walked in? Main character energy.", exampleFr: "La façon dont elle est entrée ? Énergie de perso principal." }
+      ],
+      dialogues: [
+        { speaker: "Leah", en: "OMG, did you see what happened on TikTok?", fr: "OMG, t'as vu ce qui s'est passé sur TikTok ?" },
+        { speaker: "Maya", en: "No, spill the tea!", fr: "Non, balance les ragots !" },
+        { speaker: "Leah", en: "That influencer got exposed for catfishing.", fr: "Cette influenceuse s'est fait démasquer pour catfishing." },
+        { speaker: "Maya", en: "No way! She had like 2 million followers.", fr: "Pas possible ! Elle avait genre 2 millions d'abonnés." },
+        { speaker: "Leah", en: "Yeah, she's getting cancelled hard. Twitter is wild.", fr: "Ouais, elle se fait cancel sévèrement. Twitter est en feu." },
+        { speaker: "Maya", en: "The ratio on her last tweet is insane.", fr: "Le ratio sur son dernier tweet est dingue." },
+        { speaker: "Leah", en: "Some people are defending her though. Stans gonna stan.", fr: "Certains la défendent quand même. Les fans restent des fans." },
+        { speaker: "Maya", en: "Those are just simps and clout chasers.", fr: "C'est juste des simps et des chasseurs de notoriété." },
+        { speaker: "Leah", en: "Facts. The whole thing is a main character moment for everyone.", fr: "C'est vrai. Tout le monde vit son moment de personnage principal." },
+        { speaker: "Maya", en: "Internet drama is free entertainment, no cap.", fr: "Le drama d'internet, c'est du divertissement gratuit, sans mentir." }
+      ],
+      tips: [
+        "💡 'Ratio' signifie que les réponses critiques dépassent les likes - signe que tout le monde est contre toi.",
+        "💡 'Main character energy' vient de la tendance TikTok où on se voit comme le héros de sa propre vie.",
+        "💡 'Cancel culture' est controversée aux USA - certains pensent que c'est de la responsabilité, d'autres de la censure."
+      ]
+    },
+    {
+      id: "gym-fitness-talk",
+      title: "Gym & Fitness Talk",
+      titleFr: "Salle de sport & Fitness",
+      description: "How gym bros and fitness people talk",
+      descriptionFr: "Comment parlent les passionnés de fitness",
+      words: [
+        { en: "gains", fr: "progrès musculaires", phonetic: "se dit 'geïnz'", example: "I'm making serious gains.", exampleFr: "Je fais des progrès musculaires sérieux." },
+        { en: "reps", fr: "répétitions", phonetic: "se dit 'rèps'", example: "Do 12 reps per set.", exampleFr: "Fais 12 répétitions par série." },
+        { en: "PR", fr: "record personnel", phonetic: "se dit 'pi-ar'", example: "I hit a new PR on bench press.", exampleFr: "J'ai battu mon record au développé couché." },
+        { en: "shredded", fr: "très sec / musclé", phonetic: "se dit 'CHRÈ-did'", example: "He's absolutely shredded.", exampleFr: "Il est complètement sec et musclé." },
+        { en: "bulk", fr: "prise de masse", phonetic: "se dit 'balk'", example: "I'm on a bulk right now.", exampleFr: "Je suis en prise de masse là." },
+        { en: "cut", fr: "sèche", phonetic: "se dit 'kat'", example: "Summer cut starts in March.", exampleFr: "La sèche d'été commence en mars." },
+        { en: "spot", fr: "assurer / parer", phonetic: "se dit 'spot'", example: "Can you spot me on bench?", exampleFr: "Tu peux me parer au développé couché ?" },
+        { en: "pump", fr: "congestion musculaire", phonetic: "se dit 'pamp'", example: "I've got a crazy pump.", exampleFr: "J'ai une congestion musculaire de dingue." },
+        { en: "cardio", fr: "cardio", phonetic: "se dit 'KAR-di-o'", example: "I hate cardio but I need it.", exampleFr: "Je déteste le cardio mais j'en ai besoin." },
+        { en: "macros", fr: "macronutriments", phonetic: "se dit 'MA-kros'", example: "Track your macros for better results.", exampleFr: "Suis tes macros pour de meilleurs résultats." },
+        { en: "leg day", fr: "jour des jambes", phonetic: "se dit 'lèg deï'", example: "Never skip leg day.", exampleFr: "Ne saute jamais le jour des jambes." },
+        { en: "gym rat", fr: "accro à la salle", phonetic: "se dit 'djim rat'", example: "He's a total gym rat.", exampleFr: "Il est complètement accro à la salle." },
+        { en: "swole", fr: "balèze / massif", phonetic: "se dit 'soul'", example: "He got swole over the summer.", exampleFr: "Il est devenu balèze pendant l'été." },
+        { en: "natty", fr: "naturel (sans produits)", phonetic: "se dit 'NA-ti'", example: "Is he natty or not?", exampleFr: "Il est naturel ou pas ?" },
+        { en: "pre-workout", fr: "pré-entraînement", phonetic: "se dit 'prii-OUEUR-kaout'", example: "I took too much pre-workout.", exampleFr: "J'ai pris trop de pré-entraînement." }
+      ],
+      phrases: [
+        { en: "Never skip leg day", fr: "Ne saute jamais le jour des jambes", phonetic: "se dit 'NÈ-veur skip lèg deï'", example: "Chicken legs because he skips leg day.", exampleFr: "Des jambes de poulet parce qu'il saute le jour des jambes." },
+        { en: "No pain, no gain", fr: "Pas de douleur, pas de résultat", phonetic: "se dit 'no peïn, no geïn'", example: "Push through! No pain, no gain.", exampleFr: "Continue ! Pas de douleur, pas de résultat." },
+        { en: "I hit a new PR today", fr: "J'ai battu mon record aujourd'hui", phonetic: "se dit 'aï hit eu niou pi-ar tou-DÈÏ'", example: "225 lbs on bench! New PR!", exampleFr: "102 kg au développé couché ! Nouveau record !" },
+        { en: "Can you spot me real quick?", fr: "Tu peux me parer vite fait ?", phonetic: "se dit 'kan you spot mi riil kouik'", example: "This is heavy, spot me real quick.", exampleFr: "C'est lourd, pare-moi vite fait." },
+        { en: "I'm on a dirty bulk", fr: "Je suis en prise de masse sale", phonetic: "se dit 'aïm on eu DER-ti balk'", example: "Eating everything in sight, dirty bulk mode.", exampleFr: "Je mange tout ce que je vois, mode prise de masse sale." },
+        { en: "Summer body is made in winter", fr: "Le corps d'été se fait en hiver", phonetic: "se dit 'SA-meur BO-di iz meïd in OUIN-teur'", example: "Start now, summer body is made in winter.", exampleFr: "Commence maintenant, le corps d'été se fait en hiver." },
+        { en: "He's definitely not natty", fr: "Il est clairement pas naturel", phonetic: "se dit 'hiz DÈ-fi-nit-li not NA-ti'", example: "Look at those traps, not natty.", exampleFr: "Regarde ses trapèzes, il est pas naturel." },
+        { en: "The pump is real today", fr: "La congestion est réelle aujourd'hui", phonetic: "se dit 'dhe pamp iz riil tou-DÈÏ'", example: "My arms look huge, the pump is real.", exampleFr: "Mes bras ont l'air énormes, la congestion est réelle." }
+      ],
+      dialogues: [
+        { speaker: "Chad", en: "Bro, I just hit a new PR on deadlift.", fr: "Mec, je viens de battre mon record au soulevé de terre." },
+        { speaker: "Kyle", en: "What'd you pull?", fr: "T'as soulevé combien ?" },
+        { speaker: "Chad", en: "405 lbs. Been chasing that for months.", fr: "183 kg. Je courais après depuis des mois." },
+        { speaker: "Kyle", en: "That's insane. You're getting swole.", fr: "C'est dingue. Tu deviens balèze." },
+        { speaker: "Chad", en: "Thanks bro. I've been on a dirty bulk.", fr: "Merci mec. Je suis en prise de masse sale." },
+        { speaker: "Kyle", en: "I can tell. When's the cut?", fr: "Ça se voit. C'est quand la sèche ?" },
+        { speaker: "Chad", en: "March. Summer body is made in winter.", fr: "Mars. Le corps d'été se fait en hiver." },
+        { speaker: "Kyle", en: "Facts. Hey, can you spot me on bench?", fr: "C'est vrai. Eh, tu peux me parer au développé couché ?" },
+        { speaker: "Chad", en: "For sure. How much you pressing?", fr: "Bien sûr. Tu presses combien ?" },
+        { speaker: "Kyle", en: "Going for 225. It's leg day after though.", fr: "Je vise 102 kg. Mais c'est jour des jambes après." },
+        { speaker: "Chad", en: "Never skip leg day, king.", fr: "Ne saute jamais le jour des jambes, roi." },
+        { speaker: "Kyle", en: "No pain, no gain. Let's get these gains!", fr: "Pas de douleur, pas de résultat. Allons chercher ces progrès !" }
+      ],
+      tips: [
+        "💡 'Natty or not' est le débat éternel de la salle - est-ce que quelqu'un est naturel ou sous produits ?",
+        "💡 'Leg day' est le jour le plus redouté mais le plus respecté - ne le saute JAMAIS.",
+        "💡 'Dirty bulk' = manger n'importe quoi pour prendre de la masse. 'Clean bulk' = manger sainement pour prendre."
+      ]
+    },
+    {
+      id: "weather-small-talk",
+      title: "Weather & Small Talk Slang",
+      titleFr: "Météo & Petites conversations",
+      description: "Casual weather talk and small talk expressions",
+      descriptionFr: "Parler de la météo et conversations légères",
+      words: [
+        { en: "scorching", fr: "brûlant", phonetic: "se dit 'SKOR-tching'", example: "It's scorching outside.", exampleFr: "Il fait brûlant dehors." },
+        { en: "freezing", fr: "glacial", phonetic: "se dit 'FRII-zing'", example: "I'm absolutely freezing.", exampleFr: "Je suis complètement gelé." },
+        { en: "muggy", fr: "lourd et humide", phonetic: "se dit 'MA-gui'", example: "It's so muggy today.", exampleFr: "Il fait tellement lourd aujourd'hui." },
+        { en: "breezy", fr: "venteux / frais", phonetic: "se dit 'BRII-zi'", example: "It's nice and breezy.", exampleFr: "Il fait bon et frais." },
+        { en: "pouring", fr: "il pleut des cordes", phonetic: "se dit 'POR-ring'", example: "It's pouring outside.", exampleFr: "Il pleut des cordes dehors." },
+        { en: "heatwave", fr: "canicule", phonetic: "se dit 'HIIT-oueïv'", example: "This heatwave is brutal.", exampleFr: "Cette canicule est brutale." },
+        { en: "chill", fr: "frais / frisquet", phonetic: "se dit 'tchill'", example: "There's a chill in the air.", exampleFr: "Il y a un petit froid dans l'air." },
+        { en: "gloomy", fr: "sombre / déprimant", phonetic: "se dit 'GLOU-mi'", example: "What a gloomy day.", exampleFr: "Quelle journée sombre." },
+        { en: "sunshine", fr: "soleil", phonetic: "se dit 'SAN-chaïn'", example: "Finally some sunshine!", exampleFr: "Enfin du soleil !" },
+        { en: "drizzle", fr: "bruine / crachin", phonetic: "se dit 'DRI-zeul'", example: "It's just a drizzle, relax.", exampleFr: "C'est juste une bruine, relax." },
+        { en: "slippery", fr: "glissant", phonetic: "se dit 'SLI-peu-ri'", example: "The roads are slippery.", exampleFr: "Les routes sont glissantes." },
+        { en: "humid", fr: "humide", phonetic: "se dit 'HIOU-mid'", example: "Florida is so humid.", exampleFr: "La Floride est tellement humide." },
+        { en: "forecast", fr: "prévision météo", phonetic: "se dit 'FOR-kast'", example: "Check the forecast before going.", exampleFr: "Vérifie la météo avant de sortir." },
+        { en: "windchill", fr: "température ressentie", phonetic: "se dit 'OUIND-tchill'", example: "The windchill makes it feel like -10.", exampleFr: "La température ressentie est de -10." },
+        { en: "hail", fr: "grêle", phonetic: "se dit 'heïl'", example: "We got hit by hail.", exampleFr: "On s'est fait toucher par la grêle." }
+      ],
+      phrases: [
+        { en: "Can you believe this weather?", fr: "Tu peux croire cette météo ?", phonetic: "se dit 'kan you bi-LIIV dhiss OUÈ-dheur'", example: "Snow in April? Can you believe this weather?", exampleFr: "De la neige en avril ? Tu peux croire cette météo ?" },
+        { en: "It's raining cats and dogs", fr: "Il pleut des cordes", phonetic: "se dit 'its REÏ-ning kats and dogz'", example: "We can't go out, it's raining cats and dogs.", exampleFr: "On peut pas sortir, il pleut des cordes." },
+        { en: "Nice day, isn't it?", fr: "Belle journée, non ?", phonetic: "se dit 'naïss deï, I-zeunt it'", example: "Nice day, isn't it? Perfect for a walk.", exampleFr: "Belle journée, non ? Parfait pour une promenade." },
+        { en: "I'm not built for this cold", fr: "Je suis pas fait pour ce froid", phonetic: "se dit 'aïm not bilt for dhiss kold'", example: "Negative ten? I'm not built for this.", exampleFr: "Moins dix ? Je suis pas fait pour ça." },
+        { en: "The heat is killing me", fr: "La chaleur me tue", phonetic: "se dit 'dhe hiit iz KI-ling mi'", example: "No AC? The heat is killing me.", exampleFr: "Pas de clim ? La chaleur me tue." },
+        { en: "Looks like it's gonna rain", fr: "On dirait qu'il va pleuvoir", phonetic: "se dit 'louks laïk its GA-na reïn'", example: "Grab an umbrella, looks like rain.", exampleFr: "Prends un parapluie, on dirait qu'il va pleuvoir." },
+        { en: "What's the temperature outside?", fr: "Il fait combien dehors ?", phonetic: "se dit 'ouats dhe TÈM-preu-tcheur aout-SAÏD'", example: "Before I get dressed, what's the temperature?", exampleFr: "Avant de m'habiller, il fait combien dehors ?" },
+        { en: "It cleared up nicely", fr: "Ça s'est bien dégagé", phonetic: "se dit 'it KLIRD ap NAÏSS-li'", example: "Was cloudy this morning but it cleared up.", exampleFr: "C'était nuageux ce matin mais ça s'est dégagé." }
+      ],
+      dialogues: [
+        { speaker: "Anna", en: "Can you believe this weather? It's scorching.", fr: "Tu peux croire cette météo ? Il fait brûlant." },
+        { speaker: "Ben", en: "I know, right? The heat is killing me.", fr: "Grave, non ? La chaleur me tue." },
+        { speaker: "Anna", en: "The forecast says it'll be 105 tomorrow.", fr: "La météo dit qu'il fera 40 demain." },
+        { speaker: "Ben", en: "No way. I'm staying inside with the AC.", fr: "Pas possible. Je reste à l'intérieur avec la clim." },
+        { speaker: "Anna", en: "Smart. I'm not built for this heat.", fr: "Malin. Je suis pas faite pour cette chaleur." },
+        { speaker: "Ben", en: "Remember last week when it was pouring?", fr: "Tu te souviens la semaine dernière quand il pleuvait des cordes ?" },
+        { speaker: "Anna", en: "Yeah! It was raining cats and dogs.", fr: "Ouais ! Il pleuvait des cordes." },
+        { speaker: "Ben", en: "I'd take rain over this heatwave any day.", fr: "Je prendrais la pluie plutôt que cette canicule n'importe quand." },
+        { speaker: "Anna", en: "Same. At least it's supposed to cool down by Friday.", fr: "Pareil. Au moins ça devrait se rafraîchir d'ici vendredi." },
+        { speaker: "Ben", en: "Fingers crossed. I need some breezy weather.", fr: "Croisons les doigts. J'ai besoin de temps frais." }
+      ],
+      tips: [
+        "💡 Parler de la météo est LE sujet de small talk numéro 1 en Amérique - parfait pour briser la glace.",
+        "💡 'Raining cats and dogs' est l'expression météo la plus connue - tout le monde la connaît.",
+        "💡 Les Américains utilisent Fahrenheit : 0°C = 32°F, 20°C = 68°F, 30°C = 86°F, 40°C = 104°F."
+      ]
     }
-    // ... Additional lessons 13-20 follow the same structure but for brevity in this single response block I will conclude here.
   ]
 };
