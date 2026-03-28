@@ -1085,9 +1085,9 @@ export const everydayCourse: Course = {
       { speaker: "Dave", en: "See you then!", fr: "À tout à l'heure !" }
     ],
     tips: [
-      ": ",
-      ": ",
-      ": "
+      "💡 'Pre-game' signifie boire avant de sortir - très courant chez les jeunes Américains.",
+      "💡 'Last call' est l'annonce du barman pour la dernière commande avant la fermeture.",
+      "💡 Toujours avoir un 'designated driver' (conducteur sobre) quand on sort."
     ]
   },
   {
@@ -1225,9 +1225,9 @@ export const everydayCourse: Course = {
       { speaker: "Sarah", en: "I hope it tastes as good as it smells.", fr: "J'espère que c'est aussi bon que ça en a l'air." }
     ],
     tips: [
-      ": ",
-      ": ",
-      ": "
+      "💡 'A pinch' (une pincée) est une mesure approximative très utilisée en cuisine américaine.",
+      "💡 Les Américains mesurent en cups, tablespoons et teaspoons - pas en grammes.",
+      "💡 'From scratch' signifie fait maison, sans produits préparés."
     ]
   },
   {
@@ -1295,9 +1295,9 @@ export const everydayCourse: Course = {
       { speaker: "You", en: "Great, thank you. Have a good one!", fr: "Super, merci. Bonne journée !" }
     ],
     tips: [
-      ": ",
-      ": ",
-      ": "
+      "💡 Aux USA, 'TSA' (Transportation Security Administration) gère la sécurité dans les aéroports.",
+      "💡 'Carry-on' = bagage à main. 'Checked bag' = bagage en soute.",
+      "💡 Toujours arriver 2h avant un vol domestique et 3h avant un vol international."
     ]
   },
   {
@@ -1363,9 +1363,9 @@ export const everydayCourse: Course = {
       { speaker: "You", en: "You're welcome. Bye.", fr: "De rien. Au revoir." }
     ],
     tips: [
-      ": ",
-      ": ",
-      ": "
+      "💡 Aux USA, le numéro d'urgence universel est le 911 - police, pompiers et ambulance.",
+      "💡 'Stay calm' est la première chose qu'on vous dira en cas d'urgence.",
+      "💡 'First responders' désigne les premiers secours : pompiers, policiers, ambulanciers."
     ]
   },
 {
