@@ -735,9 +735,9 @@ export const everydayCourse: Course = {
       { speaker: "Mike", en: "See you!", fr: "À plus !" }
     ],
     tips: [
-      ": ",
-      ": ",
-      ": "
+      "💡 Aux USA, on dit 'buck' pour 'dollar' : 'It costs 5 bucks' = 'Ça coûte 5 dollars'.",
+      "💡 'Venmo me' est devenu un verbe - envoyer de l'argent via l'appli Venmo.",
+      "💡 Les Américains utilisent beaucoup les cartes de crédit, rarement l'argent liquide."
     ]
   },
   {
@@ -805,9 +805,9 @@ export const everydayCourse: Course = {
       { speaker: "You", en: "I'll be there. I'll bring some wings.", fr: "J'y serai. J'apporterai des ailes de poulet." }
     ],
     tips: [
-      ": ",
-      ": ",
-      ": "
+      "💡 Les Américains adorent dire 'Let's hit the gym' au lieu de 'Let's go to the gym'.",
+      "💡 'Working out' est le terme universel pour faire du sport, peu importe l'activité.",
+      "💡 'No pain, no gain' est le mantra de la culture fitness américaine."
     ]
   },
   {
@@ -875,9 +875,9 @@ export const everydayCourse: Course = {
       { speaker: "Tom", en: "Great, I'll book the tickets online.", fr: "Super, je vais réserver les billets en ligne." }
     ],
     tips: [
-      ": ",
-      ": ",
-      ": "
+      "💡 'Binge-watch' est devenu un verbe courant depuis Netflix - regarder plusieurs épisodes d'affilée.",
+      "💡 Les Américains disent 'spoiler alert' avant de révéler un élément clé d'un film.",
+      "💡 'It's a must-see' signifie que le film est incontournable."
     ]
   },
   {
@@ -945,9 +945,9 @@ export const everydayCourse: Course = {
       { speaker: "Sarah", en: "You're the best! I can't wait.", fr: "Tu es le meilleur ! J'ai trop hâte." }
     ],
     tips: [
-      ": ",
-      ": ",
-      ": "
+      "💡 'That song slaps' est l'expression moderne pour dire qu'une chanson est excellente.",
+      "💡 'Drop an album' signifie sortir un album - les artistes 'drop' leur musique.",
+      "💡 'Encore' vient du français mais les Américains le prononcent 'on-core'."
     ]
   },
   {
@@ -1015,9 +1015,9 @@ export const everydayCourse: Course = {
       { speaker: "Mark", en: "I'll just like it for now.", fr: "Je vais juste liker pour le moment." }
     ],
     tips: [
-      ": ",
-      ": ",
-      ": "
+      "💡 'Going viral' signifie qu'un contenu se propage massivement sur internet.",
+      "💡 'Slide into DMs' signifie envoyer un message privé à quelqu'un, souvent de manière romantique.",
+      "💡 'Ratio' sur Twitter signifie que les réponses dépassent les likes - signe de controverse."
     ]
   },
   {
@@ -1155,9 +1155,9 @@ export const everydayCourse: Course = {
       { speaker: "Owner", en: "Thanks, you too!", fr: "Merci, vous aussi !" }
     ],
     tips: [
-      ": ",
-      ": ",
-      ": "
+      "💡 Les Américains traitent souvent leurs animaux comme des membres de la famille.",
+      "💡 'Good boy/girl' est la phrase universelle pour féliciter un chien.",
+      "💡 'Adopt, don't shop' est un mouvement populaire pour adopter plutôt qu'acheter."
     ]
   },
   {
@@ -1564,9 +1564,9 @@ export const everydayCourse: Course = {
       { speaker: "Sarah", en: "Standard! I just want to travel more.", fr: "Standard ! Moi je veux juste voyager plus." }
     ],
     tips: [
-      "💡 Thanksgiving Timing: Thanksgiving is always the fourth Thursday of November.",
-      "💡 The Ball Drop: This refers to the New Year's celebration in Times Square, NYC.",
-      "💡 July 4th: Also called Independence Day, usually celebrated with BBQs and fireworks."
+      "💡 Thanksgiving est la fête la plus importante en famille aux USA - plus que Noël pour certains.",
+      "💡 'Happy Holidays' est préféré à 'Merry Christmas' pour être inclusif.",
+      "💡 Le 4 juillet (Independence Day) est célébré avec des feux d'artifice et des BBQ."
     ]
   },
   {
@@ -1686,9 +1686,9 @@ export const everydayCourse: Course = {
       { speaker: "Mike", en: "Sure, just log in and I'll show you.", fr: "Bien sûr, connecte-toi et je te montrerai." }
     ],
     tips: [
-      "💡 Battery health: To 'recharge' is for the battery, to 'reboot' is for the system.",
-      "💡 Apps: Short for 'application'. Used for both mobile and desktop software.",
-      "💡 The 'it' fix: The most common tech advice: 'Turn it off and on again'."
+      "💡 'Google it' est devenu un verbe courant en anglais - chercher quelque chose sur internet.",
+      "💡 Les Américains disent 'my phone died' quand leur batterie est vide.",
+      "💡 'App' se prononce comme 'æp' et non 'a-p-p'."
     ]
   },
   {
