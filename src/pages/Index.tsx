@@ -222,6 +222,7 @@ const Index = () => {
                     en: word.en,
                     fr: word.fr,
                     phonetic: word.phonetic,
+                    context: word.context,
                     courseId: selectedCourse.id,
                     lessonId: selectedLesson.id,
                   });
