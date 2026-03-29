@@ -15,7 +15,7 @@ interface LessonViewProps {
   completedSteps: number[];
   onStepComplete: (step: number) => void;
   onQuizComplete: (score: number, total: number) => void;
-  onAddFlashcard: (word: { en: string; fr: string; phonetic?: string }) => void;
+  onAddFlashcard: (word: { en: string; fr: string; phonetic?: string; context?: string }) => void;
 }
 
 const STEPS = [
