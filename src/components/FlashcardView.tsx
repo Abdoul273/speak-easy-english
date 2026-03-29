@@ -127,6 +127,13 @@ const FlashcardView = ({ cards, onReview, onComplete }: FlashcardViewProps) => {
             <>
               <p className="text-sm text-muted-foreground mb-2">{card.en}</p>
               <p className="text-3xl font-display font-bold text-primary">{card.fr}</p>
+              {card.context && (
+                <div className="mt-4 bg-muted/50 rounded-xl p-3 text-left w-full">
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    💡 {card.context}
+                  </p>
+                </div>
+              )}
             </>
           )}
         </motion.div>
