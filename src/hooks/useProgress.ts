@@ -15,6 +15,7 @@ interface FlashcardEntry {
   en: string;
   fr: string;
   phonetic?: string;
+  context?: string;
   courseId: string;
   lessonId: string;
   nextReview: string; // ISO date
