@@ -61,16 +61,16 @@ export const slangCourse: Course = {
         { en: "Squad goals.", fr: "Objectifs de groupe (amis).", context: "Argot américain moderne. En français on peut dire 'Objectifs de groupe (amis).'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Leo", en: "Yo, did you see the concert last night?", fr: "Yo, t'as vu le concert hier soir ?", context: "Argot américain moderne. En français on peut dire 'Yo, t'as vu le concert hier soir ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jade", en: "Yeah, it was lit, no cap.", fr: "Ouais, c'était le feu, sans mentir.", context: "Argot américain moderne. En français on peut dire 'Ouais, c'était le feu, sans mentir.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Leo", en: "The singer's fit was fire too.", fr: "La tenue du chanteur était incroyable aussi.", context: "Argot américain moderne. En français on peut dire 'La tenue du chanteur était incroyable aussi.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jade", en: "Fr, she really slayed that performance.", fr: "Sérieux, elle a tout déchiré pour cette perf.", context: "Argot américain moderne. En français on peut dire 'Sérieux, elle a tout déchiré pour cette perf.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Leo", en: "I lowkey want to go again tonight.", fr: "J'ai un peu envie d'y retourner ce soir.", context: "Argot américain moderne. En français on peut dire 'J'ai un peu envie d'y retourner ce soir.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jade", en: "Bet. Let's pull up at 8.", fr: "Carrément. Ramène-toi à 20h.", context: "Argot américain moderne. En français on peut dire 'Carrément. Ramène-toi à 20h.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Leo", en: "I heard the front row is $200 though.", fr: "J'ai entendu que le premier rang coûte 200$ par contre.", context: "Argot américain moderne. En français on peut dire 'J'ai entendu que le premier rang coûte 200$ par contre.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jade", en: "Stop, that's cap! I saw them for $50.", fr: "Arrête, c'est un mito ! Je les ai vus à 50$.", context: "Argot américain moderne. En français on peut dire 'Arrête, c'est un mito ! Je les ai vus à 50$.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Leo", en: "Say less. I'm buying them now.", fr: "N'en dis pas plus. Je les achète maintenant.", context: "Argot américain moderne. En français on peut dire 'N'en dis pas plus. Je les achète maintenant.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jade", en: "You're highkey the best.", fr: "T'es vraiment le meilleur.", context: "Argot américain moderne. En français on peut dire 'T'es vraiment le meilleur.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Leo", en: "Yo, did you see the concert last night?", fr: "Yo, t'as vu le concert hier soir ?" },
+        { speaker: "Jade", en: "Yeah, it was lit, no cap.", fr: "Ouais, c'était le feu, sans mentir." },
+        { speaker: "Leo", en: "The singer's fit was fire too.", fr: "La tenue du chanteur était incroyable aussi." },
+        { speaker: "Jade", en: "Fr, she really slayed that performance.", fr: "Sérieux, elle a tout déchiré pour cette perf." },
+        { speaker: "Leo", en: "I lowkey want to go again tonight.", fr: "J'ai un peu envie d'y retourner ce soir." },
+        { speaker: "Jade", en: "Bet. Let's pull up at 8.", fr: "Carrément. Ramène-toi à 20h." },
+        { speaker: "Leo", en: "I heard the front row is $200 though.", fr: "J'ai entendu que le premier rang coûte 200$ par contre." },
+        { speaker: "Jade", en: "Stop, that's cap! I saw them for $50.", fr: "Arrête, c'est un mito ! Je les ai vus à 50$." },
+        { speaker: "Leo", en: "Say less. I'm buying them now.", fr: "N'en dis pas plus. Je les achète maintenant." },
+        { speaker: "Jade", en: "You're highkey the best.", fr: "T'es vraiment le meilleur." }
       ],
       tips: [
         "💡 No Cap History: Originally from AAVE, 'cap' refers to bragging or lying. 'No cap' means you are being 100% honest.",
@@ -129,16 +129,16 @@ export const slangCourse: Course = {
         { en: "You’re bugging.", fr: "Tu déconnes.", context: "Argot américain moderne. En français on peut dire 'Tu déconnes.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Chloe", en: "Did you see Mike's post? So cringe.", fr: "T'as vu le post de Mike ? Trop gênant.", context: "Argot américain moderne. En français on peut dire 'T'as vu le post de Mike ? Trop gênant.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sam", en: "I saw it. I'm dead, the caption was so bad.", fr: "Je l'ai vu. Je suis mort, la légende était trop nulle.", context: "Argot américain moderne. En français on peut dire 'Je l'ai vu. Je suis mort, la légende était trop nulle.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chloe", en: "He seemed so hyped about it too.", fr: "Il avait l'air tellement fier de lui en plus.", context: "Argot américain moderne. En français on peut dire 'Il avait l'air tellement fier de lui en plus.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sam", en: "Honestly, I'm shook he actually posted it.", fr: "Honnêtement, je suis choqué qu'il l'ait vraiment posté.", context: "Argot américain moderne. En français on peut dire 'Honnêtement, je suis choqué qu'il l'ait vraiment posté.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chloe", en: "Are you down to tell him?", fr: "T'es chaud pour lui dire ?", context: "Argot américain moderne. En français on peut dire 'T'es chaud pour lui dire ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sam", en: "Nah, he gets triggered so easily.", fr: "Nan, il se vexe trop facilement.", context: "Argot américain moderne. En français on peut dire 'Nan, il se vexe trop facilement.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chloe", en: "True, he gets salty over nothing.", fr: "C'est vrai, il devient aigri pour rien.", context: "Argot américain moderne. En français on peut dire 'C'est vrai, il devient aigri pour rien.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sam", en: "Let's just stay chill and ignore it.", fr: "Restons tranquilles et ignorons-le.", context: "Argot américain moderne. En français on peut dire 'Restons tranquilles et ignorons-le.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chloe", en: "Mood. I'm too tired for drama.", fr: "Même délire. Je suis trop fatiguée pour les histoires.", context: "Argot américain moderne. En français on peut dire 'Même délire. Je suis trop fatiguée pour les histoires.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sam", en: "Same here. That's wild though.", fr: "Pareil. C'est fou quand même.", context: "Argot américain moderne. En français on peut dire 'Pareil. C'est fou quand même.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Chloe", en: "Did you see Mike's post? So cringe.", fr: "T'as vu le post de Mike ? Trop gênant." },
+        { speaker: "Sam", en: "I saw it. I'm dead, the caption was so bad.", fr: "Je l'ai vu. Je suis mort, la légende était trop nulle." },
+        { speaker: "Chloe", en: "He seemed so hyped about it too.", fr: "Il avait l'air tellement fier de lui en plus." },
+        { speaker: "Sam", en: "Honestly, I'm shook he actually posted it.", fr: "Honnêtement, je suis choqué qu'il l'ait vraiment posté." },
+        { speaker: "Chloe", en: "Are you down to tell him?", fr: "T'es chaud pour lui dire ?" },
+        { speaker: "Sam", en: "Nah, he gets triggered so easily.", fr: "Nan, il se vexe trop facilement." },
+        { speaker: "Chloe", en: "True, he gets salty over nothing.", fr: "C'est vrai, il devient aigri pour rien." },
+        { speaker: "Sam", en: "Let's just stay chill and ignore it.", fr: "Restons tranquilles et ignorons-le." },
+        { speaker: "Chloe", en: "Mood. I'm too tired for drama.", fr: "Même délire. Je suis trop fatiguée pour les histoires." },
+        { speaker: "Sam", en: "Same here. That's wild though.", fr: "Pareil. C'est fou quand même." }
       ],
       tips: [
         "💡 I can't even: This incomplete sentence is used when something is so overwhelming (positively or negatively) that you can't finish your thought.",
@@ -197,16 +197,16 @@ export const slangCourse: Course = {
         { en: "Touch grass.", fr: "Va voir dehors / Reviens à la réalité.", context: "Argot américain moderne. En français on peut dire 'Va voir dehors / Reviens à la réalité.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Alex", en: "Did you see that TikTok? It went viral overnight.", fr: "T'as vu ce TikTok ? C'est devenu viral en une nuit.", context: "Argot américain moderne. En français on peut dire 'T'as vu ce TikTok ? C'est devenu viral en une nuit.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Riley", en: "Yeah, she really has main character energy.", fr: "Ouais, elle a vraiment une aura de star.", context: "Argot américain moderne. En français on peut dire 'Ouais, elle a vraiment une aura de star.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Alex", en: "And the comments? They were ratioing the haters.", fr: "Et les commentaires ? Ils remballaient tous les rageux.", context: "Argot américain moderne. En français on peut dire 'Et les commentaires ? Ils remballaient tous les rageux.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Riley", en: "I saw! Someone asked for receipts and she posted them.", fr: "J'ai vu ! Quelqu'un a demandé des preuves et elle les a postées.", context: "Argot américain moderne. En français on peut dire 'J'ai vu ! Quelqu'un a demandé des preuves et elle les a postées.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Alex", en: "Spill the tea, what were they?", fr: "Balance les potins, c'était quoi ?", context: "Argot américain moderne. En français on peut dire 'Balance les potins, c'était quoi ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Riley", en: "Screen recordings of him ghosting her.", fr: "Des captures vidéo de lui en train de l'ignorer.", context: "Argot américain moderne. En français on peut dire 'Des captures vidéo de lui en train de l'ignorer.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Alex", en: "No cap? That's savage.", fr: "Sans mentir ? C'est violent.", context: "Argot américain moderne. En français on peut dire 'Sans mentir ? C'est violent.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Riley", en: "He's canceled for sure now.", fr: "Il est fini (boycotté) pour de bon maintenant.", context: "Argot américain moderne. En français on peut dire 'Il est fini (boycotté) pour de bon maintenant.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Alex", en: "I'm literally screaming at the drama.", fr: "Je hurle devant tant d'histoires.", context: "Argot américain moderne. En français on peut dire 'Je hurle devant tant d'histoires.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Riley", en: "Same. I live for this.", fr: "Pareil. Je vis pour ça.", context: "Argot américain moderne. En français on peut dire 'Pareil. Je vis pour ça.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Alex", en: "Did you see that TikTok? It went viral overnight.", fr: "T'as vu ce TikTok ? C'est devenu viral en une nuit." },
+        { speaker: "Riley", en: "Yeah, she really has main character energy.", fr: "Ouais, elle a vraiment une aura de star." },
+        { speaker: "Alex", en: "And the comments? They were ratioing the haters.", fr: "Et les commentaires ? Ils remballaient tous les rageux." },
+        { speaker: "Riley", en: "I saw! Someone asked for receipts and she posted them.", fr: "J'ai vu ! Quelqu'un a demandé des preuves et elle les a postées." },
+        { speaker: "Alex", en: "Spill the tea, what were they?", fr: "Balance les potins, c'était quoi ?" },
+        { speaker: "Riley", en: "Screen recordings of him ghosting her.", fr: "Des captures vidéo de lui en train de l'ignorer." },
+        { speaker: "Alex", en: "No cap? That's savage.", fr: "Sans mentir ? C'est violent." },
+        { speaker: "Riley", en: "He's canceled for sure now.", fr: "Il est fini (boycotté) pour de bon maintenant." },
+        { speaker: "Alex", en: "I'm literally screaming at the drama.", fr: "Je hurle devant tant d'histoires." },
+        { speaker: "Riley", en: "Same. I live for this.", fr: "Pareil. Je vis pour ça." }
       ],
       tips: [
         "💡 The GOAT: GOAT stands for 'Greatest Of All Time'. It's the highest praise you can give an athlete or artist.",
@@ -265,16 +265,16 @@ export const slangCourse: Course = {
         { en: "Ballin' on a budget.", fr: "Faire le riche avec peu de moyens.", context: "Argot américain moderne. En français on peut dire 'Faire le riche avec peu de moyens.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Ben", en: "Yo, are we still going out tonight?", fr: "Yo, on sort toujours ce soir ?", context: "Argot américain moderne. En français on peut dire 'Yo, on sort toujours ce soir ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Marc", en: "I can't, man. I'm broke until Friday.", fr: "Je peux pas, mec. Je suis à sec jusqu'à vendredi.", context: "Argot américain moderne. En français on peut dire 'Je peux pas, mec. Je suis à sec jusqu'à vendredi.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ben", en: "Didn't you just get your paycheck?", fr: "Tu viens pas de recevoir ta paie ?", context: "Argot américain moderne. En français on peut dire 'Tu viens pas de recevoir ta paie ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Marc", en: "Yeah, but I had to pay rent and my car. It's tough.", fr: "Ouais, mais j'ai dû payer le loyer et ma caisse. C'est dur.", context: "Argot américain moderne. En français on peut dire 'Ouais, mais j'ai dû payer le loyer et ma caisse. C'est dur.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ben", en: "You need a side hustle, for real.", fr: "Il te faut un job d'appoint, sérieux.", context: "Argot américain moderne. En français on peut dire 'Il te faut un job d'appoint, sérieux.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Marc", en: "I know. I'm trying to start flipping vintage clothes.", fr: "Je sais. J'essaie de commencer à revendre des vêtements vintage.", context: "Argot américain moderne. En français on peut dire 'Je sais. J'essaie de commencer à revendre des vêtements vintage.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ben", en: "That's a good grind. You can make some serious guap.", fr: "C'est un bon plan. Tu peux te faire un max de thune.", context: "Argot américain moderne. En français on peut dire 'C'est un bon plan. Tu peux te faire un max de thune.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Marc", en: "I hope so. I'm tired of being a broke boy.", fr: "J'espère. J'en ai marre d'être fauché.", context: "Argot américain moderne. En français on peut dire 'J'espère. J'en ai marre d'être fauché.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ben", en: "Secure the bag first, then we can ball out.", fr: "Prends l'oseille d'abord, après on fera les fous.", context: "Argot américain moderne. En français on peut dire 'Prends l'oseille d'abord, après on fera les fous.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Marc", en: "Facts. Back to the grind for me.", fr: "C'est clair. Retour au charbon pour moi.", context: "Argot américain moderne. En français on peut dire 'C'est clair. Retour au charbon pour moi.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Ben", en: "Yo, are we still going out tonight?", fr: "Yo, on sort toujours ce soir ?" },
+        { speaker: "Marc", en: "I can't, man. I'm broke until Friday.", fr: "Je peux pas, mec. Je suis à sec jusqu'à vendredi." },
+        { speaker: "Ben", en: "Didn't you just get your paycheck?", fr: "Tu viens pas de recevoir ta paie ?" },
+        { speaker: "Marc", en: "Yeah, but I had to pay rent and my car. It's tough.", fr: "Ouais, mais j'ai dû payer le loyer et ma caisse. C'est dur." },
+        { speaker: "Ben", en: "You need a side hustle, for real.", fr: "Il te faut un job d'appoint, sérieux." },
+        { speaker: "Marc", en: "I know. I'm trying to start flipping vintage clothes.", fr: "Je sais. J'essaie de commencer à revendre des vêtements vintage." },
+        { speaker: "Ben", en: "That's a good grind. You can make some serious guap.", fr: "C'est un bon plan. Tu peux te faire un max de thune." },
+        { speaker: "Marc", en: "I hope so. I'm tired of being a broke boy.", fr: "J'espère. J'en ai marre d'être fauché." },
+        { speaker: "Ben", en: "Secure the bag first, then we can ball out.", fr: "Prends l'oseille d'abord, après on fera les fous." },
+        { speaker: "Marc", en: "Facts. Back to the grind for me.", fr: "C'est clair. Retour au charbon pour moi." }
       ],
       tips: [
         "💡 Bread, Dough, Cheese: American slang uses many food words for money. This dates back to when bread was the primary necessity of life.",
@@ -333,16 +333,16 @@ export const slangCourse: Course = {
         { en: "There's no spark.", fr: "Il n'y a pas d'étincelle.", context: "Argot américain moderne. En français on peut dire 'Il n'y a pas d'étincelle.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Sarah", en: "So, are you and Tom official yet?", fr: "Alors, c'est officiel entre toi et Tom ?", context: "Argot américain moderne. En français on peut dire 'Alors, c'est officiel entre toi et Tom ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mia", en: "No, we're still in the talking stage.", fr: "Non, on en est encore à la phase où on discute.", context: "Argot américain moderne. En français on peut dire 'Non, on en est encore à la phase où on discute.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sarah", en: "It's been three months! You need to DTR.", fr: "Ça fait trois mois ! Tu dois définir la relation.", context: "Argot américain moderne. En français on peut dire 'Ça fait trois mois ! Tu dois définir la relation.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mia", en: "I know, but I'm scared he'll ghost me.", fr: "Je sais, mais j'ai peur qu'il me ghoste.", context: "Argot américain moderne. En français on peut dire 'Je sais, mais j'ai peur qu'il me ghoste.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sarah", en: "If he does, that's a major red flag anyway.", fr: "S'il le fait, c'est un énorme signe d'alerte de toute façon.", context: "Argot américain moderne. En français on peut dire 'S'il le fait, c'est un énorme signe d'alerte de toute façon.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mia", en: "True. But he has so much rizz, it's hard to stay mad.", fr: "C'est vrai. Mais il a tellement de charisme, c'est dur de rester fâchée.", context: "Argot américain moderne. En français on peut dire 'C'est vrai. Mais il a tellement de charisme, c'est dur de rester fâchée.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sarah", en: "Don't let the rizz blind you. Is he breadcrumbing?", fr: "Ne laisse pas son charisme t'aveugler. Est-ce qu'il te mène en bateau ?", context: "Argot américain moderne. En français on peut dire 'Ne laisse pas son charisme t'aveugler. Est-ce qu'il te mène en bateau ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mia", en: "Maybe a little. Sometimes he leaves me on read for hours.", fr: "Un peu peut-être. Parfois il me laisse en 'vu' pendant des heures.", context: "Argot américain moderne. En français on peut dire 'Un peu peut-être. Parfois il me laisse en 'vu' pendant des heures.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sarah", en: "Girl, shoot your shot and ask him where this is going.", fr: "Ma belle, tente le coup et demande-lui où ça mène.", context: "Argot américain moderne. En français on peut dire 'Ma belle, tente le coup et demande-lui où ça mène.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mia", en: "You're right. No more situationship for me.", fr: "T'as raison. Fini les relations ambiguës pour moi.", context: "Argot américain moderne. En français on peut dire 'T'as raison. Fini les relations ambiguës pour moi.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Sarah", en: "So, are you and Tom official yet?", fr: "Alors, c'est officiel entre toi et Tom ?" },
+        { speaker: "Mia", en: "No, we're still in the talking stage.", fr: "Non, on en est encore à la phase où on discute." },
+        { speaker: "Sarah", en: "It's been three months! You need to DTR.", fr: "Ça fait trois mois ! Tu dois définir la relation." },
+        { speaker: "Mia", en: "I know, but I'm scared he'll ghost me.", fr: "Je sais, mais j'ai peur qu'il me ghoste." },
+        { speaker: "Sarah", en: "If he does, that's a major red flag anyway.", fr: "S'il le fait, c'est un énorme signe d'alerte de toute façon." },
+        { speaker: "Mia", en: "True. But he has so much rizz, it's hard to stay mad.", fr: "C'est vrai. Mais il a tellement de charisme, c'est dur de rester fâchée." },
+        { speaker: "Sarah", en: "Don't let the rizz blind you. Is he breadcrumbing?", fr: "Ne laisse pas son charisme t'aveugler. Est-ce qu'il te mène en bateau ?" },
+        { speaker: "Mia", en: "Maybe a little. Sometimes he leaves me on read for hours.", fr: "Un peu peut-être. Parfois il me laisse en 'vu' pendant des heures." },
+        { speaker: "Sarah", en: "Girl, shoot your shot and ask him where this is going.", fr: "Ma belle, tente le coup et demande-lui où ça mène." },
+        { speaker: "Mia", en: "You're right. No more situationship for me.", fr: "T'as raison. Fini les relations ambiguës pour moi." }
       ],
       tips: [
         "💡 Cuffing Season: Occurs during the colder months when single people actively seek serious relationships to have someone to stay inside with.",
@@ -401,16 +401,16 @@ export const slangCourse: Course = {
         { en: "Bye Felicia.", fr: "Salut, on s'en fiche de toi.", context: "Argot américain moderne. En français on peut dire 'Salut, on s'en fiche de toi.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Kevin", en: "I would have won if the ref was fair.", fr: "J'aurais gagné si l'arbitre avait été juste.", context: "Argot américain moderne. En français on peut dire 'J'aurais gagné si l'arbitre avait été juste.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Emma", en: "Stop being salty, Kevin. You lost.", fr: "Arrête d'être aigri, Kevin. T'as perdu.", context: "Argot américain moderne. En français on peut dire 'Arrête d'être aigri, Kevin. T'as perdu.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kevin", en: "Yeah, well, at least I didn't get roasted in the comments like you.", fr: "Ouais, enfin, au moins je me suis pas fait vanner dans les comms comme toi.", context: "Argot américain moderne. En français on peut dire 'Ouais, enfin, au moins je me suis pas fait vanner dans les comms comme toi.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Emma", en: "That wasn't a roast, that was just one hater.", fr: "C'était pas une vanne, c'était juste un rageux.", context: "Argot américain moderne. En français on peut dire 'C'était pas une vanne, c'était juste un rageux.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kevin", en: "One hater? You got ratio'd by everyone.", fr: "Un rageux ? Tout le monde t'a descendu.", context: "Argot américain moderne. En français on peut dire 'Un rageux ? Tout le monde t'a descendu.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Emma", en: "Whatever. Just take the L and go home.", fr: "Peu importe. Accepte la défaite et rentre chez toi.", context: "Argot américain moderne. En français on peut dire 'Peu importe. Accepte la défaite et rentre chez toi.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kevin", en: "You're so petty, honestly.", fr: "T'es tellement mesquine, franchement.", context: "Argot américain moderne. En français on peut dire 'T'es tellement mesquine, franchement.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Emma", en: "And you're being extra. Stay in your lane.", fr: "Et toi t'en fais trop. Mêle-toi de tes affaires.", context: "Argot américain moderne. En français on peut dire 'Et toi t'en fais trop. Mêle-toi de tes affaires.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kevin", en: "Fine. W for you today I guess.", fr: "C'est bon. Victoire pour toi aujourd'hui j'imagine.", context: "Argot américain moderne. En français on peut dire 'C'est bon. Victoire pour toi aujourd'hui j'imagine.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Emma", en: "Period. Bye Felicia!", fr: "Point final. Salut, on s'en fout !", context: "Argot américain moderne. En français on peut dire 'Point final. Salut, on s'en fout !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Kevin", en: "I would have won if the ref was fair.", fr: "J'aurais gagné si l'arbitre avait été juste." },
+        { speaker: "Emma", en: "Stop being salty, Kevin. You lost.", fr: "Arrête d'être aigri, Kevin. T'as perdu." },
+        { speaker: "Kevin", en: "Yeah, well, at least I didn't get roasted in the comments like you.", fr: "Ouais, enfin, au moins je me suis pas fait vanner dans les comms comme toi." },
+        { speaker: "Emma", en: "That wasn't a roast, that was just one hater.", fr: "C'était pas une vanne, c'était juste un rageux." },
+        { speaker: "Kevin", en: "One hater? You got ratio'd by everyone.", fr: "Un rageux ? Tout le monde t'a descendu." },
+        { speaker: "Emma", en: "Whatever. Just take the L and go home.", fr: "Peu importe. Accepte la défaite et rentre chez toi." },
+        { speaker: "Kevin", en: "You're so petty, honestly.", fr: "T'es tellement mesquine, franchement." },
+        { speaker: "Emma", en: "And you're being extra. Stay in your lane.", fr: "Et toi t'en fais trop. Mêle-toi de tes affaires." },
+        { speaker: "Kevin", en: "Fine. W for you today I guess.", fr: "C'est bon. Victoire pour toi aujourd'hui j'imagine." },
+        { speaker: "Emma", en: "Period. Bye Felicia!", fr: "Point final. Salut, on s'en fout !" }
       ],
       tips: [
         "💡 Throwing Shade: This means giving someone a dirty look or making a subtle, indirect insult. It's an art form in American pop culture.",
@@ -469,16 +469,16 @@ export const slangCourse: Course = {
         { en: "Keep the change.", fr: "Garde la monnaie.", context: "Argot américain moderne. En français on peut dire 'Garde la monnaie.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Lily", en: "I'm so hangry right now.", fr: "J'ai trop faim, je suis de mauvaise humeur.", context: "Argot américain moderne. En français on peut dire 'J'ai trop faim, je suis de mauvaise humeur.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Max", en: "Same, let's go get some grub.", fr: "Pareil, allons chercher de la bouffe.", context: "Argot américain moderne. En français on peut dire 'Pareil, allons chercher de la bouffe.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Lily", en: "I heard that new taco spot slaps.", fr: "J'ai entendu dire que le nouveau resto de tacos est trop bon.", context: "Argot américain moderne. En français on peut dire 'J'ai entendu dire que le nouveau resto de tacos est trop bon.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Max", en: "For real? Or is it just mid?", fr: "Sérieux ? Ou c'est juste bof ?", context: "Argot américain moderne. En français on peut dire 'Sérieux ? Ou c'est juste bof ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Lily", en: "Everyone says it's bussin, no cap.", fr: "Tout le monde dit que c'est une tuerie, sans mentir.", context: "Argot américain moderne. En français on peut dire 'Tout le monde dit que c'est une tuerie, sans mentir.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Max", en: "Bet. Let's head there now.", fr: "Carrément. On y va maintenant.", context: "Argot américain moderne. En français on peut dire 'Carrément. On y va maintenant.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Lily", en: "Look at the menu. My mouth is watering.", fr: "Regarde le menu. J'en ai l'eau à la bouche.", context: "Argot américain moderne. En français on peut dire 'Regarde le menu. J'en ai l'eau à la bouche.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Max", en: "I'm getting the spicy nachos as an appetizer.", fr: "Je prends les nachos épicés en entrée.", context: "Argot américain moderne. En français on peut dire 'Je prends les nachos épicés en entrée.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Lily", en: "I'm gonna be in a food coma after this.", fr: "Je vais être en plein coma digestif après ça.", context: "Argot américain moderne. En français on peut dire 'Je vais être en plein coma digestif après ça.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Max", en: "Worth it. Let's dig in!", fr: "Ça vaut le coup. Bon app' !", context: "Argot américain moderne. En français on peut dire 'Ça vaut le coup. Bon app' !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Lily", en: "I'm so hangry right now.", fr: "J'ai trop faim, je suis de mauvaise humeur." },
+        { speaker: "Max", en: "Same, let's go get some grub.", fr: "Pareil, allons chercher de la bouffe." },
+        { speaker: "Lily", en: "I heard that new taco spot slaps.", fr: "J'ai entendu dire que le nouveau resto de tacos est trop bon." },
+        { speaker: "Max", en: "For real? Or is it just mid?", fr: "Sérieux ? Ou c'est juste bof ?" },
+        { speaker: "Lily", en: "Everyone says it's bussin, no cap.", fr: "Tout le monde dit que c'est une tuerie, sans mentir." },
+        { speaker: "Max", en: "Bet. Let's head there now.", fr: "Carrément. On y va maintenant." },
+        { speaker: "Lily", en: "Look at the menu. My mouth is watering.", fr: "Regarde le menu. J'en ai l'eau à la bouche." },
+        { speaker: "Max", en: "I'm getting the spicy nachos as an appetizer.", fr: "Je prends les nachos épicés en entrée." },
+        { speaker: "Lily", en: "I'm gonna be in a food coma after this.", fr: "Je vais être en plein coma digestif après ça." },
+        { speaker: "Max", en: "Worth it. Let's dig in!", fr: "Ça vaut le coup. Bon app' !" }
       ],
       tips: [
         "💡 Entrée Confusion: In the USA, 'Entrée' means the main course. In French (and British English), it means the starter or appetizer.",
@@ -537,16 +537,16 @@ export const slangCourse: Course = {
         { en: "Cheers!", fr: "Santé !", context: "Argot américain moderne. En français on peut dire 'Santé !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Jake", en: "Yo, you coming to the kickback tonight?", fr: "Yo, tu viens à la petite soirée ce soir ?", context: "Argot américain moderne. En français on peut dire 'Yo, tu viens à la petite soirée ce soir ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Zoey", en: "Maybe. Is it BYOB or is there an open bar?", fr: "Peut-être. Faut ramener à boire ou c'est gratuit ?", context: "Argot américain moderne. En français on peut dire 'Peut-être. Faut ramener à boire ou c'est gratuit ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "It's BYOB, but I'm going to pregame at my place first.", fr: "Faut ramener son alcool, mais je vais prendre l'apéro chez moi avant.", context: "Argot américain moderne. En français on peut dire 'Faut ramener son alcool, mais je vais prendre l'apéro chez moi avant.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Zoey", en: "Cool. Don't get wasted before we even get there.", fr: "Cool. Te mets pas minable avant même qu'on y soit.", context: "Argot américain moderne. En français on peut dire 'Cool. Te mets pas minable avant même qu'on y soit.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "Don't worry, I'm just looking for a little buzz.", fr: "T'inquiète, je cherche juste à être un peu pompette.", context: "Argot américain moderne. En français on peut dire 'T'inquiète, je cherche juste à être un peu pompette.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Zoey", en: "Last time you said that, you had a total blackout.", fr: "La dernière fois que t'as dit ça, t'as eu un trou noir total.", context: "Argot américain moderne. En français on peut dire 'La dernière fois que t'as dit ça, t'as eu un trou noir total.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "That was different, it was my birthday!", fr: "C'était différent, c'était mon anniv !", context: "Argot américain moderne. En français on peut dire 'C'était différent, c'était mon anniv !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Zoey", en: "True. Who is the designated driver tonight?", fr: "C'est vrai. C'est qui Sam (qui conduit) ce soir ?", context: "Argot américain moderne. En français on peut dire 'C'est vrai. C'est qui Sam (qui conduit) ce soir ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "Mark is staying sober. He's the DD.", fr: "Mark reste sobre. C'est lui qui conduit.", context: "Argot américain moderne. En français on peut dire 'Mark reste sobre. C'est lui qui conduit.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Zoey", en: "Perfect. Let's get turnt!", fr: "Parfait. On va mettre le feu !", context: "Argot américain moderne. En français on peut dire 'Parfait. On va mettre le feu !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Jake", en: "Yo, you coming to the kickback tonight?", fr: "Yo, tu viens à la petite soirée ce soir ?" },
+        { speaker: "Zoey", en: "Maybe. Is it BYOB or is there an open bar?", fr: "Peut-être. Faut ramener à boire ou c'est gratuit ?" },
+        { speaker: "Jake", en: "It's BYOB, but I'm going to pregame at my place first.", fr: "Faut ramener son alcool, mais je vais prendre l'apéro chez moi avant." },
+        { speaker: "Zoey", en: "Cool. Don't get wasted before we even get there.", fr: "Cool. Te mets pas minable avant même qu'on y soit." },
+        { speaker: "Jake", en: "Don't worry, I'm just looking for a little buzz.", fr: "T'inquiète, je cherche juste à être un peu pompette." },
+        { speaker: "Zoey", en: "Last time you said that, you had a total blackout.", fr: "La dernière fois que t'as dit ça, t'as eu un trou noir total." },
+        { speaker: "Jake", en: "That was different, it was my birthday!", fr: "C'était différent, c'était mon anniv !" },
+        { speaker: "Zoey", en: "True. Who is the designated driver tonight?", fr: "C'est vrai. C'est qui Sam (qui conduit) ce soir ?" },
+        { speaker: "Jake", en: "Mark is staying sober. He's the DD.", fr: "Mark reste sobre. C'est lui qui conduit." },
+        { speaker: "Zoey", en: "Perfect. Let's get turnt!", fr: "Parfait. On va mettre le feu !" }
       ],
       tips: [
         "💡 Pregaming: Common in the US because drinks at bars/clubs are expensive. People drink cheaper alcohol at home before going out.",
@@ -605,16 +605,16 @@ export const slangCourse: Course = {
         { en: "Total smoke show.", fr: "Une vraie bombe.", context: "Argot américain moderne. En français on peut dire 'Une vraie bombe.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Maya", en: "Girl, your fit is fire today!", fr: "Ma belle, ta tenue est incroyable aujourd'hui !", context: "Argot américain moderne. En français on peut dire 'Ma belle, ta tenue est incroyable aujourd'hui !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chloe", en: "Thanks! I'm trying to have that main character energy.", fr: "Merci ! J'essaie d'avoir un peu cette aura de star.", context: "Argot américain moderne. En français on peut dire 'Merci ! J'essaie d'avoir un peu cette aura de star.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Maya", en: "Well, you're definitely killing it. The drip is real.", fr: "Eh bien, tu déchires tout, c'est sûr. Ton style est au top.", context: "Argot américain moderne. En français on peut dire 'Eh bien, tu déchires tout, c'est sûr. Ton style est au top.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chloe", en: "You think so? I was worried it was too extra.", fr: "Tu trouves ? J'avais peur que ce soit un peu trop.", context: "Argot américain moderne. En français on peut dire 'Tu trouves ? J'avais peur que ce soit un peu trop.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Maya", en: "No way, it's clean. Is that a new jacket?", fr: "Pas du tout, c'est niquel. C'est une nouvelle veste ?", context: "Argot américain moderne. En français on peut dire 'Pas du tout, c'est niquel. C'est une nouvelle veste ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chloe", en: "Yeah, I got it after my glow up last month.", fr: "Ouais, je l'ai achetée après mon changement de look le mois dernier.", context: "Argot américain moderne. En français on peut dire 'Ouais, je l'ai achetée après mon changement de look le mois dernier.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Maya", en: "Honestly, you ate. I need to get one too.", fr: "Franchement, t'as tout déchiré. Il m'en faut une aussi.", context: "Argot américain moderne. En français on peut dire 'Franchement, t'as tout déchiré. Il m'en faut une aussi.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chloe", en: "We can be outfit goals together!", fr: "On pourra être le duo de choc ensemble !", context: "Argot américain moderne. En français on peut dire 'On pourra être le duo de choc ensemble !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Maya", en: "Bet. Let's take some photos for the 'gram.", fr: "Carrément. Prenons des photos pour Insta.", context: "Argot américain moderne. En français on peut dire 'Carrément. Prenons des photos pour Insta.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chloe", en: "Yesss, slay!", fr: "Grave, on va tout casser !", context: "Argot américain moderne. En français on peut dire 'Grave, on va tout casser !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Maya", en: "Girl, your fit is fire today!", fr: "Ma belle, ta tenue est incroyable aujourd'hui !" },
+        { speaker: "Chloe", en: "Thanks! I'm trying to have that main character energy.", fr: "Merci ! J'essaie d'avoir un peu cette aura de star." },
+        { speaker: "Maya", en: "Well, you're definitely killing it. The drip is real.", fr: "Eh bien, tu déchires tout, c'est sûr. Ton style est au top." },
+        { speaker: "Chloe", en: "You think so? I was worried it was too extra.", fr: "Tu trouves ? J'avais peur que ce soit un peu trop." },
+        { speaker: "Maya", en: "No way, it's clean. Is that a new jacket?", fr: "Pas du tout, c'est niquel. C'est une nouvelle veste ?" },
+        { speaker: "Chloe", en: "Yeah, I got it after my glow up last month.", fr: "Ouais, je l'ai achetée après mon changement de look le mois dernier." },
+        { speaker: "Maya", en: "Honestly, you ate. I need to get one too.", fr: "Franchement, t'as tout déchiré. Il m'en faut une aussi." },
+        { speaker: "Chloe", en: "We can be outfit goals together!", fr: "On pourra être le duo de choc ensemble !" },
+        { speaker: "Maya", en: "Bet. Let's take some photos for the 'gram.", fr: "Carrément. Prenons des photos pour Insta." },
+        { speaker: "Chloe", en: "Yesss, slay!", fr: "Grave, on va tout casser !" }
       ],
       tips: [
         "💡 Bad vs. Baddie: In slang, 'bad' often means good or attractive. A 'baddie' is a woman who is confident, attractive, and stylish.",
@@ -673,16 +673,16 @@ export const slangCourse: Course = {
         { en: "I guess so.", fr: "J'imagine.", context: "Argot américain moderne. En français on peut dire 'J'imagine.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Ryan", en: "That party was way too loud.", fr: "Cette fête était beaucoup trop bruyante.", context: "Argot américain moderne. En français on peut dire 'Cette fête était beaucoup trop bruyante.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Nate", en: "Facts. I could barely hear myself think.", fr: "C'est clair. Je m'entendais même pas réfléchir.", context: "Argot américain moderne. En français on peut dire 'C'est clair. Je m'entendais même pas réfléchir.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ryan", en: "We should just stay home next time.", fr: "On devrait juste rester à la maison la prochaine fois.", context: "Argot américain moderne. En français on peut dire 'On devrait juste rester à la maison la prochaine fois.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Nate", en: "Mood. I'm getting too old for clubs.", fr: "C'est tout à fait moi. Je deviens trop vieux pour les boîtes.", context: "Argot américain moderne. En français on peut dire 'C'est tout à fait moi. Je deviens trop vieux pour les boîtes.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ryan", en: "The drinks weren't even good either.", fr: "Les boissons n'étaient même pas bonnes non plus.", context: "Argot américain moderne. En français on peut dire 'Les boissons n'étaient même pas bonnes non plus.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Nate", en: "Say less. Terrible vibes all around.", fr: "N'en dis pas plus. Ambiance nulle sur toute la ligne.", context: "Argot américain moderne. En français on peut dire 'N'en dis pas plus. Ambiance nulle sur toute la ligne.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ryan", en: "Wanna get burgers instead?", fr: "Tu veux aller manger des burgers à la place ?", context: "Argot américain moderne. En français on peut dire 'Tu veux aller manger des burgers à la place ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Nate", en: "Bet. I'm starving, no cap.", fr: "Ok. Je meurs de faim, sans mentir.", context: "Argot américain moderne. En français on peut dire 'Ok. Je meurs de faim, sans mentir.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ryan", en: "Is that place on 5th street open?", fr: "L'endroit sur la 5ème rue est ouvert ?", context: "Argot américain moderne. En français on peut dire 'L'endroit sur la 5ème rue est ouvert ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Nate", en: "Fosho. Let's head out.", fr: "Grave. On y va.", context: "Argot américain moderne. En français on peut dire 'Grave. On y va.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Ryan", en: "That party was way too loud.", fr: "Cette fête était beaucoup trop bruyante." },
+        { speaker: "Nate", en: "Facts. I could barely hear myself think.", fr: "C'est clair. Je m'entendais même pas réfléchir." },
+        { speaker: "Ryan", en: "We should just stay home next time.", fr: "On devrait juste rester à la maison la prochaine fois." },
+        { speaker: "Nate", en: "Mood. I'm getting too old for clubs.", fr: "C'est tout à fait moi. Je deviens trop vieux pour les boîtes." },
+        { speaker: "Ryan", en: "The drinks weren't even good either.", fr: "Les boissons n'étaient même pas bonnes non plus." },
+        { speaker: "Nate", en: "Say less. Terrible vibes all around.", fr: "N'en dis pas plus. Ambiance nulle sur toute la ligne." },
+        { speaker: "Ryan", en: "Wanna get burgers instead?", fr: "Tu veux aller manger des burgers à la place ?" },
+        { speaker: "Nate", en: "Bet. I'm starving, no cap.", fr: "Ok. Je meurs de faim, sans mentir." },
+        { speaker: "Ryan", en: "Is that place on 5th street open?", fr: "L'endroit sur la 5ème rue est ouvert ?" },
+        { speaker: "Nate", en: "Fosho. Let's head out.", fr: "Grave. On y va." }
       ],
       tips: [
         "💡 Period.: Used at the end of a statement to indicate it is final and non-negotiable.",
@@ -741,16 +741,16 @@ export const slangCourse: Course = {
         { en: "Iykyk, best night ever.", fr: "Ceux qui savent savent, meilleure soirée.", context: "Argot américain moderne. En français on peut dire 'Ceux qui savent savent, meilleure soirée.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Kim", en: "OMG did you see what he posted?", fr: "OMG t'as vu ce qu'il a posté ?", context: "Argot américain moderne. En français on peut dire 'OMG t'as vu ce qu'il a posté ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tess", en: "NGL I haven't checked Insta yet, why?", fr: "Je vais pas mentir, j'ai pas encore regardé Insta, pourquoi ?", context: "Argot américain moderne. En français on peut dire 'Je vais pas mentir, j'ai pas encore regardé Insta, pourquoi ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kim", en: "Tbh he’s acting so thirsty smh.", fr: "Franchement, il est tellement en manque d'attention, j'te jure.", context: "Argot américain moderne. En français on peut dire 'Franchement, il est tellement en manque d'attention, j'te jure.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tess", en: "Lmao he's always like that tho.", fr: "Lmao il est toujours comme ça pourtant.", context: "Argot américain moderne. En français on peut dire 'Lmao il est toujours comme ça pourtant.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kim", en: "FR FR he needs a life rn.", fr: "Pour de vrai, il lui faut une vie là.", context: "Argot américain moderne. En français on peut dire 'Pour de vrai, il lui faut une vie là.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tess", en: "Check your DMs, I sent you a meme about it.", fr: "Regarde tes messages privés, je t'ai envoyé un meme là-dessus.", context: "Argot américain moderne. En français on peut dire 'Regarde tes messages privés, je t'ai envoyé un meme là-dessus.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kim", en: "I'm weak!! That's exactly him.", fr: "Je suis morte !! C'est exactement lui.", context: "Argot américain moderne. En français on peut dire 'Je suis morte !! C'est exactement lui.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tess", en: "IKR? Anyway, brb gotta eat.", fr: "Je sais, non ? Bref, je reviens, je dois manger.", context: "Argot américain moderne. En français on peut dire 'Je sais, non ? Bref, je reviens, je dois manger.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kim", en: "K, hmu later!", fr: "Ok, fais-moi signe plus tard !", context: "Argot américain moderne. En français on peut dire 'Ok, fais-moi signe plus tard !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tess", en: "Fosho, bye!", fr: "Grave, salut !", context: "Argot américain moderne. En français on peut dire 'Grave, salut !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Kim", en: "OMG did you see what he posted?", fr: "OMG t'as vu ce qu'il a posté ?" },
+        { speaker: "Tess", en: "NGL I haven't checked Insta yet, why?", fr: "Je vais pas mentir, j'ai pas encore regardé Insta, pourquoi ?" },
+        { speaker: "Kim", en: "Tbh he’s acting so thirsty smh.", fr: "Franchement, il est tellement en manque d'attention, j'te jure." },
+        { speaker: "Tess", en: "Lmao he's always like that tho.", fr: "Lmao il est toujours comme ça pourtant." },
+        { speaker: "Kim", en: "FR FR he needs a life rn.", fr: "Pour de vrai, il lui faut une vie là." },
+        { speaker: "Tess", en: "Check your DMs, I sent you a meme about it.", fr: "Regarde tes messages privés, je t'ai envoyé un meme là-dessus." },
+        { speaker: "Kim", en: "I'm weak!! That's exactly him.", fr: "Je suis morte !! C'est exactement lui." },
+        { speaker: "Tess", en: "IKR? Anyway, brb gotta eat.", fr: "Je sais, non ? Bref, je reviens, je dois manger." },
+        { speaker: "Kim", en: "K, hmu later!", fr: "Ok, fais-moi signe plus tard !" },
+        { speaker: "Tess", en: "Fosho, bye!", fr: "Grave, salut !" }
       ],
       tips: [
         "💡 Uppercase vs Lowercase: In texting, using CALL CAPS can mean you are shouting. Lowercase is more casual and 'chill'.",
@@ -809,16 +809,16 @@ export const slangCourse: Course = {
         { en: "Vibe check passed.", fr: "Test de coolitude réussi.", context: "Argot américain moderne. En français on peut dire 'Test de coolitude réussi.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Ava", en: "Did you see her new post? It's giving very much Coachella.", fr: "T'as vu son nouveau post ? Ça fait très Coachella.", context: "Argot américain moderne. En français on peut dire 'T'as vu son nouveau post ? Ça fait très Coachella.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Noah", en: "She definitely understood the assignment with that outfit.", fr: "Elle a vraiment tout compris avec cette tenue.", context: "Argot américain moderne. En français on peut dire 'Elle a vraiment tout compris avec cette tenue.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ava", en: "No cap, she ate. No crumbs left.", fr: "Sans mentir, elle a tout déchiré. Rien à jeter.", context: "Argot américain moderne. En français on peut dire 'Sans mentir, elle a tout déchiré. Rien à jeter.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Noah", en: "Wait, is she dating that guy? He's so sus.", fr: "Attends, elle sort avec ce mec ? Il est trop louche.", context: "Argot américain moderne. En français on peut dire 'Attends, elle sort avec ce mec ? Il est trop louche.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ava", en: "Girl, she's so delulu if she thinks he's the one.", fr: "Ma belle, elle se fait trop de films si elle pense que c'est le bon.", context: "Argot américain moderne. En français on peut dire 'Ma belle, elle se fait trop de films si elle pense que c'est le bon.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Noah", en: "He gives me major beige flag vibes.", fr: "Il me donne une impression de mec trop bizarre.", context: "Argot américain moderne. En français on peut dire 'Il me donne une impression de mec trop bizarre.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ava", en: "Honestly, the way he talks is my Roman Empire.", fr: "Franchement, sa façon de parler m'obsède (en mal).", context: "Argot américain moderne. En français on peut dire 'Franchement, sa façon de parler m'obsède (en mal).'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Noah", en: "Anyway, I'm in my silent era. No more drama.", fr: "Bref, je suis dans ma phase silencieuse. Plus d'histoires.", context: "Argot américain moderne. En français on peut dire 'Bref, je suis dans ma phase silencieuse. Plus d'histoires.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ava", en: "Mood. Let's just vibe and touch grass.", fr: "Moi aussi. Profitons juste et sortons un peu.", context: "Argot américain moderne. En français on peut dire 'Moi aussi. Profitons juste et sortons un peu.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Noah", en: "Slay. Let's go.", fr: "Génial. On y va.", context: "Argot américain moderne. En français on peut dire 'Génial. On y va.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Ava", en: "Did you see her new post? It's giving very much Coachella.", fr: "T'as vu son nouveau post ? Ça fait très Coachella." },
+        { speaker: "Noah", en: "She definitely understood the assignment with that outfit.", fr: "Elle a vraiment tout compris avec cette tenue." },
+        { speaker: "Ava", en: "No cap, she ate. No crumbs left.", fr: "Sans mentir, elle a tout déchiré. Rien à jeter." },
+        { speaker: "Noah", en: "Wait, is she dating that guy? He's so sus.", fr: "Attends, elle sort avec ce mec ? Il est trop louche." },
+        { speaker: "Ava", en: "Girl, she's so delulu if she thinks he's the one.", fr: "Ma belle, elle se fait trop de films si elle pense que c'est le bon." },
+        { speaker: "Noah", en: "He gives me major beige flag vibes.", fr: "Il me donne une impression de mec trop bizarre." },
+        { speaker: "Ava", en: "Honestly, the way he talks is my Roman Empire.", fr: "Franchement, sa façon de parler m'obsède (en mal)." },
+        { speaker: "Noah", en: "Anyway, I'm in my silent era. No more drama.", fr: "Bref, je suis dans ma phase silencieuse. Plus d'histoires." },
+        { speaker: "Ava", en: "Mood. Let's just vibe and touch grass.", fr: "Moi aussi. Profitons juste et sortons un peu." },
+        { speaker: "Noah", en: "Slay. Let's go.", fr: "Génial. On y va." }
       ],
       tips: [
         "💡 It's giving...: This is a versatile phrase. You can say 'It's giving [Noun]' or just 'It's giving' to mean the vibe is strong/good.",
@@ -867,16 +867,16 @@ export const slangCourse: Course = {
         { en: "The ball is in your court", fr: "C'est à toi de jouer", phonetic: "se dit 'dhe bol iz in yor kort'", example: "I sent the proposal, the ball is in your court.", exampleFr: "J'ai envoyé la proposition, c'est à toi de jouer.", context: "Argot américain moderne. En français on peut dire 'C'est à toi de jouer'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Jake", en: "Bro, I'm so done with this nine-to-five.", fr: "Mec, j'en ai trop marre de ce boulot classique.", context: "Argot américain moderne. En français on peut dire 'Mec, j'en ai trop marre de ce boulot classique.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tom", en: "Same. My boss micromanages everything.", fr: "Pareil. Mon patron contrôle tout.", context: "Argot américain moderne. En français on peut dire 'Pareil. Mon patron contrôle tout.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "I've been moonlighting as a freelancer.", fr: "Je fais du freelance à côté.", context: "Argot américain moderne. En français on peut dire 'Je fais du freelance à côté.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tom", en: "For real? Is it worth the hustle?", fr: "Sérieux ? Ça vaut le coup de se défoncer ?", context: "Argot américain moderne. En français on peut dire 'Sérieux ? Ça vaut le coup de se défoncer ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "Dude, I made more last month from my side gig than my actual job.", fr: "Mec, j'ai gagné plus le mois dernier avec mon boulot à côté qu'avec mon vrai travail.", context: "Argot américain moderne. En français on peut dire 'Mec, j'ai gagné plus le mois dernier avec mon boulot à côté qu'avec mon vrai travail.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tom", en: "That's insane. I need to get out of this rat race.", fr: "C'est dingue. Faut que je sorte de cette course effrénée.", context: "Argot américain moderne. En français on peut dire 'C'est dingue. Faut que je sorte de cette course effrénée.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "Just don't slack off at work while you figure it out.", fr: "Juste glande pas au boulot pendant que tu réfléchis.", context: "Argot américain moderne. En français on peut dire 'Juste glande pas au boulot pendant que tu réfléchis.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tom", en: "True. I don't want to get the boot.", fr: "Vrai. Je veux pas me faire virer.", context: "Argot américain moderne. En français on peut dire 'Vrai. Je veux pas me faire virer.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "Exactly. Play it cool, then make your move.", fr: "Exactement. Joue-la cool, puis fais ton move.", context: "Argot américain moderne. En français on peut dire 'Exactement. Joue-la cool, puis fais ton move.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tom", en: "Respect the grind, bro.", fr: "Respect le travail, mec.", context: "Argot américain moderne. En français on peut dire 'Respect le travail, mec.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Jake", en: "Bro, I'm so done with this nine-to-five.", fr: "Mec, j'en ai trop marre de ce boulot classique." },
+        { speaker: "Tom", en: "Same. My boss micromanages everything.", fr: "Pareil. Mon patron contrôle tout." },
+        { speaker: "Jake", en: "I've been moonlighting as a freelancer.", fr: "Je fais du freelance à côté." },
+        { speaker: "Tom", en: "For real? Is it worth the hustle?", fr: "Sérieux ? Ça vaut le coup de se défoncer ?" },
+        { speaker: "Jake", en: "Dude, I made more last month from my side gig than my actual job.", fr: "Mec, j'ai gagné plus le mois dernier avec mon boulot à côté qu'avec mon vrai travail." },
+        { speaker: "Tom", en: "That's insane. I need to get out of this rat race.", fr: "C'est dingue. Faut que je sorte de cette course effrénée." },
+        { speaker: "Jake", en: "Just don't slack off at work while you figure it out.", fr: "Juste glande pas au boulot pendant que tu réfléchis." },
+        { speaker: "Tom", en: "True. I don't want to get the boot.", fr: "Vrai. Je veux pas me faire virer." },
+        { speaker: "Jake", en: "Exactly. Play it cool, then make your move.", fr: "Exactement. Joue-la cool, puis fais ton move." },
+        { speaker: "Tom", en: "Respect the grind, bro.", fr: "Respect le travail, mec." }
       ],
       tips: [
         "💡 'Grind' et 'hustle' sont les mots les plus utilisés par les jeunes entrepreneurs américains.",
@@ -918,16 +918,16 @@ export const slangCourse: Course = {
         { en: "Take a U-turn at the light", fr: "Fais demi-tour au feu", phonetic: "se dit 'teïk eu YOU-teurn at dhe laït'", example: "We missed it. Take a U-turn.", exampleFr: "On l'a raté. Fais demi-tour.", context: "Argot américain moderne. En français on peut dire 'Fais demi-tour au feu'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Mike", en: "Yo, check out my new whip!", fr: "Yo, regarde ma nouvelle caisse !", context: "Argot américain moderne. En français on peut dire 'Yo, regarde ma nouvelle caisse !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Dave", en: "Dang! Is that a Tesla? That thing's clean.", fr: "Wahou ! C'est une Tesla ? Elle est belle.", context: "Argot américain moderne. En français on peut dire 'Wahou ! C'est une Tesla ? Elle est belle.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mike", en: "Yeah bro. Zero to sixty in three seconds.", fr: "Ouais mec. De zéro à cent en trois secondes.", context: "Argot américain moderne. En français on peut dire 'Ouais mec. De zéro à cent en trois secondes.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Dave", en: "Let me call shotgun right now.", fr: "Je prends la place du devant tout de suite.", context: "Argot américain moderne. En français on peut dire 'Je prends la place du devant tout de suite.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mike", en: "Hop in. Let's hit the road.", fr: "Monte. Prenons la route.", context: "Argot américain moderne. En français on peut dire 'Monte. Prenons la route.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Dave", en: "Don't floor it though, I saw a cop back there.", fr: "Appuie pas à fond par contre, j'ai vu un flic derrière.", context: "Argot américain moderne. En français on peut dire 'Appuie pas à fond par contre, j'ai vu un flic derrière.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mike", en: "Good looking out. I don't need another ticket.", fr: "Bien vu. J'ai pas besoin d'une autre amende.", context: "Argot américain moderne. En français on peut dire 'Bien vu. J'ai pas besoin d'une autre amende.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Dave", en: "Remember when you got pulled over last month?", fr: "Tu te souviens quand tu t'es fait arrêter le mois dernier ?", context: "Argot américain moderne. En français on peut dire 'Tu te souviens quand tu t'es fait arrêter le mois dernier ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mike", en: "Don't remind me. That was a $200 fine.", fr: "Me rappelle pas. C'était 200 dollars d'amende.", context: "Argot américain moderne. En français on peut dire 'Me rappelle pas. C'était 200 dollars d'amende.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Dave", en: "Well, at least this ride is smooth. No more gas guzzler.", fr: "Au moins cette caisse est douce. Plus de voiture énergivore.", context: "Argot américain moderne. En français on peut dire 'Au moins cette caisse est douce. Plus de voiture énergivore.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Mike", en: "Yo, check out my new whip!", fr: "Yo, regarde ma nouvelle caisse !" },
+        { speaker: "Dave", en: "Dang! Is that a Tesla? That thing's clean.", fr: "Wahou ! C'est une Tesla ? Elle est belle." },
+        { speaker: "Mike", en: "Yeah bro. Zero to sixty in three seconds.", fr: "Ouais mec. De zéro à cent en trois secondes." },
+        { speaker: "Dave", en: "Let me call shotgun right now.", fr: "Je prends la place du devant tout de suite." },
+        { speaker: "Mike", en: "Hop in. Let's hit the road.", fr: "Monte. Prenons la route." },
+        { speaker: "Dave", en: "Don't floor it though, I saw a cop back there.", fr: "Appuie pas à fond par contre, j'ai vu un flic derrière." },
+        { speaker: "Mike", en: "Good looking out. I don't need another ticket.", fr: "Bien vu. J'ai pas besoin d'une autre amende." },
+        { speaker: "Dave", en: "Remember when you got pulled over last month?", fr: "Tu te souviens quand tu t'es fait arrêter le mois dernier ?" },
+        { speaker: "Mike", en: "Don't remind me. That was a $200 fine.", fr: "Me rappelle pas. C'était 200 dollars d'amende." },
+        { speaker: "Dave", en: "Well, at least this ride is smooth. No more gas guzzler.", fr: "Au moins cette caisse est douce. Plus de voiture énergivore." }
       ],
       tips: [
         "💡 'Shotgun!' est un cri que les Américains lancent pour réserver la place du passager avant.",
@@ -969,16 +969,16 @@ export const slangCourse: Course = {
         { en: "He dropped 40 points", fr: "Il a mis 40 points", phonetic: "se dit 'hi dropt FOR-ti poïnts'", example: "LeBron dropped 40 last night.", exampleFr: "LeBron a mis 40 points hier soir.", context: "Argot américain moderne. En français on peut dire 'Il a mis 40 points'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Jake", en: "Bro, did you watch the game last night?", fr: "Mec, t'as vu le match hier soir ?", context: "Argot américain moderne. En français on peut dire 'Mec, t'as vu le match hier soir ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tom", en: "Yeah! Curry was on fire. He dropped 45.", fr: "Ouais ! Curry était en feu. Il a mis 45 points.", context: "Argot américain moderne. En français on peut dire 'Ouais ! Curry était en feu. Il a mis 45 points.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "That buzzer beater was insane though.", fr: "Ce panier au buzzer était dingue par contre.", context: "Argot américain moderne. En français on peut dire 'Ce panier au buzzer était dingue par contre.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tom", en: "Clutch as always. The man is the GOAT.", fr: "Décisif comme toujours. Ce mec est le GOAT.", context: "Argot américain moderne. En français on peut dire 'Décisif comme toujours. Ce mec est le GOAT.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "I don't know, LeBron's still in the conversation.", fr: "Je sais pas, LeBron est encore dans la discussion.", context: "Argot américain moderne. En français on peut dire 'Je sais pas, LeBron est encore dans la discussion.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tom", en: "Nah, LeBron choked in the playoffs last year.", fr: "Nan, LeBron a craqué en playoffs l'année dernière.", context: "Argot américain moderne. En français on peut dire 'Nan, LeBron a craqué en playoffs l'année dernière.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "Cap! He averaged 30 points a game.", fr: "Mytho ! Il avait 30 points de moyenne par match.", context: "Argot américain moderne. En français on peut dire 'Mytho ! Il avait 30 points de moyenne par match.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tom", en: "Whatever bro. We got robbed by the refs anyway.", fr: "Peu importe mec. L'arbitre nous a volé le match de toute façon.", context: "Argot américain moderne. En français on peut dire 'Peu importe mec. L'arbitre nous a volé le match de toute façon.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jake", en: "Facts. That last foul call was trash.", fr: "C'est vrai. Cette dernière faute était bidon.", context: "Argot américain moderne. En français on peut dire 'C'est vrai. Cette dernière faute était bidon.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Tom", en: "Next game is on our home turf though. We got this.", fr: "Le prochain match est chez nous par contre. On va gérer.", context: "Argot américain moderne. En français on peut dire 'Le prochain match est chez nous par contre. On va gérer.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Jake", en: "Bro, did you watch the game last night?", fr: "Mec, t'as vu le match hier soir ?" },
+        { speaker: "Tom", en: "Yeah! Curry was on fire. He dropped 45.", fr: "Ouais ! Curry était en feu. Il a mis 45 points." },
+        { speaker: "Jake", en: "That buzzer beater was insane though.", fr: "Ce panier au buzzer était dingue par contre." },
+        { speaker: "Tom", en: "Clutch as always. The man is the GOAT.", fr: "Décisif comme toujours. Ce mec est le GOAT." },
+        { speaker: "Jake", en: "I don't know, LeBron's still in the conversation.", fr: "Je sais pas, LeBron est encore dans la discussion." },
+        { speaker: "Tom", en: "Nah, LeBron choked in the playoffs last year.", fr: "Nan, LeBron a craqué en playoffs l'année dernière." },
+        { speaker: "Jake", en: "Cap! He averaged 30 points a game.", fr: "Mytho ! Il avait 30 points de moyenne par match." },
+        { speaker: "Tom", en: "Whatever bro. We got robbed by the refs anyway.", fr: "Peu importe mec. L'arbitre nous a volé le match de toute façon." },
+        { speaker: "Jake", en: "Facts. That last foul call was trash.", fr: "C'est vrai. Cette dernière faute était bidon." },
+        { speaker: "Tom", en: "Next game is on our home turf though. We got this.", fr: "Le prochain match est chez nous par contre. On va gérer." }
       ],
       tips: [
         "💡 GOAT = Greatest Of All Time. Utilisé pour LeBron, Messi, Brady... et même pour ta mère si elle cuisine bien.",
@@ -1020,16 +1020,16 @@ export const slangCourse: Course = {
         { en: "That feature was fire", fr: "Ce featuring était feu", phonetic: "se dit 'dhat FII-tcheur ouaz FAÏR'", example: "Travis on that feature was fire.", exampleFr: "Travis sur ce featuring, c'était feu.", context: "Argot américain moderne. En français on peut dire 'Ce featuring était feu'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Lisa", en: "Have you heard the new Kendrick album?", fr: "T'as écouté le nouveau Kendrick ?", context: "Argot américain moderne. En français on peut dire 'T'as écouté le nouveau Kendrick ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jay", en: "Bro, every single track slaps. No skips.", fr: "Mec, chaque morceau claque. Aucun skip.", context: "Argot américain moderne. En français on peut dire 'Mec, chaque morceau claque. Aucun skip.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Lisa", en: "The beat on track 3 hits different at night.", fr: "L'instru du morceau 3 frappe différemment la nuit.", context: "Argot américain moderne. En français on peut dire 'L'instru du morceau 3 frappe différemment la nuit.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jay", en: "Facts. And his bars are insane on track 7.", fr: "Tellement vrai. Et ses punchlines sont dingues sur le morceau 7.", context: "Argot américain moderne. En français on peut dire 'Tellement vrai. Et ses punchlines sont dingues sur le morceau 7.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Lisa", en: "I heard he and Drake are beefing again.", fr: "J'ai entendu que lui et Drake sont en embrouille encore.", context: "Argot américain moderne. En français on peut dire 'J'ai entendu que lui et Drake sont en embrouille encore.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jay", en: "Yeah, he dropped a diss track last week.", fr: "Ouais, il a sorti un morceau de clash la semaine dernière.", context: "Argot américain moderne. En français on peut dire 'Ouais, il a sorti un morceau de clash la semaine dernière.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Lisa", en: "Lowkey, I think Kendrick won that beef.", fr: "Discrètement, je pense que Kendrick a gagné cette embrouille.", context: "Argot américain moderne. En français on peut dire 'Discrètement, je pense que Kendrick a gagné cette embrouille.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jay", en: "Highkey, bro. It's not even close.", fr: "Carrément, mec. Y'a même pas débat.", context: "Argot américain moderne. En français on peut dire 'Carrément, mec. Y'a même pas débat.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Lisa", en: "Put me on to more artists like him.", fr: "Fais-moi découvrir d'autres artistes comme lui.", context: "Argot américain moderne. En français on peut dire 'Fais-moi découvrir d'autres artistes comme lui.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jay", en: "Check out J. Cole. His flow is different.", fr: "Écoute J. Cole. Son flow est différent.", context: "Argot américain moderne. En français on peut dire 'Écoute J. Cole. Son flow est différent.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Lisa", en: "Have you heard the new Kendrick album?", fr: "T'as écouté le nouveau Kendrick ?" },
+        { speaker: "Jay", en: "Bro, every single track slaps. No skips.", fr: "Mec, chaque morceau claque. Aucun skip." },
+        { speaker: "Lisa", en: "The beat on track 3 hits different at night.", fr: "L'instru du morceau 3 frappe différemment la nuit." },
+        { speaker: "Jay", en: "Facts. And his bars are insane on track 7.", fr: "Tellement vrai. Et ses punchlines sont dingues sur le morceau 7." },
+        { speaker: "Lisa", en: "I heard he and Drake are beefing again.", fr: "J'ai entendu que lui et Drake sont en embrouille encore." },
+        { speaker: "Jay", en: "Yeah, he dropped a diss track last week.", fr: "Ouais, il a sorti un morceau de clash la semaine dernière." },
+        { speaker: "Lisa", en: "Lowkey, I think Kendrick won that beef.", fr: "Discrètement, je pense que Kendrick a gagné cette embrouille." },
+        { speaker: "Jay", en: "Highkey, bro. It's not even close.", fr: "Carrément, mec. Y'a même pas débat." },
+        { speaker: "Lisa", en: "Put me on to more artists like him.", fr: "Fais-moi découvrir d'autres artistes comme lui." },
+        { speaker: "Jay", en: "Check out J. Cole. His flow is different.", fr: "Écoute J. Cole. Son flow est différent." }
       ],
       tips: [
         "💡 'No skips' signifie que chaque morceau d'un album est bon - on n'en saute aucun.",
@@ -1071,16 +1071,16 @@ export const slangCourse: Course = {
         { en: "He's one shot, push him", fr: "Il a plus de vie, fonce", phonetic: "se dit 'hiz ouann chot, pouch him'", example: "He's one shot! Go go go!", exampleFr: "Il a plus de vie ! Go go go !", context: "Argot américain moderne. En français on peut dire 'Il a plus de vie, fonce'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Alex", en: "Yo, hop on, we need a fourth.", fr: "Yo, connecte-toi, on a besoin d'un quatrième.", context: "Argot américain moderne. En français on peut dire 'Yo, connecte-toi, on a besoin d'un quatrième.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sam", en: "Bet. Let me grab my headset.", fr: "Ça marche. Laisse-moi prendre mon casque.", context: "Argot américain moderne. En français on peut dire 'Ça marche. Laisse-moi prendre mon casque.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Alex", en: "Hurry up, this lobby is filling fast.", fr: "Dépêche-toi, ce lobby se remplit vite.", context: "Argot américain moderne. En français on peut dire 'Dépêche-toi, ce lobby se remplit vite.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sam", en: "I'm in. Where we dropping?", fr: "J'suis là. On se pose où ?", context: "Argot américain moderne. En français on peut dire 'J'suis là. On se pose où ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Alex", en: "Tilted. I want action.", fr: "Tilted. Je veux de l'action.", context: "Argot américain moderne. En français on peut dire 'Tilted. Je veux de l'action.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sam", en: "Last time you died in 30 seconds there.", fr: "La dernière fois t'es mort en 30 secondes là-bas.", context: "Argot américain moderne. En français on peut dire 'La dernière fois t'es mort en 30 secondes là-bas.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Alex", en: "Cap! I got a clutch victory there.", fr: "Mytho ! J'ai fait un clutch là-bas.", context: "Argot américain moderne. En français on peut dire 'Mytho ! J'ai fait un clutch là-bas.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sam", en: "Whatever. Just don't rage quit this time.", fr: "Ouais ouais. Juste quitte pas de rage cette fois.", context: "Argot américain moderne. En français on peut dire 'Ouais ouais. Juste quitte pas de rage cette fois.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Alex", en: "That was ONE time! The lag was insane.", fr: "C'était UNE fois ! Le lag était dingue.", context: "Argot américain moderne. En français on peut dire 'C'était UNE fois ! Le lag était dingue.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Sam", en: "Sure, blame the lag. GG in advance.", fr: "Ouais, accuse le lag. GG d'avance.", context: "Argot américain moderne. En français on peut dire 'Ouais, accuse le lag. GG d'avance.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Alex", en: "Yo, hop on, we need a fourth.", fr: "Yo, connecte-toi, on a besoin d'un quatrième." },
+        { speaker: "Sam", en: "Bet. Let me grab my headset.", fr: "Ça marche. Laisse-moi prendre mon casque." },
+        { speaker: "Alex", en: "Hurry up, this lobby is filling fast.", fr: "Dépêche-toi, ce lobby se remplit vite." },
+        { speaker: "Sam", en: "I'm in. Where we dropping?", fr: "J'suis là. On se pose où ?" },
+        { speaker: "Alex", en: "Tilted. I want action.", fr: "Tilted. Je veux de l'action." },
+        { speaker: "Sam", en: "Last time you died in 30 seconds there.", fr: "La dernière fois t'es mort en 30 secondes là-bas." },
+        { speaker: "Alex", en: "Cap! I got a clutch victory there.", fr: "Mytho ! J'ai fait un clutch là-bas." },
+        { speaker: "Sam", en: "Whatever. Just don't rage quit this time.", fr: "Ouais ouais. Juste quitte pas de rage cette fois." },
+        { speaker: "Alex", en: "That was ONE time! The lag was insane.", fr: "C'était UNE fois ! Le lag était dingue." },
+        { speaker: "Sam", en: "Sure, blame the lag. GG in advance.", fr: "Ouais, accuse le lag. GG d'avance." }
       ],
       tips: [
         "💡 'GG' (Good Game) se dit après chaque partie - même si t'as perdu, c'est une question de respect.",
@@ -1122,16 +1122,16 @@ export const slangCourse: Course = {
         { en: "I'm changing my major again", fr: "Je change encore de spé", phonetic: "se dit 'aïm TCHEÏN-djing maï MEÏ-djeur eu-GUÈN'", example: "This is my third major change.", exampleFr: "C'est mon troisième changement de spé.", context: "Argot américain moderne. En français on peut dire 'Je change encore de spé'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Emma", en: "I'm so stressed. Finals are next week.", fr: "Je suis trop stressée. Les finaux sont la semaine prochaine.", context: "Argot américain moderne. En français on peut dire 'Je suis trop stressée. Les finaux sont la semaine prochaine.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ryan", en: "Same. I haven't even started studying for chem.", fr: "Pareil. J'ai même pas commencé à réviser la chimie.", context: "Argot américain moderne. En français on peut dire 'Pareil. J'ai même pas commencé à réviser la chimie.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Emma", en: "Want to hit the library tonight?", fr: "Tu veux aller à la bibli ce soir ?", context: "Argot américain moderne. En français on peut dire 'Tu veux aller à la bibli ce soir ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ryan", en: "Bet. I need to cram big time.", fr: "Ça marche. J'ai grave besoin de bachoter.", context: "Argot américain moderne. En français on peut dire 'Ça marche. J'ai grave besoin de bachoter.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Emma", en: "I pulled an all-nighter yesterday and I'm dead.", fr: "J'ai fait une nuit blanche hier et je suis morte.", context: "Argot américain moderne. En français on peut dire 'J'ai fait une nuit blanche hier et je suis morte.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ryan", en: "Get some coffee first. The campus café has good espresso.", fr: "Prends un café d'abord. Le café du campus fait de bons expressos.", context: "Argot américain moderne. En français on peut dire 'Prends un café d'abord. Le café du campus fait de bons expressos.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Emma", en: "If I flunk this exam, my GPA is done.", fr: "Si je rate cet exam, ma moyenne est finie.", context: "Argot américain moderne. En français on peut dire 'Si je rate cet exam, ma moyenne est finie.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ryan", en: "Relax, you always ace your tests.", fr: "Relax, tu réussis toujours tes contrôles.", context: "Argot américain moderne. En français on peut dire 'Relax, tu réussis toujours tes contrôles.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Emma", en: "Not this class. The professor is a savage grader.", fr: "Pas ce cours. Le prof note comme un sauvage.", context: "Argot américain moderne. En français on peut dire 'Pas ce cours. Le prof note comme un sauvage.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ryan", en: "Then let's focus up. No phones, no distractions.", fr: "Alors concentrons-nous. Pas de téléphones, pas de distractions.", context: "Argot américain moderne. En français on peut dire 'Alors concentrons-nous. Pas de téléphones, pas de distractions.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Emma", en: "I'm so stressed. Finals are next week.", fr: "Je suis trop stressée. Les finaux sont la semaine prochaine." },
+        { speaker: "Ryan", en: "Same. I haven't even started studying for chem.", fr: "Pareil. J'ai même pas commencé à réviser la chimie." },
+        { speaker: "Emma", en: "Want to hit the library tonight?", fr: "Tu veux aller à la bibli ce soir ?" },
+        { speaker: "Ryan", en: "Bet. I need to cram big time.", fr: "Ça marche. J'ai grave besoin de bachoter." },
+        { speaker: "Emma", en: "I pulled an all-nighter yesterday and I'm dead.", fr: "J'ai fait une nuit blanche hier et je suis morte." },
+        { speaker: "Ryan", en: "Get some coffee first. The campus café has good espresso.", fr: "Prends un café d'abord. Le café du campus fait de bons expressos." },
+        { speaker: "Emma", en: "If I flunk this exam, my GPA is done.", fr: "Si je rate cet exam, ma moyenne est finie." },
+        { speaker: "Ryan", en: "Relax, you always ace your tests.", fr: "Relax, tu réussis toujours tes contrôles." },
+        { speaker: "Emma", en: "Not this class. The professor is a savage grader.", fr: "Pas ce cours. Le prof note comme un sauvage." },
+        { speaker: "Ryan", en: "Then let's focus up. No phones, no distractions.", fr: "Alors concentrons-nous. Pas de téléphones, pas de distractions." }
       ],
       tips: [
         "💡 'Pull an all-nighter' est un rituel pour beaucoup d'étudiants américains avant les examens.",
@@ -1173,16 +1173,16 @@ export const slangCourse: Course = {
         { en: "Your whole aesthetic is fire", fr: "Tout ton style est feu", phonetic: "se dit 'yor hol ès-THÉ-tik iz FAÏR'", example: "Instagram, outfits, room - your aesthetic is fire.", exampleFr: "Instagram, tenues, chambre - tout ton style est feu.", context: "Argot américain moderne. En français on peut dire 'Tout ton style est feu'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Mia", en: "Girl, your fit is snatched today!", fr: "Meuf, ta tenue est impeccable aujourd'hui !", context: "Argot américain moderne. En français on peut dire 'Meuf, ta tenue est impeccable aujourd'hui !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Zara", en: "Thanks! I thrifted most of it.", fr: "Merci ! J'ai fripé la plupart.", context: "Argot américain moderne. En français on peut dire 'Merci ! J'ai fripé la plupart.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mia", en: "No way! Where'd you cop that jacket?", fr: "Sérieux ! T'as trouvé cette veste où ?", context: "Argot américain moderne. En français on peut dire 'Sérieux ! T'as trouvé cette veste où ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Zara", en: "Goodwill, $8. The kicks are from the Nike drop last week.", fr: "Goodwill, 8 dollars. Les baskets viennent de la sortie Nike la semaine dernière.", context: "Argot américain moderne. En français on peut dire 'Goodwill, 8 dollars. Les baskets viennent de la sortie Nike la semaine dernière.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mia", en: "You're not a hypebeast, you're smart with money.", fr: "T'es pas une accro aux marques, t'es maligne avec l'argent.", context: "Argot américain moderne. En français on peut dire 'T'es pas une accro aux marques, t'es maligne avec l'argent.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Zara", en: "Exactly. I don't need to flex with designer.", fr: "Exactement. J'ai pas besoin de frimer avec du designer.", context: "Argot américain moderne. En français on peut dire 'Exactement. J'ai pas besoin de frimer avec du designer.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mia", en: "Meanwhile, Jake came in dripped out in Gucci.", fr: "Pendant ce temps, Jake est arrivé habillé en Gucci de la tête aux pieds.", context: "Argot américain moderne. En français on peut dire 'Pendant ce temps, Jake est arrivé habillé en Gucci de la tête aux pieds.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Zara", en: "He's such a basic hypebeast. All logo, no style.", fr: "C'est un accro aux marques basique. Que du logo, pas de style.", context: "Argot américain moderne. En français on peut dire 'C'est un accro aux marques basique. Que du logo, pas de style.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Mia", en: "Tea! Vintage with a twist beats any logo.", fr: "Tellement vrai ! Du vintage avec une touche perso bat n'importe quel logo.", context: "Argot américain moderne. En français on peut dire 'Tellement vrai ! Du vintage avec une touche perso bat n'importe quel logo.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Zara", en: "That's facts. Style over hype, always.", fr: "C'est ça. Le style avant le buzz, toujours.", context: "Argot américain moderne. En français on peut dire 'C'est ça. Le style avant le buzz, toujours.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Mia", en: "Girl, your fit is snatched today!", fr: "Meuf, ta tenue est impeccable aujourd'hui !" },
+        { speaker: "Zara", en: "Thanks! I thrifted most of it.", fr: "Merci ! J'ai fripé la plupart." },
+        { speaker: "Mia", en: "No way! Where'd you cop that jacket?", fr: "Sérieux ! T'as trouvé cette veste où ?" },
+        { speaker: "Zara", en: "Goodwill, $8. The kicks are from the Nike drop last week.", fr: "Goodwill, 8 dollars. Les baskets viennent de la sortie Nike la semaine dernière." },
+        { speaker: "Mia", en: "You're not a hypebeast, you're smart with money.", fr: "T'es pas une accro aux marques, t'es maligne avec l'argent." },
+        { speaker: "Zara", en: "Exactly. I don't need to flex with designer.", fr: "Exactement. J'ai pas besoin de frimer avec du designer." },
+        { speaker: "Mia", en: "Meanwhile, Jake came in dripped out in Gucci.", fr: "Pendant ce temps, Jake est arrivé habillé en Gucci de la tête aux pieds." },
+        { speaker: "Zara", en: "He's such a basic hypebeast. All logo, no style.", fr: "C'est un accro aux marques basique. Que du logo, pas de style." },
+        { speaker: "Mia", en: "Tea! Vintage with a twist beats any logo.", fr: "Tellement vrai ! Du vintage avec une touche perso bat n'importe quel logo." },
+        { speaker: "Zara", en: "That's facts. Style over hype, always.", fr: "C'est ça. Le style avant le buzz, toujours." }
       ],
       tips: [
         "💡 'Cop' a deux sens en argot : acheter ET policier. Le contexte est clé.",
@@ -1224,16 +1224,16 @@ export const slangCourse: Course = {
         { en: "He switched up on me", fr: "Il m'a trahi / retourné sa veste", phonetic: "se dit 'hi souitcht ap on mi'", example: "We were cool, then he switched up.", exampleFr: "On était bien, puis il a retourné sa veste.", context: "Argot américain moderne. En français on peut dire 'Il m'a trahi / retourné sa veste'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Marcus", en: "Yo, slide to the crib tonight. We're linking up.", fr: "Yo, passe à la baraque ce soir. On se rejoint.", context: "Argot américain moderne. En français on peut dire 'Yo, passe à la baraque ce soir. On se rejoint.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Dre", en: "Bet. Who's pulling up?", fr: "Ça marche. Qui vient ?", context: "Argot américain moderne. En français on peut dire 'Ça marche. Qui vient ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Marcus", en: "Just the homies. No fake ones.", fr: "Juste les potes. Pas de faux.", context: "Argot américain moderne. En français on peut dire 'Juste les potes. Pas de faux.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Dre", en: "Facts. Too many people switched up lately.", fr: "C'est vrai. Trop de gens ont retourné leur veste récemment.", context: "Argot américain moderne. En français on peut dire 'C'est vrai. Trop de gens ont retourné leur veste récemment.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Marcus", en: "Real talk. Real ones stay, fake ones fade.", fr: "Vrai parler. Les vrais restent, les faux disparaissent.", context: "Argot américain moderne. En français on peut dire 'Vrai parler. Les vrais restent, les faux disparaissent.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Dre", en: "That's why I keep my circle small.", fr: "C'est pour ça que je garde un petit cercle.", context: "Argot américain moderne. En français on peut dire 'C'est pour ça que je garde un petit cercle.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Marcus", en: "Smart. Stack your bread, trust nobody.", fr: "Malin. Empile ton fric, ne fais confiance à personne.", context: "Argot américain moderne. En français on peut dire 'Malin. Empile ton fric, ne fais confiance à personne.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Dre", en: "Speaking of bread, I got a new gig.", fr: "En parlant de fric, j'ai un nouveau taf.", context: "Argot américain moderne. En français on peut dire 'En parlant de fric, j'ai un nouveau taf.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Marcus", en: "Word? That's a glow up from last year.", fr: "Sérieux ? C'est une sacrée évolution depuis l'année dernière.", context: "Argot américain moderne. En français on peut dire 'Sérieux ? C'est une sacrée évolution depuis l'année dernière.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Dre", en: "No cap. We come from nothing, bro.", fr: "Sans mentir. On vient de rien, mec.", context: "Argot américain moderne. En français on peut dire 'Sans mentir. On vient de rien, mec.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Marcus", en: "Yo, slide to the crib tonight. We're linking up.", fr: "Yo, passe à la baraque ce soir. On se rejoint." },
+        { speaker: "Dre", en: "Bet. Who's pulling up?", fr: "Ça marche. Qui vient ?" },
+        { speaker: "Marcus", en: "Just the homies. No fake ones.", fr: "Juste les potes. Pas de faux." },
+        { speaker: "Dre", en: "Facts. Too many people switched up lately.", fr: "C'est vrai. Trop de gens ont retourné leur veste récemment." },
+        { speaker: "Marcus", en: "Real talk. Real ones stay, fake ones fade.", fr: "Vrai parler. Les vrais restent, les faux disparaissent." },
+        { speaker: "Dre", en: "That's why I keep my circle small.", fr: "C'est pour ça que je garde un petit cercle." },
+        { speaker: "Marcus", en: "Smart. Stack your bread, trust nobody.", fr: "Malin. Empile ton fric, ne fais confiance à personne." },
+        { speaker: "Dre", en: "Speaking of bread, I got a new gig.", fr: "En parlant de fric, j'ai un nouveau taf." },
+        { speaker: "Marcus", en: "Word? That's a glow up from last year.", fr: "Sérieux ? C'est une sacrée évolution depuis l'année dernière." },
+        { speaker: "Dre", en: "No cap. We come from nothing, bro.", fr: "Sans mentir. On vient de rien, mec." }
       ],
       tips: [
         "💡 'OG' = Original Gangster, mais aujourd'hui c'est utilisé pour dire 'vétéran' ou 'quelqu'un de respecté'.",
@@ -1275,16 +1275,16 @@ export const slangCourse: Course = {
         { en: "He slid into my DMs", fr: "Il m'a envoyé un DM", phonetic: "se dit 'hi slid IN-tou maï di-èmz'", example: "He slid into my DMs with a cheesy pickup line.", exampleFr: "Il m'a envoyé un DM avec une phrase de drague ringarde.", context: "Argot américain moderne. En français on peut dire 'Il m'a envoyé un DM'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Jess", en: "Girl, he's been ghosting me for three days.", fr: "Meuf, il m'ignore depuis trois jours.", context: "Argot américain moderne. En français on peut dire 'Meuf, il m'ignore depuis trois jours.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kira", en: "Ugh, that's such a red flag.", fr: "Beurk, c'est un gros signal d'alarme.", context: "Argot américain moderne. En français on peut dire 'Beurk, c'est un gros signal d'alarme.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jess", en: "But when he texts, it's all love-bombing.", fr: "Mais quand il texte, c'est que du bombardement d'amour.", context: "Argot américain moderne. En français on peut dire 'Mais quand il texte, c'est que du bombardement d'amour.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kira", en: "Classic breadcrumbing. He's keeping you on the bench.", fr: "Classique faux espoirs. Il te garde en réserve.", context: "Argot américain moderne. En français on peut dire 'Classique faux espoirs. Il te garde en réserve.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jess", en: "I think I caught feelings though.", fr: "Mais je crois que je suis tombée amoureuse.", context: "Argot américain moderne. En français on peut dire 'Mais je crois que je suis tombée amoureuse.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kira", en: "Bestie, you're in a situationship. DTR or leave.", fr: "Meilleure amie, t'es dans une relation floue. Définis ou pars.", context: "Argot américain moderne. En français on peut dire 'Meilleure amie, t'es dans une relation floue. Définis ou pars.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jess", en: "What if he gives me the 'it's not you, it's me' speech?", fr: "Et s'il me sort le discours 'c'est pas toi, c'est moi' ?", context: "Argot américain moderne. En français on peut dire 'Et s'il me sort le discours 'c'est pas toi, c'est moi' ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kira", en: "Then he's not worth your tears. Period.", fr: "Alors il mérite pas tes larmes. Point.", context: "Argot américain moderne. En français on peut dire 'Alors il mérite pas tes larmes. Point.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jess", en: "You're right. I deserve a green flag guy.", fr: "T'as raison. Je mérite un mec qui montre des bons signes.", context: "Argot américain moderne. En français on peut dire 'T'as raison. Je mérite un mec qui montre des bons signes.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kira", en: "That's the energy! Keep it real, queen.", fr: "C'est l'énergie qu'il faut ! Reste authentique, reine.", context: "Argot américain moderne. En français on peut dire 'C'est l'énergie qu'il faut ! Reste authentique, reine.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Jess", en: "Girl, he's been ghosting me for three days.", fr: "Meuf, il m'ignore depuis trois jours." },
+        { speaker: "Kira", en: "Ugh, that's such a red flag.", fr: "Beurk, c'est un gros signal d'alarme." },
+        { speaker: "Jess", en: "But when he texts, it's all love-bombing.", fr: "Mais quand il texte, c'est que du bombardement d'amour." },
+        { speaker: "Kira", en: "Classic breadcrumbing. He's keeping you on the bench.", fr: "Classique faux espoirs. Il te garde en réserve." },
+        { speaker: "Jess", en: "I think I caught feelings though.", fr: "Mais je crois que je suis tombée amoureuse." },
+        { speaker: "Kira", en: "Bestie, you're in a situationship. DTR or leave.", fr: "Meilleure amie, t'es dans une relation floue. Définis ou pars." },
+        { speaker: "Jess", en: "What if he gives me the 'it's not you, it's me' speech?", fr: "Et s'il me sort le discours 'c'est pas toi, c'est moi' ?" },
+        { speaker: "Kira", en: "Then he's not worth your tears. Period.", fr: "Alors il mérite pas tes larmes. Point." },
+        { speaker: "Jess", en: "You're right. I deserve a green flag guy.", fr: "T'as raison. Je mérite un mec qui montre des bons signes." },
+        { speaker: "Kira", en: "That's the energy! Keep it real, queen.", fr: "C'est l'énergie qu'il faut ! Reste authentique, reine." }
       ],
       tips: [
         "💡 'Ghosting' est le fléau des relations modernes - disparaître sans explication.",
@@ -1326,16 +1326,16 @@ export const slangCourse: Course = {
         { en: "Don't flex what you can't afford", fr: "Frime pas avec ce que tu peux pas te permettre", phonetic: "se dit 'dont flèks ouat you kant eu-FORD'", example: "That Gucci bag on credit? Don't flex what you can't afford.", exampleFr: "Ce sac Gucci à crédit ? Frime pas avec ce que tu peux pas te permettre.", context: "Argot américain moderne. En français on peut dire 'Frime pas avec ce que tu peux pas te permettre'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Rico", en: "Bro, I just copped a Rolex.", fr: "Mec, je viens d'acheter une Rolex.", context: "Argot américain moderne. En français on peut dire 'Mec, je viens d'acheter une Rolex.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jay", en: "No cap? Let me see.", fr: "Sans mentir ? Fais voir.", context: "Argot américain moderne. En français on peut dire 'Sans mentir ? Fais voir.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Rico", en: "Look at this drip. Pure gold.", fr: "Regarde ce style. Or pur.", context: "Argot américain moderne. En français on peut dire 'Regarde ce style. Or pur.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jay", en: "That's hard. How much did you splurge?", fr: "C'est stylé. T'as dépensé combien ?", context: "Argot américain moderne. En français on peut dire 'C'est stylé. T'as dépensé combien ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Rico", en: "Let's just say a few bands.", fr: "Disons quelques milliers.", context: "Argot américain moderne. En français on peut dire 'Disons quelques milliers.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jay", en: "You're balling. Meanwhile I'm broke.", fr: "Tu vis dans le luxe. Pendant ce temps je suis fauché.", context: "Argot américain moderne. En français on peut dire 'Tu vis dans le luxe. Pendant ce temps je suis fauché.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Rico", en: "Don't worry, your time's coming. Secure the bag.", fr: "T'inquiète, ton moment va venir. Assure le gain.", context: "Argot américain moderne. En français on peut dire 'T'inquiète, ton moment va venir. Assure le gain.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jay", en: "Easy for you to say, mister loaded.", fr: "Facile à dire pour toi, monsieur plein aux as.", context: "Argot américain moderne. En français on peut dire 'Facile à dire pour toi, monsieur plein aux as.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Rico", en: "I was broke two years ago. From rags to riches.", fr: "J'étais fauché il y a deux ans. De la misère à la richesse.", context: "Argot américain moderne. En français on peut dire 'J'étais fauché il y a deux ans. De la misère à la richesse.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Jay", en: "Respect. Money talks for real.", fr: "Respect. L'argent parle, c'est vrai.", context: "Argot américain moderne. En français on peut dire 'Respect. L'argent parle, c'est vrai.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Rico", en: "Bro, I just copped a Rolex.", fr: "Mec, je viens d'acheter une Rolex." },
+        { speaker: "Jay", en: "No cap? Let me see.", fr: "Sans mentir ? Fais voir." },
+        { speaker: "Rico", en: "Look at this drip. Pure gold.", fr: "Regarde ce style. Or pur." },
+        { speaker: "Jay", en: "That's hard. How much did you splurge?", fr: "C'est stylé. T'as dépensé combien ?" },
+        { speaker: "Rico", en: "Let's just say a few bands.", fr: "Disons quelques milliers." },
+        { speaker: "Jay", en: "You're balling. Meanwhile I'm broke.", fr: "Tu vis dans le luxe. Pendant ce temps je suis fauché." },
+        { speaker: "Rico", en: "Don't worry, your time's coming. Secure the bag.", fr: "T'inquiète, ton moment va venir. Assure le gain." },
+        { speaker: "Jay", en: "Easy for you to say, mister loaded.", fr: "Facile à dire pour toi, monsieur plein aux as." },
+        { speaker: "Rico", en: "I was broke two years ago. From rags to riches.", fr: "J'étais fauché il y a deux ans. De la misère à la richesse." },
+        { speaker: "Jay", en: "Respect. Money talks for real.", fr: "Respect. L'argent parle, c'est vrai." }
       ],
       tips: [
         "💡 'Secure the bag' est devenu un mantra pour la génération Z - ça veut dire assurer ses revenus.",
@@ -1377,16 +1377,16 @@ export const slangCourse: Course = {
         { en: "That's giving main character energy", fr: "Ça dégage une énergie de perso principal", phonetic: "se dit 'dhats GI-ving meïn KA-rak-teur È-neur-dji'", example: "The way she walked in? Main character energy.", exampleFr: "La façon dont elle est entrée ? Énergie de perso principal.", context: "Argot américain moderne. En français on peut dire 'Ça dégage une énergie de perso principal'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Leah", en: "OMG, did you see what happened on TikTok?", fr: "OMG, t'as vu ce qui s'est passé sur TikTok ?", context: "Argot américain moderne. En français on peut dire 'OMG, t'as vu ce qui s'est passé sur TikTok ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Maya", en: "No, spill the tea!", fr: "Non, balance les ragots !", context: "Argot américain moderne. En français on peut dire 'Non, balance les ragots !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Leah", en: "That influencer got exposed for catfishing.", fr: "Cette influenceuse s'est fait démasquer pour catfishing.", context: "Argot américain moderne. En français on peut dire 'Cette influenceuse s'est fait démasquer pour catfishing.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Maya", en: "No way! She had like 2 million followers.", fr: "Pas possible ! Elle avait genre 2 millions d'abonnés.", context: "Argot américain moderne. En français on peut dire 'Pas possible ! Elle avait genre 2 millions d'abonnés.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Leah", en: "Yeah, she's getting cancelled hard. Twitter is wild.", fr: "Ouais, elle se fait cancel sévèrement. Twitter est en feu.", context: "Argot américain moderne. En français on peut dire 'Ouais, elle se fait cancel sévèrement. Twitter est en feu.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Maya", en: "The ratio on her last tweet is insane.", fr: "Le ratio sur son dernier tweet est dingue.", context: "Argot américain moderne. En français on peut dire 'Le ratio sur son dernier tweet est dingue.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Leah", en: "Some people are defending her though. Stans gonna stan.", fr: "Certains la défendent quand même. Les fans restent des fans.", context: "Argot américain moderne. En français on peut dire 'Certains la défendent quand même. Les fans restent des fans.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Maya", en: "Those are just simps and clout chasers.", fr: "C'est juste des simps et des chasseurs de notoriété.", context: "Argot américain moderne. En français on peut dire 'C'est juste des simps et des chasseurs de notoriété.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Leah", en: "Facts. The whole thing is a main character moment for everyone.", fr: "C'est vrai. Tout le monde vit son moment de personnage principal.", context: "Argot américain moderne. En français on peut dire 'C'est vrai. Tout le monde vit son moment de personnage principal.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Maya", en: "Internet drama is free entertainment, no cap.", fr: "Le drama d'internet, c'est du divertissement gratuit, sans mentir.", context: "Argot américain moderne. En français on peut dire 'Le drama d'internet, c'est du divertissement gratuit, sans mentir.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Leah", en: "OMG, did you see what happened on TikTok?", fr: "OMG, t'as vu ce qui s'est passé sur TikTok ?" },
+        { speaker: "Maya", en: "No, spill the tea!", fr: "Non, balance les ragots !" },
+        { speaker: "Leah", en: "That influencer got exposed for catfishing.", fr: "Cette influenceuse s'est fait démasquer pour catfishing." },
+        { speaker: "Maya", en: "No way! She had like 2 million followers.", fr: "Pas possible ! Elle avait genre 2 millions d'abonnés." },
+        { speaker: "Leah", en: "Yeah, she's getting cancelled hard. Twitter is wild.", fr: "Ouais, elle se fait cancel sévèrement. Twitter est en feu." },
+        { speaker: "Maya", en: "The ratio on her last tweet is insane.", fr: "Le ratio sur son dernier tweet est dingue." },
+        { speaker: "Leah", en: "Some people are defending her though. Stans gonna stan.", fr: "Certains la défendent quand même. Les fans restent des fans." },
+        { speaker: "Maya", en: "Those are just simps and clout chasers.", fr: "C'est juste des simps et des chasseurs de notoriété." },
+        { speaker: "Leah", en: "Facts. The whole thing is a main character moment for everyone.", fr: "C'est vrai. Tout le monde vit son moment de personnage principal." },
+        { speaker: "Maya", en: "Internet drama is free entertainment, no cap.", fr: "Le drama d'internet, c'est du divertissement gratuit, sans mentir." }
       ],
       tips: [
         "💡 'Ratio' signifie que les réponses critiques dépassent les likes - signe que tout le monde est contre toi.",
@@ -1428,18 +1428,18 @@ export const slangCourse: Course = {
         { en: "The pump is real today", fr: "La congestion est réelle aujourd'hui", phonetic: "se dit 'dhe pamp iz riil tou-DÈÏ'", example: "My arms look huge, the pump is real.", exampleFr: "Mes bras ont l'air énormes, la congestion est réelle.", context: "Argot américain moderne. En français on peut dire 'La congestion est réelle aujourd'hui'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Chad", en: "Bro, I just hit a new PR on deadlift.", fr: "Mec, je viens de battre mon record au soulevé de terre.", context: "Argot américain moderne. En français on peut dire 'Mec, je viens de battre mon record au soulevé de terre.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kyle", en: "What'd you pull?", fr: "T'as soulevé combien ?", context: "Argot américain moderne. En français on peut dire 'T'as soulevé combien ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chad", en: "405 lbs. Been chasing that for months.", fr: "183 kg. Je courais après depuis des mois.", context: "Argot américain moderne. En français on peut dire '183 kg. Je courais après depuis des mois.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kyle", en: "That's insane. You're getting swole.", fr: "C'est dingue. Tu deviens balèze.", context: "Argot américain moderne. En français on peut dire 'C'est dingue. Tu deviens balèze.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chad", en: "Thanks bro. I've been on a dirty bulk.", fr: "Merci mec. Je suis en prise de masse sale.", context: "Argot américain moderne. En français on peut dire 'Merci mec. Je suis en prise de masse sale.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kyle", en: "I can tell. When's the cut?", fr: "Ça se voit. C'est quand la sèche ?", context: "Argot américain moderne. En français on peut dire 'Ça se voit. C'est quand la sèche ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chad", en: "March. Summer body is made in winter.", fr: "Mars. Le corps d'été se fait en hiver.", context: "Argot américain moderne. En français on peut dire 'Mars. Le corps d'été se fait en hiver.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kyle", en: "Facts. Hey, can you spot me on bench?", fr: "C'est vrai. Eh, tu peux me parer au développé couché ?", context: "Argot américain moderne. En français on peut dire 'C'est vrai. Eh, tu peux me parer au développé couché ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chad", en: "For sure. How much you pressing?", fr: "Bien sûr. Tu presses combien ?", context: "Argot américain moderne. En français on peut dire 'Bien sûr. Tu presses combien ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kyle", en: "Going for 225. It's leg day after though.", fr: "Je vise 102 kg. Mais c'est jour des jambes après.", context: "Argot américain moderne. En français on peut dire 'Je vise 102 kg. Mais c'est jour des jambes après.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Chad", en: "Never skip leg day, king.", fr: "Ne saute jamais le jour des jambes, roi.", context: "Argot américain moderne. En français on peut dire 'Ne saute jamais le jour des jambes, roi.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Kyle", en: "No pain, no gain. Let's get these gains!", fr: "Pas de douleur, pas de résultat. Allons chercher ces progrès !", context: "Argot américain moderne. En français on peut dire 'Pas de douleur, pas de résultat. Allons chercher ces progrès !'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Chad", en: "Bro, I just hit a new PR on deadlift.", fr: "Mec, je viens de battre mon record au soulevé de terre." },
+        { speaker: "Kyle", en: "What'd you pull?", fr: "T'as soulevé combien ?" },
+        { speaker: "Chad", en: "405 lbs. Been chasing that for months.", fr: "183 kg. Je courais après depuis des mois." },
+        { speaker: "Kyle", en: "That's insane. You're getting swole.", fr: "C'est dingue. Tu deviens balèze." },
+        { speaker: "Chad", en: "Thanks bro. I've been on a dirty bulk.", fr: "Merci mec. Je suis en prise de masse sale." },
+        { speaker: "Kyle", en: "I can tell. When's the cut?", fr: "Ça se voit. C'est quand la sèche ?" },
+        { speaker: "Chad", en: "March. Summer body is made in winter.", fr: "Mars. Le corps d'été se fait en hiver." },
+        { speaker: "Kyle", en: "Facts. Hey, can you spot me on bench?", fr: "C'est vrai. Eh, tu peux me parer au développé couché ?" },
+        { speaker: "Chad", en: "For sure. How much you pressing?", fr: "Bien sûr. Tu presses combien ?" },
+        { speaker: "Kyle", en: "Going for 225. It's leg day after though.", fr: "Je vise 102 kg. Mais c'est jour des jambes après." },
+        { speaker: "Chad", en: "Never skip leg day, king.", fr: "Ne saute jamais le jour des jambes, roi." },
+        { speaker: "Kyle", en: "No pain, no gain. Let's get these gains!", fr: "Pas de douleur, pas de résultat. Allons chercher ces progrès !" }
       ],
       tips: [
         "💡 'Natty or not' est le débat éternel de la salle - est-ce que quelqu'un est naturel ou sous produits ?",
@@ -1481,16 +1481,16 @@ export const slangCourse: Course = {
         { en: "It cleared up nicely", fr: "Ça s'est bien dégagé", phonetic: "se dit 'it KLIRD ap NAÏSS-li'", example: "Was cloudy this morning but it cleared up.", exampleFr: "C'était nuageux ce matin mais ça s'est dégagé.", context: "Argot américain moderne. En français on peut dire 'Ça s'est bien dégagé'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
       ],
       dialogues: [
-        { speaker: "Anna", en: "Can you believe this weather? It's scorching.", fr: "Tu peux croire cette météo ? Il fait brûlant.", context: "Argot américain moderne. En français on peut dire 'Tu peux croire cette météo ? Il fait brûlant.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ben", en: "I know, right? The heat is killing me.", fr: "Grave, non ? La chaleur me tue.", context: "Argot américain moderne. En français on peut dire 'Grave, non ? La chaleur me tue.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Anna", en: "The forecast says it'll be 105 tomorrow.", fr: "La météo dit qu'il fera 40 demain.", context: "Argot américain moderne. En français on peut dire 'La météo dit qu'il fera 40 demain.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ben", en: "No way. I'm staying inside with the AC.", fr: "Pas possible. Je reste à l'intérieur avec la clim.", context: "Argot américain moderne. En français on peut dire 'Pas possible. Je reste à l'intérieur avec la clim.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Anna", en: "Smart. I'm not built for this heat.", fr: "Malin. Je suis pas faite pour cette chaleur.", context: "Argot américain moderne. En français on peut dire 'Malin. Je suis pas faite pour cette chaleur.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ben", en: "Remember last week when it was pouring?", fr: "Tu te souviens la semaine dernière quand il pleuvait des cordes ?", context: "Argot américain moderne. En français on peut dire 'Tu te souviens la semaine dernière quand il pleuvait des cordes ?'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Anna", en: "Yeah! It was raining cats and dogs.", fr: "Ouais ! Il pleuvait des cordes.", context: "Argot américain moderne. En français on peut dire 'Ouais ! Il pleuvait des cordes.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ben", en: "I'd take rain over this heatwave any day.", fr: "Je prendrais la pluie plutôt que cette canicule n'importe quand.", context: "Argot américain moderne. En français on peut dire 'Je prendrais la pluie plutôt que cette canicule n'importe quand.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Anna", en: "Same. At least it's supposed to cool down by Friday.", fr: "Pareil. Au moins ça devrait se rafraîchir d'ici vendredi.", context: "Argot américain moderne. En français on peut dire 'Pareil. Au moins ça devrait se rafraîchir d'ici vendredi.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." },
-        { speaker: "Ben", en: "Fingers crossed. I need some breezy weather.", fr: "Croisons les doigts. J'ai besoin de temps frais.", context: "Argot américain moderne. En français on peut dire 'Croisons les doigts. J'ai besoin de temps frais.'. Utilisé principalement entre jeunes et sur les réseaux sociaux." }
+        { speaker: "Anna", en: "Can you believe this weather? It's scorching.", fr: "Tu peux croire cette météo ? Il fait brûlant." },
+        { speaker: "Ben", en: "I know, right? The heat is killing me.", fr: "Grave, non ? La chaleur me tue." },
+        { speaker: "Anna", en: "The forecast says it'll be 105 tomorrow.", fr: "La météo dit qu'il fera 40 demain." },
+        { speaker: "Ben", en: "No way. I'm staying inside with the AC.", fr: "Pas possible. Je reste à l'intérieur avec la clim." },
+        { speaker: "Anna", en: "Smart. I'm not built for this heat.", fr: "Malin. Je suis pas faite pour cette chaleur." },
+        { speaker: "Ben", en: "Remember last week when it was pouring?", fr: "Tu te souviens la semaine dernière quand il pleuvait des cordes ?" },
+        { speaker: "Anna", en: "Yeah! It was raining cats and dogs.", fr: "Ouais ! Il pleuvait des cordes." },
+        { speaker: "Ben", en: "I'd take rain over this heatwave any day.", fr: "Je prendrais la pluie plutôt que cette canicule n'importe quand." },
+        { speaker: "Anna", en: "Same. At least it's supposed to cool down by Friday.", fr: "Pareil. Au moins ça devrait se rafraîchir d'ici vendredi." },
+        { speaker: "Ben", en: "Fingers crossed. I need some breezy weather.", fr: "Croisons les doigts. J'ai besoin de temps frais." }
       ],
       tips: [
         "💡 Parler de la météo est LE sujet de small talk numéro 1 en Amérique - parfait pour briser la glace.",

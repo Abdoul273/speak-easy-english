@@ -56,16 +56,16 @@ export const professionalCourse: Course = {
         { en: "I look forward to hearing from you.", fr: "Dans l'attente de votre réponse.", context: "Terme professionnel courant en entreprise américaine. En français : 'Dans l'attente de votre réponse.'." }
       ],
       dialogues: [
-        { speaker: "Interviewer", en: "Good morning. Please take a seat.", fr: "Bonjour. Je vous en prie, asseyez-vous.", context: "Terme professionnel courant en entreprise américaine. En français : 'Bonjour. Je vous en prie, asseyez-vous.'." },
-        { speaker: "Candidate", en: "Thank you. It is a pleasure to meet you.", fr: "Merci. C'est un plaisir de vous rencontrer.", context: "Terme professionnel courant en entreprise américaine. En français : 'Merci. C'est un plaisir de vous rencontrer.'." },
-        { speaker: "Interviewer", en: "Can you walk me through your resume?", fr: "Pouvez-vous me présenter votre CV ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Pouvez-vous me présenter votre CV ?'." },
-        { speaker: "Candidate", en: "Certainly. I started my career in sales.", fr: "Certainement. J'ai commencé ma carrière dans la vente.", context: "Terme professionnel courant en entreprise américaine. En français : 'Certainement. J'ai commencé ma carrière dans la vente.'." },
-        { speaker: "Interviewer", en: "Why did you leave your last position?", fr: "Pourquoi avez-vous quitté votre dernier poste ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Pourquoi avez-vous quitté votre dernier poste ?'." },
-        { speaker: "Candidate", en: "I wanted to find a role with more growth.", fr: "Je voulais trouver un rôle avec plus de croissance.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je voulais trouver un rôle avec plus de croissance.'." },
-        { speaker: "Interviewer", en: "What are your salary expectations?", fr: "Quelles sont vos prétentions salariales ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Quelles sont vos prétentions salariales ?'." },
-        { speaker: "Candidate", en: "I am looking for eighty thousand dollars.", fr: "Je cherche quatre-vingt mille dollars.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je cherche quatre-vingt mille dollars.'." },
-        { speaker: "Interviewer", en: "We will call you by Friday.", fr: "Nous vous appellerons d'ici vendredi.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous vous appellerons d'ici vendredi.'." },
-        { speaker: "Candidate", en: "Great. Thank you for the opportunity.", fr: "Super. Merci pour cette opportunité.", context: "Terme professionnel courant en entreprise américaine. En français : 'Super. Merci pour cette opportunité.'." }
+        { speaker: "Interviewer", en: "Good morning. Please take a seat.", fr: "Bonjour. Je vous en prie, asseyez-vous." },
+        { speaker: "Candidate", en: "Thank you. It is a pleasure to meet you.", fr: "Merci. C'est un plaisir de vous rencontrer." },
+        { speaker: "Interviewer", en: "Can you walk me through your resume?", fr: "Pouvez-vous me présenter votre CV ?" },
+        { speaker: "Candidate", en: "Certainly. I started my career in sales.", fr: "Certainement. J'ai commencé ma carrière dans la vente." },
+        { speaker: "Interviewer", en: "Why did you leave your last position?", fr: "Pourquoi avez-vous quitté votre dernier poste ?" },
+        { speaker: "Candidate", en: "I wanted to find a role with more growth.", fr: "Je voulais trouver un rôle avec plus de croissance." },
+        { speaker: "Interviewer", en: "What are your salary expectations?", fr: "Quelles sont vos prétentions salariales ?" },
+        { speaker: "Candidate", en: "I am looking for eighty thousand dollars.", fr: "Je cherche quatre-vingt mille dollars." },
+        { speaker: "Interviewer", en: "We will call you by Friday.", fr: "Nous vous appellerons d'ici vendredi." },
+        { speaker: "Candidate", en: "Great. Thank you for the opportunity.", fr: "Super. Merci pour cette opportunité." }
       ],
       tips: [
         "Dress formally unless the company suggests otherwise.",
@@ -119,16 +119,16 @@ export const professionalCourse: Course = {
         { en: "Have a nice weekend!", fr: "Bon week-end !", context: "Terme professionnel courant en entreprise américaine. En français : 'Bon week-end !'." }
       ],
       dialogues: [
-        { speaker: "Marie", en: "Hey, did you finish the report?", fr: "Hé, as-tu fini le rapport ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Hé, as-tu fini le rapport ?'." },
-        { speaker: "Thomas", en: "Almost. I just need ten more minutes.", fr: "Presque. J'ai juste besoin de dix minutes de plus.", context: "Terme professionnel courant en entreprise américaine. En français : 'Presque. J'ai juste besoin de dix minutes de plus.'." },
-        { speaker: "Marie", en: "Great. The boss wants it by noon.", fr: "Super. Le patron le veut pour midi.", context: "Terme professionnel courant en entreprise américaine. En français : 'Super. Le patron le veut pour midi.'." },
-        { speaker: "Thomas", en: "I know. It's been a busy morning.", fr: "Je sais. Ça a été une matinée chargée.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je sais. Ça a été une matinée chargée.'." },
-        { speaker: "Marie", en: "Want to grab coffee after?", fr: "Tu veux prendre un café après ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Tu veux prendre un café après ?'." },
-        { speaker: "Thomas", en: "Yes, I need the caffeine.", fr: "Oui, j'ai besoin de caféine.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, j'ai besoin de caféine.'." },
-        { speaker: "Marie", en: "I'll meet you at the kitchen.", fr: "Je te retrouve à la cuisine.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je te retrouve à la cuisine.'." },
-        { speaker: "Thomas", en: "Sounds good. See you then.", fr: "Ça marche. À tout de suite.", context: "Terme professionnel courant en entreprise américaine. En français : 'Ça marche. À tout de suite.'." },
-        { speaker: "Marie", en: "Don't forget the files.", fr: "N'oublie pas les dossiers.", context: "Terme professionnel courant en entreprise américaine. En français : 'N'oublie pas les dossiers.'." },
-        { speaker: "Thomas", en: "Got them right here.", fr: "Je les ai juste ici.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je les ai juste ici.'." }
+        { speaker: "Marie", en: "Hey, did you finish the report?", fr: "Hé, as-tu fini le rapport ?" },
+        { speaker: "Thomas", en: "Almost. I just need ten more minutes.", fr: "Presque. J'ai juste besoin de dix minutes de plus." },
+        { speaker: "Marie", en: "Great. The boss wants it by noon.", fr: "Super. Le patron le veut pour midi." },
+        { speaker: "Thomas", en: "I know. It's been a busy morning.", fr: "Je sais. Ça a été une matinée chargée." },
+        { speaker: "Marie", en: "Want to grab coffee after?", fr: "Tu veux prendre un café après ?" },
+        { speaker: "Thomas", en: "Yes, I need the caffeine.", fr: "Oui, j'ai besoin de caféine." },
+        { speaker: "Marie", en: "I'll meet you at the kitchen.", fr: "Je te retrouve à la cuisine." },
+        { speaker: "Thomas", en: "Sounds good. See you then.", fr: "Ça marche. À tout de suite." },
+        { speaker: "Marie", en: "Don't forget the files.", fr: "N'oublie pas les dossiers." },
+        { speaker: "Thomas", en: "Got them right here.", fr: "Je les ai juste ici." }
       ],
       tips: [
         "Use 'OOO' to stand for 'Out of Office'.",
@@ -182,16 +182,16 @@ export const professionalCourse: Course = {
         { en: "What brings you here today?", fr: "Qu'est-ce qui vous amène ici aujourd'hui ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Qu'est-ce qui vous amène ici aujourd'hui ?'." }
       ],
       dialogues: [
-        { speaker: "Lucas", en: "Hi, I'm Lucas from Tech Solutions.", fr: "Salut, je suis Lucas de Tech Solutions.", context: "Terme professionnel courant en entreprise américaine. En français : 'Salut, je suis Lucas de Tech Solutions.'." },
-        { speaker: "Sarah", en: "Nice to meet you, I'm Sarah.", fr: "Ravi de vous rencontrer, je suis Sarah.", context: "Terme professionnel courant en entreprise américaine. En français : 'Ravi de vous rencontrer, je suis Sarah.'." },
-        { speaker: "Lucas", en: "What brings you to this event?", fr: "Qu'est-ce qui vous amène à cet événement ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Qu'est-ce qui vous amène à cet événement ?'." },
-        { speaker: "Sarah", en: "I'm looking for new software partners.", fr: "Je cherche de nouveaux partenaires logiciels.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je cherche de nouveaux partenaires logiciels.'." },
-        { speaker: "Lucas", en: "We actually specialize in that.", fr: "Nous nous spécialisons justement là-dedans.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous nous spécialisons justement là-dedans.'." },
-        { speaker: "Sarah", en: "Really? Tell me more.", fr: "Vraiment ? Dites-m'en plus.", context: "Terme professionnel courant en entreprise américaine. En français : 'Vraiment ? Dites-m'en plus.'." },
-        { speaker: "Lucas", en: "Here is my card. Let's talk later.", fr: "Voici ma carte. Parlons plus tard.", context: "Terme professionnel courant en entreprise américaine. En français : 'Voici ma carte. Parlons plus tard.'." },
-        { speaker: "Sarah", en: "Perfect. I'll send you an invitation.", fr: "Parfait. Je vous enverrai une invitation.", context: "Terme professionnel courant en entreprise américaine. En français : 'Parfait. Je vous enverrai une invitation.'." },
-        { speaker: "Lucas", en: "I look forward to it.", fr: "J'ai hâte.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'ai hâte.'." },
-        { speaker: "Sarah", en: "See you later, Lucas.", fr: "À plus tard, Lucas.", context: "Terme professionnel courant en entreprise américaine. En français : 'À plus tard, Lucas.'." }
+        { speaker: "Lucas", en: "Hi, I'm Lucas from Tech Solutions.", fr: "Salut, je suis Lucas de Tech Solutions." },
+        { speaker: "Sarah", en: "Nice to meet you, I'm Sarah.", fr: "Ravi de vous rencontrer, je suis Sarah." },
+        { speaker: "Lucas", en: "What brings you to this event?", fr: "Qu'est-ce qui vous amène à cet événement ?" },
+        { speaker: "Sarah", en: "I'm looking for new software partners.", fr: "Je cherche de nouveaux partenaires logiciels." },
+        { speaker: "Lucas", en: "We actually specialize in that.", fr: "Nous nous spécialisons justement là-dedans." },
+        { speaker: "Sarah", en: "Really? Tell me more.", fr: "Vraiment ? Dites-m'en plus." },
+        { speaker: "Lucas", en: "Here is my card. Let's talk later.", fr: "Voici ma carte. Parlons plus tard." },
+        { speaker: "Sarah", en: "Perfect. I'll send you an invitation.", fr: "Parfait. Je vous enverrai une invitation." },
+        { speaker: "Lucas", en: "I look forward to it.", fr: "J'ai hâte." },
+        { speaker: "Sarah", en: "See you later, Lucas.", fr: "À plus tard, Lucas." }
       ],
       tips: [
         "Focus on listening more than talking.",
@@ -245,16 +245,16 @@ export const professionalCourse: Course = {
         { en: "Thanks for your attention.", fr: "Merci de votre attention.", context: "Terme professionnel courant en entreprise américaine. En français : 'Merci de votre attention.'." }
       ],
       dialogues: [
-        { speaker: "Presenter", en: "Good morning everyone.", fr: "Bonjour à tous.", context: "Terme professionnel courant en entreprise américaine. En français : 'Bonjour à tous.'." },
-        { speaker: "Audience", en: "Good morning.", fr: "Bonjour.", context: "Terme professionnel courant en entreprise américaine. En français : 'Bonjour.'." },
-        { speaker: "Presenter", en: "Today I will discuss our growth.", fr: "Aujourd'hui, je vais discuter de notre croissance.", context: "Terme professionnel courant en entreprise américaine. En français : 'Aujourd'hui, je vais discuter de notre croissance.'." },
-        { speaker: "Manager", en: "Can we see the sales data first?", fr: "Pouvons-vous voir les données de vente d'abord ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Pouvons-vous voir les données de vente d'abord ?'." },
-        { speaker: "Presenter", en: "Yes, that is on slide four.", fr: "Oui, c'est à la diapositive quatre.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, c'est à la diapositive quatre.'." },
-        { speaker: "Manager", en: "Those numbers look impressive.", fr: "Ces chiffres semblent impressionnants.", context: "Terme professionnel courant en entreprise américaine. En français : 'Ces chiffres semblent impressionnants.'." },
-        { speaker: "Presenter", en: "Thank you. Let's move to marketing.", fr: "Merci. Passons au marketing.", context: "Terme professionnel courant en entreprise américaine. En français : 'Merci. Passons au marketing.'." },
-        { speaker: "Attendee", en: "I have a question about the budget.", fr: "J'ai une question sur le budget.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'ai une question sur le budget.'." },
-        { speaker: "Presenter", en: "I'll address that at the end.", fr: "J'aborderai cela à la fin.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'aborderai cela à la fin.'." },
-        { speaker: "Attendee", en: "Understood. Thank you.", fr: "Compris. Merci.", context: "Terme professionnel courant en entreprise américaine. En français : 'Compris. Merci.'." }
+        { speaker: "Presenter", en: "Good morning everyone.", fr: "Bonjour à tous." },
+        { speaker: "Audience", en: "Good morning.", fr: "Bonjour." },
+        { speaker: "Presenter", en: "Today I will discuss our growth.", fr: "Aujourd'hui, je vais discuter de notre croissance." },
+        { speaker: "Manager", en: "Can we see the sales data first?", fr: "Pouvons-vous voir les données de vente d'abord ?" },
+        { speaker: "Presenter", en: "Yes, that is on slide four.", fr: "Oui, c'est à la diapositive quatre." },
+        { speaker: "Manager", en: "Those numbers look impressive.", fr: "Ces chiffres semblent impressionnants." },
+        { speaker: "Presenter", en: "Thank you. Let's move to marketing.", fr: "Merci. Passons au marketing." },
+        { speaker: "Attendee", en: "I have a question about the budget.", fr: "J'ai une question sur le budget." },
+        { speaker: "Presenter", en: "I'll address that at the end.", fr: "J'aborderai cela à la fin." },
+        { speaker: "Attendee", en: "Understood. Thank you.", fr: "Compris. Merci." }
       ],
       tips: [
         "Avoid reading your slides word-for-word.",
@@ -308,16 +308,16 @@ export const professionalCourse: Course = {
         { en: "Let's find a middle ground.", fr: "Trouvons un terrain d'entente.", context: "Terme professionnel courant en entreprise américaine. En français : 'Trouvons un terrain d'entente.'." }
       ],
       dialogues: [
-        { speaker: "HR", en: "We'd like to offer you $70,000.", fr: "Nous aimerions vous offrir 70 000 $.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous aimerions vous offrir 70 000 $.'." },
-        { speaker: "Candidate", en: "Thank you. I'm excited about the team.", fr: "Merci. Je suis enthousiaste pour l'équipe.", context: "Terme professionnel courant en entreprise américaine. En français : 'Merci. Je suis enthousiaste pour l'équipe.'." },
-        { speaker: "Candidate", en: "However, I was expecting $80,000.", fr: "Cependant, je m'attendais à 80 000 $.", context: "Terme professionnel courant en entreprise américaine. En français : 'Cependant, je m'attendais à 80 000 $.'." },
-        { speaker: "HR", en: "That is above our budget.", fr: "C'est au-dessus de notre budget.", context: "Terme professionnel courant en entreprise américaine. En français : 'C'est au-dessus de notre budget.'." },
-        { speaker: "Candidate", en: "Can we include a signing bonus?", fr: "Pouvons-nous inclure une prime d'embauche ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Pouvons-nous inclure une prime d'embauche ?'." },
-        { speaker: "HR", en: "I can offer a $5,000 bonus.", fr: "Je peux offrir une prime de 5 000 $.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je peux offrir une prime de 5 000 $.'." },
-        { speaker: "Candidate", en: "What about performance reviews?", fr: "Qu'en est-il des évaluations de performance ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Qu'en est-il des évaluations de performance ?'." },
-        { speaker: "HR", en: "We do reviews every six months.", fr: "Nous faisons des évaluations tous les six mois.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous faisons des évaluations tous les six mois.'." },
-        { speaker: "Candidate", en: "Okay, I can accept that.", fr: "D'accord, je peux accepter cela.", context: "Terme professionnel courant en entreprise américaine. En français : 'D'accord, je peux accepter cela.'." },
-        { speaker: "HR", en: "Great! Welcome aboard.", fr: "Super ! Bienvenue à bord.", context: "Terme professionnel courant en entreprise américaine. En français : 'Super ! Bienvenue à bord.'." }
+        { speaker: "HR", en: "We'd like to offer you $70,000.", fr: "Nous aimerions vous offrir 70 000 $." },
+        { speaker: "Candidate", en: "Thank you. I'm excited about the team.", fr: "Merci. Je suis enthousiaste pour l'équipe." },
+        { speaker: "Candidate", en: "However, I was expecting $80,000.", fr: "Cependant, je m'attendais à 80 000 $." },
+        { speaker: "HR", en: "That is above our budget.", fr: "C'est au-dessus de notre budget." },
+        { speaker: "Candidate", en: "Can we include a signing bonus?", fr: "Pouvons-nous inclure une prime d'embauche ?" },
+        { speaker: "HR", en: "I can offer a $5,000 bonus.", fr: "Je peux offrir une prime de 5 000 $." },
+        { speaker: "Candidate", en: "What about performance reviews?", fr: "Qu'en est-il des évaluations de performance ?" },
+        { speaker: "HR", en: "We do reviews every six months.", fr: "Nous faisons des évaluations tous les six mois." },
+        { speaker: "Candidate", en: "Okay, I can accept that.", fr: "D'accord, je peux accepter cela." },
+        { speaker: "HR", en: "Great! Welcome aboard.", fr: "Super ! Bienvenue à bord." }
       ],
       tips: [
         "Never accept the first offer immediately.",
@@ -371,16 +371,16 @@ export const professionalCourse: Course = {
         { en: "The sky is the limit.", fr: "Le ciel est la limite.", context: "Terme professionnel courant en entreprise américaine. En français : 'Le ciel est la limite.'." }
       ],
       dialogues: [
-        { speaker: "Founder", en: "Welcome to the team! Coffee is over there.", fr: "Bienvenue dans l'équipe ! Le café est là-bas.", context: "Terme professionnel courant en entreprise américaine. En français : 'Bienvenue dans l'équipe ! Le café est là-bas.'." },
-        { speaker: "New Hire", en: "Thanks. Where is my desk?", fr: "Merci. Où est mon bureau ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Merci. Où est mon bureau ?'." },
-        { speaker: "Founder", en: "We don't have desks. Sit anywhere.", fr: "Nous n'avons pas de bureaux. Assieds-toi n'importe où.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous n'avons pas de bureaux. Assieds-toi n'importe où.'." },
-        { speaker: "New Hire", en: "Nice! What is the first priority?", fr: "Sympa ! Quelle est la première priorité ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Sympa ! Quelle est la première priorité ?'." },
-        { speaker: "Founder", en: "We need to fix the MVP by Friday.", fr: "Nous devons réparer le MVP d'ici vendredi.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous devons réparer le MVP d'ici vendredi.'." },
-        { speaker: "New Hire", en: "Is it a sprint week?", fr: "Est-ce une semaine de sprint ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Est-ce une semaine de sprint ?'." },
-        { speaker: "Founder", en: "Every week is a sprint here.", fr: "Chaque semaine est un sprint ici.", context: "Terme professionnel courant en entreprise américaine. En français : 'Chaque semaine est un sprint ici.'." },
-        { speaker: "New Hire", en: "Got it. I'll get to work.", fr: "Compris. Je m'y mets.", context: "Terme professionnel courant en entreprise américaine. En français : 'Compris. Je m'y mets.'." },
-        { speaker: "Founder", en: "Check the Slack channel for updates.", fr: "Consulte le canal Slack pour les mises à jour.", context: "Terme professionnel courant en entreprise américaine. En français : 'Consulte le canal Slack pour les mises à jour.'." },
-        { speaker: "New Hire", en: "Joining right now.", fr: "Je rejoins tout de suite.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je rejoins tout de suite.'." }
+        { speaker: "Founder", en: "Welcome to the team! Coffee is over there.", fr: "Bienvenue dans l'équipe ! Le café est là-bas." },
+        { speaker: "New Hire", en: "Thanks. Where is my desk?", fr: "Merci. Où est mon bureau ?" },
+        { speaker: "Founder", en: "We don't have desks. Sit anywhere.", fr: "Nous n'avons pas de bureaux. Assieds-toi n'importe où." },
+        { speaker: "New Hire", en: "Nice! What is the first priority?", fr: "Sympa ! Quelle est la première priorité ?" },
+        { speaker: "Founder", en: "We need to fix the MVP by Friday.", fr: "Nous devons réparer le MVP d'ici vendredi." },
+        { speaker: "New Hire", en: "Is it a sprint week?", fr: "Est-ce une semaine de sprint ?" },
+        { speaker: "Founder", en: "Every week is a sprint here.", fr: "Chaque semaine est un sprint ici." },
+        { speaker: "New Hire", en: "Got it. I'll get to work.", fr: "Compris. Je m'y mets." },
+        { speaker: "Founder", en: "Check the Slack channel for updates.", fr: "Consulte le canal Slack pour les mises à jour." },
+        { speaker: "New Hire", en: "Joining right now.", fr: "Je rejoins tout de suite." }
       ],
       tips: [
         "Expect to wear many hats in a startup.",
@@ -434,16 +434,16 @@ export const professionalCourse: Course = {
         { en: "I'll ping you on Slack.", fr: "Je t'envoie un message sur Slack.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je t'envoie un message sur Slack.'." }
       ],
       dialogues: [
-        { speaker: "Boss", en: "Are you ready for the meeting?", fr: "Êtes-vous prêt pour la réunion ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Êtes-vous prêt pour la réunion ?'." },
-        { speaker: "Employee", en: "Almost, my internet is acting up.", fr: "Presque, mon internet fait des siennes.", context: "Terme professionnel courant en entreprise américaine. En français : 'Presque, mon internet fait des siennes.'." },
-        { speaker: "Boss", en: "Try restarting your router.", fr: "Essayez de redémarrer votre routeur.", context: "Terme professionnel courant en entreprise américaine. En français : 'Essayez de redémarrer votre routeur.'." },
-        { speaker: "Employee", en: "Okay, I'm back now. Can you hear me?", fr: "D'accord, je suis revenu. Vous m'entendez ?", context: "Terme professionnel courant en entreprise américaine. En français : 'D'accord, je suis revenu. Vous m'entendez ?'." },
-        { speaker: "Boss", en: "Yes, loud and clear. Share your screen.", fr: "Oui, fort et clair. Partagez votre écran.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, fort et clair. Partagez votre écran.'." },
-        { speaker: "Employee", en: "Here are the designs for the app.", fr: "Voici les designs pour l'application.", context: "Terme professionnel courant en entreprise américaine. En français : 'Voici les designs pour l'application.'." },
-        { speaker: "Boss", en: "Wait, you are still on mute.", fr: "Attends, tu es toujours en mode muet.", context: "Terme professionnel courant en entreprise américaine. En français : 'Attends, tu es toujours en mode muet.'." },
-        { speaker: "Employee", en: "Oops, sorry about that!", fr: "Oups, désolé pour ça !", context: "Terme professionnel courant en entreprise américaine. En français : 'Oups, désolé pour ça !'." },
-        { speaker: "Boss", en: "No problem. Let's continue.", fr: "Pas de problème. Continuons.", context: "Terme professionnel courant en entreprise américaine. En français : 'Pas de problème. Continuons.'." },
-        { speaker: "Employee", en: "I'll send the file after the call.", fr: "J'enverrai le fichier après l'appel.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'enverrai le fichier après l'appel.'." }
+        { speaker: "Boss", en: "Are you ready for the meeting?", fr: "Êtes-vous prêt pour la réunion ?" },
+        { speaker: "Employee", en: "Almost, my internet is acting up.", fr: "Presque, mon internet fait des siennes." },
+        { speaker: "Boss", en: "Try restarting your router.", fr: "Essayez de redémarrer votre routeur." },
+        { speaker: "Employee", en: "Okay, I'm back now. Can you hear me?", fr: "D'accord, je suis revenu. Vous m'entendez ?" },
+        { speaker: "Boss", en: "Yes, loud and clear. Share your screen.", fr: "Oui, fort et clair. Partagez votre écran." },
+        { speaker: "Employee", en: "Here are the designs for the app.", fr: "Voici les designs pour l'application." },
+        { speaker: "Boss", en: "Wait, you are still on mute.", fr: "Attends, tu es toujours en mode muet." },
+        { speaker: "Employee", en: "Oops, sorry about that!", fr: "Oups, désolé pour ça !" },
+        { speaker: "Boss", en: "No problem. Let's continue.", fr: "Pas de problème. Continuons." },
+        { speaker: "Employee", en: "I'll send the file after the call.", fr: "J'enverrai le fichier après l'appel." }
       ],
       tips: [
         "Create a dedicated workspace to separate home and work life.",
@@ -497,16 +497,16 @@ export const professionalCourse: Course = {
         { en: "You have my full support.", fr: "Vous avez mon soutien total.", context: "Terme professionnel courant en entreprise américaine. En français : 'Vous avez mon soutien total.'." }
       ],
       dialogues: [
-        { speaker: "Manager", en: "I want to hear your thoughts on the project.", fr: "Je veux entendre vos réflexions sur le projet.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je veux entendre vos réflexions sur le projet.'." },
-        { speaker: "Employee", en: "I think we need more time.", fr: "Je pense que nous avons besoin de plus de temps.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je pense que nous avons besoin de plus de temps.'." },
-        { speaker: "Manager", en: "What is holding us back?", fr: "Qu'est-ce qui nous freine ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Qu'est-ce qui nous freine ?'." },
-        { speaker: "Employee", en: "The design team is behind.", fr: "L'équipe de design est en retard.", context: "Terme professionnel courant en entreprise américaine. En français : 'L'équipe de design est en retard.'." },
-        { speaker: "Manager", en: "Okay, I will talk to them today.", fr: "D'accord, je vais leur parler aujourd'hui.", context: "Terme professionnel courant en entreprise américaine. En français : 'D'accord, je vais leur parler aujourd'hui.'." },
-        { speaker: "Employee", en: "Thank you. That would help a lot.", fr: "Merci. Cela aiderait beaucoup.", context: "Terme professionnel courant en entreprise américaine. En français : 'Merci. Cela aiderait beaucoup.'." },
-        { speaker: "Manager", en: "My goal is to clear your path.", fr: "Mon objectif est de vous frayer un chemin.", context: "Terme professionnel courant en entreprise américaine. En français : 'Mon objectif est de vous frayer un chemin.'." },
-        { speaker: "Employee", en: "I appreciate that leadership.", fr: "J'apprécie ce leadership.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'apprécie ce leadership.'." },
-        { speaker: "Manager", en: "Let's meet tomorrow to review.", fr: "Rencontrons-nous demain pour faire le point.", context: "Terme professionnel courant en entreprise américaine. En français : 'Rencontrons-nous demain pour faire le point.'." },
-        { speaker: "Employee", en: "I'll be ready.", fr: "Je serai prêt.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je serai prêt.'." }
+        { speaker: "Manager", en: "I want to hear your thoughts on the project.", fr: "Je veux entendre vos réflexions sur le projet." },
+        { speaker: "Employee", en: "I think we need more time.", fr: "Je pense que nous avons besoin de plus de temps." },
+        { speaker: "Manager", en: "What is holding us back?", fr: "Qu'est-ce qui nous freine ?" },
+        { speaker: "Employee", en: "The design team is behind.", fr: "L'équipe de design est en retard." },
+        { speaker: "Manager", en: "Okay, I will talk to them today.", fr: "D'accord, je vais leur parler aujourd'hui." },
+        { speaker: "Employee", en: "Thank you. That would help a lot.", fr: "Merci. Cela aiderait beaucoup." },
+        { speaker: "Manager", en: "My goal is to clear your path.", fr: "Mon objectif est de vous frayer un chemin." },
+        { speaker: "Employee", en: "I appreciate that leadership.", fr: "J'apprécie ce leadership." },
+        { speaker: "Manager", en: "Let's meet tomorrow to review.", fr: "Rencontrons-nous demain pour faire le point." },
+        { speaker: "Employee", en: "I'll be ready.", fr: "Je serai prêt." }
       ],
       tips: [
         "Active listening is just as important as speaking.",
@@ -560,16 +560,16 @@ export const professionalCourse: Course = {
         { en: "Don't reinvent the wheel.", fr: "Ne réinventez pas la roue.", context: "Terme professionnel courant en entreprise américaine. En français : 'Ne réinventez pas la roue.'." }
       ],
       dialogues: [
-        { speaker: "Colleague 1", en: "Let's touch base about the synergy.", fr: "Prenons contact au sujet de la synergie.", context: "Terme professionnel courant en entreprise américaine. En français : 'Prenons contact au sujet de la synergie.'." },
-        { speaker: "Colleague 2", en: "Sure, let's do a deep dive.", fr: "Bien sûr, faisons une analyse approfondie.", context: "Terme professionnel courant en entreprise américaine. En français : 'Bien sûr, faisons une analyse approfondie.'." },
-        { speaker: "Colleague 1", en: "We need executive buy-in first.", fr: "Nous avons d'abord besoin de l'adhésion des cadres.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous avons d'abord besoin de l'adhésion des cadres.'." },
-        { speaker: "Colleague 2", en: "I'll circle back after the meeting.", fr: "Je reviendrai vers vous après la réunion.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je reviendrai vers vous après la réunion.'." },
-        { speaker: "Colleague 1", en: "Let's get our ducks in a row.", fr: "Mettons de l'ordre dans nos affaires.", context: "Terme professionnel courant en entreprise américaine. En français : 'Mettons de l'ordre dans nos affaires.'." },
-        { speaker: "Colleague 2", en: "Agreed. This is a game changer.", fr: "D'accord. C'est une révolution.", context: "Terme professionnel courant en entreprise américaine. En français : 'D'accord. C'est une révolution.'." },
-        { speaker: "Colleague 1", en: "Don't forget the low-hanging fruit.", fr: "N'oubliez pas les résultats faciles.", context: "Terme professionnel courant en entreprise américaine. En français : 'N'oubliez pas les résultats faciles.'." },
-        { speaker: "Colleague 2", en: "I have it on my radar.", fr: "Je l'ai sur mon radar.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je l'ai sur mon radar.'." },
-        { speaker: "Colleague 1", en: "Excellent. Let's move the needle.", fr: "Excellent. Faisons bouger les choses.", context: "Terme professionnel courant en entreprise américaine. En français : 'Excellent. Faisons bouger les choses.'." },
-        { speaker: "Colleague 2", en: "We will hit the ground running.", fr: "Nous démarrerons sur les chapeaux de roue.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous démarrerons sur les chapeaux de roue.'." }
+        { speaker: "Colleague 1", en: "Let's touch base about the synergy.", fr: "Prenons contact au sujet de la synergie." },
+        { speaker: "Colleague 2", en: "Sure, let's do a deep dive.", fr: "Bien sûr, faisons une analyse approfondie." },
+        { speaker: "Colleague 1", en: "We need executive buy-in first.", fr: "Nous avons d'abord besoin de l'adhésion des cadres." },
+        { speaker: "Colleague 2", en: "I'll circle back after the meeting.", fr: "Je reviendrai vers vous après la réunion." },
+        { speaker: "Colleague 1", en: "Let's get our ducks in a row.", fr: "Mettons de l'ordre dans nos affaires." },
+        { speaker: "Colleague 2", en: "Agreed. This is a game changer.", fr: "D'accord. C'est une révolution." },
+        { speaker: "Colleague 1", en: "Don't forget the low-hanging fruit.", fr: "N'oubliez pas les résultats faciles." },
+        { speaker: "Colleague 2", en: "I have it on my radar.", fr: "Je l'ai sur mon radar." },
+        { speaker: "Colleague 1", en: "Excellent. Let's move the needle.", fr: "Excellent. Faisons bouger les choses." },
+        { speaker: "Colleague 2", en: "We will hit the ground running.", fr: "Nous démarrerons sur les chapeaux de roue." }
       ],
       tips: [
         "Jargon can be useful but don't overdo it.",
@@ -623,16 +623,16 @@ export const professionalCourse: Course = {
         { en: "Have a wonderful day.", fr: "Passez une excellente journée.", context: "Terme professionnel courant en entreprise américaine. En français : 'Passez une excellente journée.'." }
       ],
       dialogues: [
-        { speaker: "Customer", en: "My order is two days late.", fr: "Ma commande a deux jours de retard.", context: "Terme professionnel courant en entreprise américaine. En français : 'Ma commande a deux jours de retard.'." },
-        { speaker: "Support", en: "I'm so sorry. Let me check the status.", fr: "Je suis vraiment désolé. Laissez-moi vérifier le statut.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je suis vraiment désolé. Laissez-moi vérifier le statut.'." },
-        { speaker: "Customer", en: "Thank you. It was supposed to be here.", fr: "Merci. Elle était censée être là.", context: "Terme professionnel courant en entreprise américaine. En français : 'Merci. Elle était censée être là.'." },
-        { speaker: "Support", en: "It looks like there was a delay at the port.", fr: "Il semble qu'il y ait eu un retard au port.", context: "Terme professionnel courant en entreprise américaine. En français : 'Il semble qu'il y ait eu un retard au port.'." },
-        { speaker: "Customer", en: "Can I get a refund on shipping?", fr: "Puis-je obtenir un remboursement des frais de port ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Puis-je obtenir un remboursement des frais de port ?'." },
-        { speaker: "Support", en: "Yes, I will process that for you now.", fr: "Oui, je vais traiter cela pour vous maintenant.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, je vais traiter cela pour vous maintenant.'." },
-        { speaker: "Customer", en: "I appreciate that. When will it arrive?", fr: "J'apprécie. Quand arrivera-t-elle ?", context: "Terme professionnel courant en entreprise américaine. En français : 'J'apprécie. Quand arrivera-t-elle ?'." },
-        { speaker: "Support", en: "It should arrive tomorrow morning.", fr: "Elle devrait arriver demain matin.", context: "Terme professionnel courant en entreprise américaine. En français : 'Elle devrait arriver demain matin.'." },
-        { speaker: "Customer", en: "Perfect. Thank you for your help.", fr: "Parfait. Merci pour votre aide.", context: "Terme professionnel courant en entreprise américaine. En français : 'Parfait. Merci pour votre aide.'." },
-        { speaker: "Support", en: "You're welcome. Have a nice day!", fr: "De rien. Bonne journée !", context: "Terme professionnel courant en entreprise américaine. En français : 'De rien. Bonne journée !'." }
+        { speaker: "Customer", en: "My order is two days late.", fr: "Ma commande a deux jours de retard." },
+        { speaker: "Support", en: "I'm so sorry. Let me check the status.", fr: "Je suis vraiment désolé. Laissez-moi vérifier le statut." },
+        { speaker: "Customer", en: "Thank you. It was supposed to be here.", fr: "Merci. Elle était censée être là." },
+        { speaker: "Support", en: "It looks like there was a delay at the port.", fr: "Il semble qu'il y ait eu un retard au port." },
+        { speaker: "Customer", en: "Can I get a refund on shipping?", fr: "Puis-je obtenir un remboursement des frais de port ?" },
+        { speaker: "Support", en: "Yes, I will process that for you now.", fr: "Oui, je vais traiter cela pour vous maintenant." },
+        { speaker: "Customer", en: "I appreciate that. When will it arrive?", fr: "J'apprécie. Quand arrivera-t-elle ?" },
+        { speaker: "Support", en: "It should arrive tomorrow morning.", fr: "Elle devrait arriver demain matin." },
+        { speaker: "Customer", en: "Perfect. Thank you for your help.", fr: "Parfait. Merci pour votre aide." },
+        { speaker: "Support", en: "You're welcome. Have a nice day!", fr: "De rien. Bonne journée !" }
       ],
       tips: [
         "Always remain calm even with angry customers.",
@@ -686,16 +686,16 @@ export const professionalCourse: Course = {
         { en: "Focus on the value proposition.", fr: "Concentrez-vous sur la proposition de valeur.", context: "Terme professionnel courant en entreprise américaine. En français : 'Concentrez-vous sur la proposition de valeur.'." }
       ],
       dialogues: [
-        { speaker: "Sales Manager", en: "How is the new campaign doing?", fr: "Comment se passe la nouvelle campagne ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Comment se passe la nouvelle campagne ?'." },
-        { speaker: "Marketer", en: "Traffic is up, but conversion is low.", fr: "Le trafic est en hausse, mais la conversion est basse.", context: "Terme professionnel courant en entreprise américaine. En français : 'Le trafic est en hausse, mais la conversion est basse.'." },
-        { speaker: "Sales Manager", en: "Maybe the landing page is the issue.", fr: "Peut-être que la page d'accueil est le problème.", context: "Terme professionnel courant en entreprise américaine. En français : 'Peut-être que la page d'accueil est le problème.'." },
-        { speaker: "Marketer", en: "I'll run some analytics tonight.", fr: "Je vais faire quelques analyses ce soir.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je vais faire quelques analyses ce soir.'." },
-        { speaker: "Sales Manager", en: "We need more qualified leads.", fr: "Nous avons besoin de prospects plus qualifiés.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous avons besoin de prospects plus qualifiés.'." },
-        { speaker: "Marketer", en: "Let's target a narrower audience.", fr: "Ciblons un public plus restreint.", context: "Terme professionnel courant en entreprise américaine. En français : 'Ciblons un public plus restreint.'." },
-        { speaker: "Sales Manager", en: "Good idea. What about social media?", fr: "Bonne idée. Et pour les réseaux sociaux ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Bonne idée. Et pour les réseaux sociaux ?'." },
-        { speaker: "Marketer", en: "Engagement is high on Instagram.", fr: "L'engagement est élevé sur Instagram.", context: "Terme professionnel courant en entreprise américaine. En français : 'L'engagement est élevé sur Instagram.'." },
-        { speaker: "Sales Manager", en: "Let's double our spend there.", fr: "Doublons nos dépenses là-bas.", context: "Terme professionnel courant en entreprise américaine. En français : 'Doublons nos dépenses là-bas.'." },
-        { speaker: "Marketer", en: "I'll update the plan.", fr: "Je vais mettre à jour le plan.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je vais mettre à jour le plan.'." }
+        { speaker: "Sales Manager", en: "How is the new campaign doing?", fr: "Comment se passe la nouvelle campagne ?" },
+        { speaker: "Marketer", en: "Traffic is up, but conversion is low.", fr: "Le trafic est en hausse, mais la conversion est basse." },
+        { speaker: "Sales Manager", en: "Maybe the landing page is the issue.", fr: "Peut-être que la page d'accueil est le problème." },
+        { speaker: "Marketer", en: "I'll run some analytics tonight.", fr: "Je vais faire quelques analyses ce soir." },
+        { speaker: "Sales Manager", en: "We need more qualified leads.", fr: "Nous avons besoin de prospects plus qualifiés." },
+        { speaker: "Marketer", en: "Let's target a narrower audience.", fr: "Ciblons un public plus restreint." },
+        { speaker: "Sales Manager", en: "Good idea. What about social media?", fr: "Bonne idée. Et pour les réseaux sociaux ?" },
+        { speaker: "Marketer", en: "Engagement is high on Instagram.", fr: "L'engagement est élevé sur Instagram." },
+        { speaker: "Sales Manager", en: "Let's double our spend there.", fr: "Doublons nos dépenses là-bas." },
+        { speaker: "Marketer", en: "I'll update the plan.", fr: "Je vais mettre à jour le plan." }
       ],
       tips: [
         "Focus on the benefits for the customer, not just features.",
@@ -749,16 +749,16 @@ export const professionalCourse: Course = {
         { en: "The audit was clean.", fr: "L'audit était sans réserve.", context: "Terme professionnel courant en entreprise américaine. En français : 'L'audit était sans réserve.'." }
       ],
       dialogues: [
-        { speaker: "Accountant", en: "We need to review the Q3 report.", fr: "Nous devons revoir le rapport du 3e trimestre.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous devons revoir le rapport du 3e trimestre.'." },
-        { speaker: "Manager", en: "Did we hit our revenue targets?", fr: "Avons-nous atteint nos objectifs de revenus ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Avons-nous atteint nos objectifs de revenus ?'." },
-        { speaker: "Accountant", en: "Yes, but expenses were higher.", fr: "Oui, mais les dépenses ont été plus élevées.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, mais les dépenses ont été plus élevées.'." },
-        { speaker: "Manager", en: "Why? Was it because of marketing?", fr: "Pourquoi ? Était-ce à cause du marketing ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Pourquoi ? Était-ce à cause du marketing ?'." },
-        { speaker: "Accountant", en: "Partly, and travel costs increased.", fr: "En partie, et les frais de voyage ont augmenté.", context: "Terme professionnel courant en entreprise américaine. En français : 'En partie, et les frais de voyage ont augmenté.'." },
-        { speaker: "Manager", en: "We must stay within the budget.", fr: "Nous devons rester dans le budget.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous devons rester dans le budget.'." },
-        { speaker: "Accountant", en: "I'll create a new forecast.", fr: "Je vais créer une nouvelle prévision.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je vais créer une nouvelle prévision.'." },
-        { speaker: "Manager", en: "Good. Send it to me by Friday.", fr: "Bien. Envoie-le moi d'ici vendredi.", context: "Terme professionnel courant en entreprise américaine. En français : 'Bien. Envoie-le moi d'ici vendredi.'." },
-        { speaker: "Accountant", en: "Will do. I'll include the balance sheet.", fr: "Je le ferai. J'inclurai le bilan.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je le ferai. J'inclurai le bilan.'." },
-        { speaker: "Manager", en: "Thanks for the hard work.", fr: "Merci pour le travail acharné.", context: "Terme professionnel courant en entreprise américaine. En français : 'Merci pour le travail acharné.'." }
+        { speaker: "Accountant", en: "We need to review the Q3 report.", fr: "Nous devons revoir le rapport du 3e trimestre." },
+        { speaker: "Manager", en: "Did we hit our revenue targets?", fr: "Avons-nous atteint nos objectifs de revenus ?" },
+        { speaker: "Accountant", en: "Yes, but expenses were higher.", fr: "Oui, mais les dépenses ont été plus élevées." },
+        { speaker: "Manager", en: "Why? Was it because of marketing?", fr: "Pourquoi ? Était-ce à cause du marketing ?" },
+        { speaker: "Accountant", en: "Partly, and travel costs increased.", fr: "En partie, et les frais de voyage ont augmenté." },
+        { speaker: "Manager", en: "We must stay within the budget.", fr: "Nous devons rester dans le budget." },
+        { speaker: "Accountant", en: "I'll create a new forecast.", fr: "Je vais créer une nouvelle prévision." },
+        { speaker: "Manager", en: "Good. Send it to me by Friday.", fr: "Bien. Envoie-le moi d'ici vendredi." },
+        { speaker: "Accountant", en: "Will do. I'll include the balance sheet.", fr: "Je le ferai. J'inclurai le bilan." },
+        { speaker: "Manager", en: "Thanks for the hard work.", fr: "Merci pour le travail acharné." }
       ],
       tips: [
         "In English, 'the numbers don't add up' means something is wrong.",
@@ -812,16 +812,16 @@ export const professionalCourse: Course = {
         { en: "File a grievance.", fr: "Déposez un grief.", context: "Terme professionnel courant en entreprise américaine. En français : 'Déposez un grief.'." }
       ],
       dialogues: [
-        { speaker: "HR", en: "Welcome! Here is your equipment.", fr: "Bienvenue ! Voici votre équipement.", context: "Terme professionnel courant en entreprise américaine. En français : 'Bienvenue ! Voici votre équipement.'." },
-        { speaker: "Employee", en: "Thank you. Where is the handbook?", fr: "Merci. Où est le manuel ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Merci. Où est le manuel ?'." },
-        { speaker: "HR", en: "It is on the company portal.", fr: "C'est sur le portail de l'entreprise.", context: "Terme professionnel courant en entreprise américaine. En français : 'C'est sur le portail de l'entreprise.'." },
-        { speaker: "Employee", en: "Okay. How do I request time off?", fr: "D'accord. Comment demander des congés ?", context: "Terme professionnel courant en entreprise américaine. En français : 'D'accord. Comment demander des congés ?'." },
-        { speaker: "HR", en: "You use the HR app for that.", fr: "Vous utilisez l'application RH pour cela.", context: "Terme professionnel courant en entreprise américaine. En français : 'Vous utilisez l'application RH pour cela.'." },
-        { speaker: "Employee", en: "Do I have health insurance yet?", fr: "Est-ce que j'ai déjà une assurance santé ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Est-ce que j'ai déjà une assurance santé ?'." },
-        { speaker: "HR", en: "Yes, it starts today.", fr: "Oui, ça commence aujourd'hui.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, ça commence aujourd'hui.'." },
-        { speaker: "Employee", en: "Great. Who is my direct manager?", fr: "Super. Qui est mon responsable direct ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Super. Qui est mon responsable direct ?'." },
-        { speaker: "HR", en: "His name is Steve. He is in Room 4.", fr: "Son nom est Steve. Il est en salle 4.", context: "Terme professionnel courant en entreprise américaine. En français : 'Son nom est Steve. Il est en salle 4.'." },
-        { speaker: "Employee", en: "I'll go meet him now.", fr: "Je vais le rencontrer maintenant.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je vais le rencontrer maintenant.'." }
+        { speaker: "HR", en: "Welcome! Here is your equipment.", fr: "Bienvenue ! Voici votre équipement." },
+        { speaker: "Employee", en: "Thank you. Where is the handbook?", fr: "Merci. Où est le manuel ?" },
+        { speaker: "HR", en: "It is on the company portal.", fr: "C'est sur le portail de l'entreprise." },
+        { speaker: "Employee", en: "Okay. How do I request time off?", fr: "D'accord. Comment demander des congés ?" },
+        { speaker: "HR", en: "You use the HR app for that.", fr: "Vous utilisez l'application RH pour cela." },
+        { speaker: "Employee", en: "Do I have health insurance yet?", fr: "Est-ce que j'ai déjà une assurance santé ?" },
+        { speaker: "HR", en: "Yes, it starts today.", fr: "Oui, ça commence aujourd'hui." },
+        { speaker: "Employee", en: "Great. Who is my direct manager?", fr: "Super. Qui est mon responsable direct ?" },
+        { speaker: "HR", en: "His name is Steve. He is in Room 4.", fr: "Son nom est Steve. Il est en salle 4." },
+        { speaker: "Employee", en: "I'll go meet him now.", fr: "Je vais le rencontrer maintenant." }
       ],
       tips: [
         "In the US, PTO stands for Paid Time Off.",
@@ -875,16 +875,16 @@ export const professionalCourse: Course = {
         { en: "In witness whereof...", fr: "En foi de quoi...", context: "Terme professionnel courant en entreprise américaine. En français : 'En foi de quoi...'." }
       ],
       dialogues: [
-        { speaker: "Lawyer", en: "Did you review the NDA?", fr: "Avez-vous revu l'accord de non-divulgation ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Avez-vous revu l'accord de non-divulgation ?'." },
-        { speaker: "Client", en: "Yes, but I want to change one clause.", fr: "Oui, mais je veux changer une clause.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, mais je veux changer une clause.'." },
-        { speaker: "Lawyer", en: "Which one? The liability section?", fr: "Laquelle ? La section sur la responsabilité ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Laquelle ? La section sur la responsabilité ?'." },
-        { speaker: "Client", en: "No, the termination clause.", fr: "Non, la clause de résiliation.", context: "Terme professionnel courant en entreprise américaine. En français : 'Non, la clause de résiliation.'." },
-        { speaker: "Lawyer", en: "Okay, I'll revise the draft.", fr: "D'accord, je vais réviser le projet.", context: "Terme professionnel courant en entreprise américaine. En français : 'D'accord, je vais réviser le projet.'." },
-        { speaker: "Client", en: "Is it legally binding after I sign?", fr: "Est-ce juridiquement contraignant après ma signature ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Est-ce juridiquement contraignant après ma signature ?'." },
-        { speaker: "Lawyer", en: "Yes, once both parties sign.", fr: "Oui, une fois que les deux parties auront signé.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, une fois que les deux parties auront signé.'." },
-        { speaker: "Client", en: "Can we have it notarized?", fr: "Pouvons-nous le faire notariser ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Pouvons-nous le faire notariser ?'." },
-        { speaker: "Lawyer", en: "I'll arrange a meeting with the notary.", fr: "J'organiserai une réunion avec le notaire.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'organiserai une réunion avec le notaire.'." },
-        { speaker: "Client", en: "Perfect. Thank you for the help.", fr: "Parfait. Merci pour l'aide.", context: "Terme professionnel courant en entreprise américaine. En français : 'Parfait. Merci pour l'aide.'." }
+        { speaker: "Lawyer", en: "Did you review the NDA?", fr: "Avez-vous revu l'accord de non-divulgation ?" },
+        { speaker: "Client", en: "Yes, but I want to change one clause.", fr: "Oui, mais je veux changer une clause." },
+        { speaker: "Lawyer", en: "Which one? The liability section?", fr: "Laquelle ? La section sur la responsabilité ?" },
+        { speaker: "Client", en: "No, the termination clause.", fr: "Non, la clause de résiliation." },
+        { speaker: "Lawyer", en: "Okay, I'll revise the draft.", fr: "D'accord, je vais réviser le projet." },
+        { speaker: "Client", en: "Is it legally binding after I sign?", fr: "Est-ce juridiquement contraignant après ma signature ?" },
+        { speaker: "Lawyer", en: "Yes, once both parties sign.", fr: "Oui, une fois que les deux parties auront signé." },
+        { speaker: "Client", en: "Can we have it notarized?", fr: "Pouvons-nous le faire notariser ?" },
+        { speaker: "Lawyer", en: "I'll arrange a meeting with the notary.", fr: "J'organiserai une réunion avec le notaire." },
+        { speaker: "Client", en: "Perfect. Thank you for the help.", fr: "Parfait. Merci pour l'aide." }
       ],
       tips: [
         "NDA stands for Non-Disclosure Agreement.",
@@ -938,16 +938,16 @@ export const professionalCourse: Course = {
         { en: "Run the test suite.", fr: "Lancez la suite de tests.", context: "Terme professionnel courant en entreprise américaine. En français : 'Lancez la suite de tests.'." }
       ],
       dialogues: [
-        { speaker: "Coder", en: "The app keeps crashing.", fr: "L'application n'arrête pas de planter.", context: "Terme professionnel courant en entreprise américaine. En français : 'L'application n'arrête pas de planter.'." },
-        { speaker: "Lead", en: "Did you check the error logs?", fr: "As-tu vérifié les journaux d'erreurs ?", context: "Terme professionnel courant en entreprise américaine. En français : 'As-tu vérifié les journaux d'erreurs ?'." },
-        { speaker: "Coder", en: "Yes, it's a memory leak.", fr: "Oui, c'est une fuite de mémoire.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, c'est une fuite de mémoire.'." },
-        { speaker: "Lead", en: "Can we fix it before the demo?", fr: "Pouvons-nous le réparer avant la démo ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Pouvons-nous le réparer avant la démo ?'." },
-        { speaker: "Coder", en: "I need two hours.", fr: "J'ai besoin de deux heures.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'ai besoin de deux heures.'." },
-        { speaker: "Lead", en: "Go ahead. I'll tell the client.", fr: "Vas-y. Je vais prévenir le client.", context: "Terme professionnel courant en entreprise américaine. En français : 'Vas-y. Je vais prévenir le client.'." },
-        { speaker: "Coder", en: "Should I also update the API?", fr: "Dois-je aussi mettre à jour l'API ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Dois-je aussi mettre à jour l'API ?'." },
-        { speaker: "Lead", en: "No, one thing at a time.", fr: "Non, une chose à la fois.", context: "Terme professionnel courant en entreprise américaine. En français : 'Non, une chose à la fois.'." },
-        { speaker: "Coder", en: "Okay, I'm starting now.", fr: "D'accord, je commence maintenant.", context: "Terme professionnel courant en entreprise américaine. En français : 'D'accord, je commence maintenant.'." },
-        { speaker: "Lead", en: "Good luck. Let me know if you need help.", fr: "Bonne chance. Dis-moi si tu as besoin d'aide.", context: "Terme professionnel courant en entreprise américaine. En français : 'Bonne chance. Dis-moi si tu as besoin d'aide.'." }
+        { speaker: "Coder", en: "The app keeps crashing.", fr: "L'application n'arrête pas de planter." },
+        { speaker: "Lead", en: "Did you check the error logs?", fr: "As-tu vérifié les journaux d'erreurs ?" },
+        { speaker: "Coder", en: "Yes, it's a memory leak.", fr: "Oui, c'est une fuite de mémoire." },
+        { speaker: "Lead", en: "Can we fix it before the demo?", fr: "Pouvons-nous le réparer avant la démo ?" },
+        { speaker: "Coder", en: "I need two hours.", fr: "J'ai besoin de deux heures." },
+        { speaker: "Lead", en: "Go ahead. I'll tell the client.", fr: "Vas-y. Je vais prévenir le client." },
+        { speaker: "Coder", en: "Should I also update the API?", fr: "Dois-je aussi mettre à jour l'API ?" },
+        { speaker: "Lead", en: "No, one thing at a time.", fr: "Non, une chose à la fois." },
+        { speaker: "Coder", en: "Okay, I'm starting now.", fr: "D'accord, je commence maintenant." },
+        { speaker: "Lead", en: "Good luck. Let me know if you need help.", fr: "Bonne chance. Dis-moi si tu as besoin d'aide." }
       ],
       tips: [
         "UI means User Interface; UX means User Experience.",
@@ -1001,16 +1001,16 @@ export const professionalCourse: Course = {
         { en: "I'll send the final files soon.", fr: "J'enverrai les fichiers finaux bientôt.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'enverrai les fichiers finaux bientôt.'." }
       ],
       dialogues: [
-        { speaker: "Client", en: "How much do you charge for a logo?", fr: "Combien facturez-vous pour un logo ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Combien facturez-vous pour un logo ?'." },
-        { speaker: "Freelancer", en: "My flat fee is five hundred dollars.", fr: "Mon forfait fixe est de cinq cents dollars.", context: "Terme professionnel courant en entreprise américaine. En français : 'Mon forfait fixe est de cinq cents dollars.'." },
-        { speaker: "Client", en: "Does that include revisions?", fr: "Est-ce que cela inclut les révisions ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Est-ce que cela inclut les révisions ?'." },
-        { speaker: "Freelancer", en: "Yes, it includes three rounds.", fr: "Oui, cela inclut trois séries.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, cela inclut trois séries.'." },
-        { speaker: "Client", en: "When can you start?", fr: "Quand pouvez-vous commencer ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Quand pouvez-vous commencer ?'." },
-        { speaker: "Freelancer", en: "I can start on Wednesday.", fr: "Je peux commencer mercredi.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je peux commencer mercredi.'." },
-        { speaker: "Client", en: "Okay, send me the contract.", fr: "D'accord, envoyez-moi le contrat.", context: "Terme professionnel courant en entreprise américaine. En français : 'D'accord, envoyez-moi le contrat.'." },
-        { speaker: "Freelancer", en: "I'll send it via email tonight.", fr: "Je l'enverrai par e-mail ce soir.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je l'enverrai par e-mail ce soir.'." },
-        { speaker: "Client", en: "Perfect. I'll sign it tomorrow.", fr: "Parfait. Je le signerai demain.", context: "Terme professionnel courant en entreprise américaine. En français : 'Parfait. Je le signerai demain.'." },
-        { speaker: "Freelancer", en: "Looking forward to starting!", fr: "Hâte de commencer !", context: "Terme professionnel courant en entreprise américaine. En français : 'Hâte de commencer !'." }
+        { speaker: "Client", en: "How much do you charge for a logo?", fr: "Combien facturez-vous pour un logo ?" },
+        { speaker: "Freelancer", en: "My flat fee is five hundred dollars.", fr: "Mon forfait fixe est de cinq cents dollars." },
+        { speaker: "Client", en: "Does that include revisions?", fr: "Est-ce que cela inclut les révisions ?" },
+        { speaker: "Freelancer", en: "Yes, it includes three rounds.", fr: "Oui, cela inclut trois séries." },
+        { speaker: "Client", en: "When can you start?", fr: "Quand pouvez-vous commencer ?" },
+        { speaker: "Freelancer", en: "I can start on Wednesday.", fr: "Je peux commencer mercredi." },
+        { speaker: "Client", en: "Okay, send me the contract.", fr: "D'accord, envoyez-moi le contrat." },
+        { speaker: "Freelancer", en: "I'll send it via email tonight.", fr: "Je l'enverrai par e-mail ce soir." },
+        { speaker: "Client", en: "Perfect. I'll sign it tomorrow.", fr: "Parfait. Je le signerai demain." },
+        { speaker: "Freelancer", en: "Looking forward to starting!", fr: "Hâte de commencer !" }
       ],
       tips: [
         "Always get a signed contract before starting work.",
@@ -1064,16 +1064,16 @@ export const professionalCourse: Course = {
         { en: "See you when I get back.", fr: "On se voit à mon retour.", context: "Terme professionnel courant en entreprise américaine. En français : 'On se voit à mon retour.'." }
       ],
       dialogues: [
-        { speaker: "Travel Agent", en: "I've booked your flight to London.", fr: "J'ai réservé votre vol pour Londres.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'ai réservé votre vol pour Londres.'." },
-        { speaker: "Professional", en: "Thank you. Which hotel is it?", fr: "Merci. De quel hôtel s'agit-il ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Merci. De quel hôtel s'agit-il ?'." },
-        { speaker: "Travel Agent", en: "The Hilton near the convention center.", fr: "Le Hilton près du centre de convention.", context: "Terme professionnel courant en entreprise américaine. En français : 'Le Hilton près du centre de convention.'." },
-        { speaker: "Professional", en: "Perfect. Does it have a gym?", fr: "Parfait. Y a-t-il une salle de sport ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Parfait. Y a-t-il une salle de sport ?'." },
-        { speaker: "Travel Agent", en: "Yes, and a business center.", fr: "Oui, et un centre d'affaires.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, et un centre d'affaires.'." },
-        { speaker: "Professional", en: "What about the per diem?", fr: "Et pour l'indemnité journalière ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Et pour l'indemnité journalière ?'." },
-        { speaker: "Travel Agent", en: "It’s fifty dollars per day.", fr: "C'est cinquante dollars par jour.", context: "Terme professionnel courant en entreprise américaine. En français : 'C'est cinquante dollars par jour.'." },
-        { speaker: "Professional", en: "I need a car rental too.", fr: "J'ai aussi besoin d'une voiture de location.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'ai aussi besoin d'une voiture de location.'." },
-        { speaker: "Travel Agent", en: "I'll add that to the itinerary.", fr: "Je vais ajouter cela à l'itinéraire.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je vais ajouter cela à l'itinéraire.'." },
-        { speaker: "Professional", en: "Great. Email me the details.", fr: "Super. Envoyez-moi les détails par e-mail.", context: "Terme professionnel courant en entreprise américaine. En français : 'Super. Envoyez-moi les détails par e-mail.'." }
+        { speaker: "Travel Agent", en: "I've booked your flight to London.", fr: "J'ai réservé votre vol pour Londres." },
+        { speaker: "Professional", en: "Thank you. Which hotel is it?", fr: "Merci. De quel hôtel s'agit-il ?" },
+        { speaker: "Travel Agent", en: "The Hilton near the convention center.", fr: "Le Hilton près du centre de convention." },
+        { speaker: "Professional", en: "Perfect. Does it have a gym?", fr: "Parfait. Y a-t-il une salle de sport ?" },
+        { speaker: "Travel Agent", en: "Yes, and a business center.", fr: "Oui, et un centre d'affaires." },
+        { speaker: "Professional", en: "What about the per diem?", fr: "Et pour l'indemnité journalière ?" },
+        { speaker: "Travel Agent", en: "It’s fifty dollars per day.", fr: "C'est cinquante dollars par jour." },
+        { speaker: "Professional", en: "I need a car rental too.", fr: "J'ai aussi besoin d'une voiture de location." },
+        { speaker: "Travel Agent", en: "I'll add that to the itinerary.", fr: "Je vais ajouter cela à l'itinéraire." },
+        { speaker: "Professional", en: "Great. Email me the details.", fr: "Super. Envoyez-moi les détails par e-mail." }
       ],
       tips: [
         "Always keep paper receipts even if you have digital ones.",
@@ -1127,16 +1127,16 @@ export const professionalCourse: Course = {
         { en: "We need an objective view.", fr: "Nous avons besoin d'un point de vue objectif.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous avons besoin d'un point de vue objectif.'." }
       ],
       dialogues: [
-        { speaker: "Manager", en: "I heard there was a problem.", fr: "J'ai entendu dire qu'il y avait un problème.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'ai entendu dire qu'il y avait un problème.'." },
-        { speaker: "Employee 1", en: "He took credit for my work!", fr: "Il s'est approprié mon travail !", context: "Terme professionnel courant en entreprise américaine. En français : 'Il s'est approprié mon travail !'." },
-        { speaker: "Employee 2", en: "No, I did the whole report.", fr: "Non, j'ai fait tout le rapport.", context: "Terme professionnel courant en entreprise américaine. En français : 'Non, j'ai fait tout le rapport.'." },
-        { speaker: "Manager", en: "Let's calm down and talk.", fr: "Calmons-nous et parlons.", context: "Terme professionnel courant en entreprise américaine. En français : 'Calmons-nous et parlons.'." },
-        { speaker: "Employee 1", en: "I have the emails to prove it.", fr: "J'ai les e-mails pour le prouver.", context: "Terme professionnel courant en entreprise américaine. En français : 'J'ai les e-mails pour le prouver.'." },
-        { speaker: "Manager", en: "Okay, show me the evidence.", fr: "D'accord, montrez-moi les preuves.", context: "Terme professionnel courant en entreprise américaine. En français : 'D'accord, montrez-moi les preuves.'." },
-        { speaker: "Employee 2", en: "Maybe we collaborated on it.", fr: "Peut-être que nous avons collaboré.", context: "Terme professionnel courant en entreprise américaine. En français : 'Peut-être que nous avons collaboré.'." },
-        { speaker: "Manager", en: "You both need to be honest.", fr: "Vous devez tous les deux être honnêtes.", context: "Terme professionnel courant en entreprise américaine. En français : 'Vous devez tous les deux être honnêtes.'." },
-        { speaker: "Employee 1", en: "I just want recognition.", fr: "Je veux juste une reconnaissance.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je veux juste une reconnaissance.'." },
-        { speaker: "Manager", en: "I'll make sure credit is shared.", fr: "Je m'assurerai que le mérite est partagé.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je m'assurerai que le mérite est partagé.'." }
+        { speaker: "Manager", en: "I heard there was a problem.", fr: "J'ai entendu dire qu'il y avait un problème." },
+        { speaker: "Employee 1", en: "He took credit for my work!", fr: "Il s'est approprié mon travail !" },
+        { speaker: "Employee 2", en: "No, I did the whole report.", fr: "Non, j'ai fait tout le rapport." },
+        { speaker: "Manager", en: "Let's calm down and talk.", fr: "Calmons-nous et parlons." },
+        { speaker: "Employee 1", en: "I have the emails to prove it.", fr: "J'ai les e-mails pour le prouver." },
+        { speaker: "Manager", en: "Okay, show me the evidence.", fr: "D'accord, montrez-moi les preuves." },
+        { speaker: "Employee 2", en: "Maybe we collaborated on it.", fr: "Peut-être que nous avons collaboré." },
+        { speaker: "Manager", en: "You both need to be honest.", fr: "Vous devez tous les deux être honnêtes." },
+        { speaker: "Employee 1", en: "I just want recognition.", fr: "Je veux juste une reconnaissance." },
+        { speaker: "Manager", en: "I'll make sure credit is shared.", fr: "Je m'assurerai que le mérite est partagé." }
       ],
       tips: [
         "Address conflicts early before they escalate.",
@@ -1190,16 +1190,16 @@ export const professionalCourse: Course = {
         { en: "I'm updating my resume.", fr: "Je mets à jour mon CV.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je mets à jour mon CV.'." }
       ],
       dialogues: [
-        { speaker: "Employee", en: "Can we discuss my career path?", fr: "Pouvons-nous discuter de mon plan de carrière ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Pouvons-nous discuter de mon plan de carrière ?'." },
-        { speaker: "Manager", en: "Sure. You've been doing great work.", fr: "Bien sûr. Tu as fait de l'excellent travail.", context: "Terme professionnel courant en entreprise américaine. En français : 'Bien sûr. Tu as fait de l'excellent travail.'." },
-        { speaker: "Employee", en: "I'm interested in the senior designer role.", fr: "Je suis intéressé par le poste de designer senior.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je suis intéressé par le poste de designer senior.'." },
-        { speaker: "Manager", en: "You need more experience with clients.", fr: "Tu as besoin de plus d'expérience avec les clients.", context: "Terme professionnel courant en entreprise américaine. En français : 'Tu as besoin de plus d'expérience avec les clients.'." },
-        { speaker: "Employee", en: "What training do you suggest?", fr: "Quelle formation suggérez-vous ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Quelle formation suggérez-vous ?'." },
-        { speaker: "Manager", en: "Take the client management course.", fr: "Suivez le cours de gestion de clientèle.", context: "Terme professionnel courant en entreprise américaine. En français : 'Suivez le cours de gestion de clientèle.'." },
-        { speaker: "Employee", en: "I'll sign up today.", fr: "Je m'inscris aujourd'hui.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je m'inscris aujourd'hui.'." },
-        { speaker: "Manager", en: "Good. We will talk again in three months.", fr: "Bien. On en reparle dans trois mois.", context: "Terme professionnel courant en entreprise américaine. En français : 'Bien. On en reparle dans trois mois.'." },
-        { speaker: "Employee", en: "I'll prove I'm ready.", fr: "Je prouverai que je suis prêt.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je prouverai que je suis prêt.'." },
-        { speaker: "Manager", en: "I believe you will.", fr: "Je crois que tu le feras.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je crois que tu le feras.'." }
+        { speaker: "Employee", en: "Can we discuss my career path?", fr: "Pouvons-nous discuter de mon plan de carrière ?" },
+        { speaker: "Manager", en: "Sure. You've been doing great work.", fr: "Bien sûr. Tu as fait de l'excellent travail." },
+        { speaker: "Employee", en: "I'm interested in the senior designer role.", fr: "Je suis intéressé par le poste de designer senior." },
+        { speaker: "Manager", en: "You need more experience with clients.", fr: "Tu as besoin de plus d'expérience avec les clients." },
+        { speaker: "Employee", en: "What training do you suggest?", fr: "Quelle formation suggérez-vous ?" },
+        { speaker: "Manager", en: "Take the client management course.", fr: "Suivez le cours de gestion de clientèle." },
+        { speaker: "Employee", en: "I'll sign up today.", fr: "Je m'inscris aujourd'hui." },
+        { speaker: "Manager", en: "Good. We will talk again in three months.", fr: "Bien. On en reparle dans trois mois." },
+        { speaker: "Employee", en: "I'll prove I'm ready.", fr: "Je prouverai que je suis prêt." },
+        { speaker: "Manager", en: "I believe you will.", fr: "Je crois que tu le feras." }
       ],
       tips: [
         "Network with people outside your department.",
@@ -1253,16 +1253,16 @@ export const professionalCourse: Course = {
         { en: "Work against the clock.", fr: "Travailler contre la montre.", context: "Terme professionnel courant en entreprise américaine. En français : 'Travailler contre la montre.'." }
       ],
       dialogues: [
-        { speaker: "Boss", en: "The meeting was a disaster.", fr: "La réunion a été un désastre.", context: "Terme professionnel courant en entreprise américaine. En français : 'La réunion a été un désastre.'." },
-        { speaker: "Manager", en: "Yes, back to the drawing board.", fr: "Oui, repartons de zéro.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui, repartons de zéro.'." },
-        { speaker: "Boss", en: "We need to get the ball rolling fast.", fr: "Nous devons lancer le mouvement rapidement.", context: "Terme professionnel courant en entreprise américaine. En français : 'Nous devons lancer le mouvement rapidement.'." },
-        { speaker: "Manager", en: "I'll talk to the team. Let's cut to the chase.", fr: "Je vais parler à l'équipe. Allons droit au but.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je vais parler à l'équipe. Allons droit au but.'." },
-        { speaker: "Boss", en: "Everything is still up in the air.", fr: "Tout est encore dans le flou.", context: "Terme professionnel courant en entreprise américaine. En français : 'Tout est encore dans le flou.'." },
-        { speaker: "Manager", en: "The bottom line is we need money.", fr: "L'essentiel est que nous avons besoin d'argent.", context: "Terme professionnel courant en entreprise américaine. En français : 'L'essentiel est que nous avons besoin d'argent.'." },
-        { speaker: "Boss", en: "I know. Bite the bullet and cut costs.", fr: "Je sais. Serrez les dents et réduisez les coûts.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je sais. Serrez les dents et réduisez les coûts.'." },
-        { speaker: "Manager", en: "Are we still on the same page?", fr: "Sommes-nous toujours sur la même longueur d'onde ?", context: "Terme professionnel courant en entreprise américaine. En français : 'Sommes-nous toujours sur la même longueur d'onde ?'." },
-        { speaker: "Boss", en: "Yes. Keep me in the loop.", fr: "Oui. Tenez-moi au courant.", context: "Terme professionnel courant en entreprise américaine. En français : 'Oui. Tenez-moi au courant.'." },
-        { speaker: "Manager", en: "Will do. Let's call it a day.", fr: "Je le ferai. On s'arrête là pour aujourd'hui.", context: "Terme professionnel courant en entreprise américaine. En français : 'Je le ferai. On s'arrête là pour aujourd'hui.'." }
+        { speaker: "Boss", en: "The meeting was a disaster.", fr: "La réunion a été un désastre." },
+        { speaker: "Manager", en: "Yes, back to the drawing board.", fr: "Oui, repartons de zéro." },
+        { speaker: "Boss", en: "We need to get the ball rolling fast.", fr: "Nous devons lancer le mouvement rapidement." },
+        { speaker: "Manager", en: "I'll talk to the team. Let's cut to the chase.", fr: "Je vais parler à l'équipe. Allons droit au but." },
+        { speaker: "Boss", en: "Everything is still up in the air.", fr: "Tout est encore dans le flou." },
+        { speaker: "Manager", en: "The bottom line is we need money.", fr: "L'essentiel est que nous avons besoin d'argent." },
+        { speaker: "Boss", en: "I know. Bite the bullet and cut costs.", fr: "Je sais. Serrez les dents et réduisez les coûts." },
+        { speaker: "Manager", en: "Are we still on the same page?", fr: "Sommes-nous toujours sur la même longueur d'onde ?" },
+        { speaker: "Boss", en: "Yes. Keep me in the loop.", fr: "Oui. Tenez-moi au courant." },
+        { speaker: "Manager", en: "Will do. Let's call it a day.", fr: "Je le ferai. On s'arrête là pour aujourd'hui." }
       ],
       tips: [
         "Use idioms sparingly to avoid sounding like a cliché.",
