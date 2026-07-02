@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Word } from "@/data/courses/types";
 import { Info } from "lucide-react";
+import SpeakButton from "@/components/SpeakButton";
 
 const cleanPhonetic = (phonetic: string): string => {
   return phonetic.replace(/^\/+|\/+$/g, "").trim();
@@ -11,7 +12,7 @@ interface PhraseCardProps {
   gradient: string;
 }
 
-const PhraseCard = ({ phrase, gradient }: PhraseCardProps) => {
+const PhraseCard = ({ phrase }: PhraseCardProps) => {
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -21,9 +22,12 @@ const PhraseCard = ({ phrase, gradient }: PhraseCardProps) => {
         exit={{ opacity: 0, x: -40 }}
         className="bg-card border border-border rounded-2xl p-6 space-y-4"
       >
-        <h3 className="text-2xl font-display font-bold text-foreground leading-snug">
-          {phrase.en}
-        </h3>
+        <div className="flex items-start gap-3">
+          <h3 className="text-2xl font-display font-bold text-foreground leading-snug flex-1">
+            {phrase.en}
+          </h3>
+          <SpeakButton text={phrase.en} size="lg" />
+        </div>
 
         {phrase.phonetic && (
           <p className="text-base text-primary font-medium tracking-wide">
@@ -31,9 +35,7 @@ const PhraseCard = ({ phrase, gradient }: PhraseCardProps) => {
           </p>
         )}
 
-        <p className="text-xl text-secondary font-semibold">
-          {phrase.fr}
-        </p>
+        <p className="text-xl text-secondary font-semibold">{phrase.fr}</p>
 
         {phrase.context && (
           <div className="flex items-start gap-2.5 bg-muted/50 rounded-xl p-3.5">
@@ -45,13 +47,14 @@ const PhraseCard = ({ phrase, gradient }: PhraseCardProps) => {
         )}
 
         {phrase.example && (
-          <div className="pl-4 border-l-2 border-primary/40 space-y-1">
-            <p className="text-base text-foreground/90 italic leading-relaxed">
-              "{phrase.example}"
-            </p>
-            <p className="text-sm text-muted-foreground">
-              {phrase.exampleFr}
-            </p>
+          <div className="pl-4 border-l-2 border-primary/40 space-y-2">
+            <div className="flex items-start gap-2">
+              <p className="text-base text-foreground/90 italic leading-relaxed flex-1">
+                "{phrase.example}"
+              </p>
+              <SpeakButton text={phrase.example} size="sm" variant="ghost" />
+            </div>
+            <p className="text-sm text-muted-foreground">{phrase.exampleFr}</p>
           </div>
         )}
       </motion.div>

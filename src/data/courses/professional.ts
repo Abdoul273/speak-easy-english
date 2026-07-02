@@ -68,9 +68,9 @@ export const professionalCourse: Course = {
         { speaker: "Candidate", en: "Great. Thank you for the opportunity.", fr: "Super. Merci pour cette opportunité." }
       ],
       tips: [
-        "Dress formally unless the company suggests otherwise.",
-        "Prepare at least three questions for the interviewer.",
-        "Always research the company history before the meeting."
+        "💡 Dress formally unless the company suggests otherwise.",
+        "💡 Prepare at least three questions for the interviewer.",
+        "💡 toujours research the company history avant the meeting."
       ]
     },
     {
@@ -131,9 +131,9 @@ export const professionalCourse: Course = {
         { speaker: "Thomas", en: "Got them right here.", fr: "Je les ai juste ici." }
       ],
       tips: [
-        "Use 'OOO' to stand for 'Out of Office'.",
-        "Small talk is vital for building relationships in US offices.",
-        "Always RSVP to meeting invites promptly."
+        "💡 Use 'OOO' to stand for 'Out of Office'.",
+        "💡 Small talk is vital for building relationships in US offices.",
+        "💡 toujours RSVP to meeting invites promptly."
       ]
     },
     {
@@ -194,9 +194,9 @@ export const professionalCourse: Course = {
         { speaker: "Sarah", en: "See you later, Lucas.", fr: "À plus tard, Lucas." }
       ],
       tips: [
-        "Focus on listening more than talking.",
-        "Follow up within 24 hours of meeting someone.",
-        "Have a clear, 30-second elevator pitch ready."
+        "💡 Focus on listening more than talking.",
+        "💡 Follow up within 24 hours of meeting someone.",
+        "💡 Have a clear, 30-second elevator pitch ready."
       ]
     },
     {
@@ -257,9 +257,9 @@ export const professionalCourse: Course = {
         { speaker: "Attendee", en: "Understood. Thank you.", fr: "Compris. Merci." }
       ],
       tips: [
-        "Avoid reading your slides word-for-word.",
-        "Engage the audience with eye contact.",
-        "Keep your presentation simple and clear."
+        "💡 Avoid reading your slides word-for-word.",
+        "💡 Engage the audience with eye contact.",
+        "💡 Keep your presentation simple and clear."
       ]
     },
     {
@@ -320,9 +320,9 @@ export const professionalCourse: Course = {
         { speaker: "HR", en: "Great! Welcome aboard.", fr: "Super ! Bienvenue à bord." }
       ],
       tips: [
-        "Never accept the first offer immediately.",
-        "Know your market value before negotiating.",
-        "Focus on the total compensation package, not just salary."
+        "💡 jamais accept the first offer immediately.",
+        "💡 Know your market value avant negotiating.",
+        "💡 Focus on the total compensation package, not just salary."
       ]
     },
     {
@@ -383,9 +383,9 @@ export const professionalCourse: Course = {
         { speaker: "New Hire", en: "Joining right now.", fr: "Je rejoins tout de suite." }
       ],
       tips: [
-        "Expect to wear many hats in a startup.",
-        "Be ready for things to change overnight.",
-        "Equity is often more valuable than salary in successful startups."
+        "💡 Expect to wear many hats in a startup.",
+        "💡 Be ready for things to change overnight.",
+        "💡 Equity is souvent more valuable than salary in successful startups."
       ]
     },
     {
@@ -446,9 +446,9 @@ export const professionalCourse: Course = {
         { speaker: "Employee", en: "I'll send the file after the call.", fr: "J'enverrai le fichier après l'appel." }
       ],
       tips: [
-        "Create a dedicated workspace to separate home and work life.",
-        "Dress up even if you aren't leaving the house to boost productivity.",
-        "Take regular breaks away from the screen."
+        "💡 Create a dedicated workspace to separate home and work life.",
+        "💡 Dress up even if you aren't leaving the house to boost productivity.",
+        "💡 Take regular breaks away from the screen."
       ]
     },
     {
@@ -509,9 +509,9 @@ export const professionalCourse: Course = {
         { speaker: "Employee", en: "I'll be ready.", fr: "Je serai prêt." }
       ],
       tips: [
-        "Active listening is just as important as speaking.",
-        "Give credit to your team when things go well.",
-        "Admit your mistakes to build trust."
+        "💡 Active listening is just as important as speaking.",
+        "💡 Give credit to your team when things go well.",
+        "💡 Admit your mistakes to build trust."
       ]
     },
     {
@@ -572,9 +572,9 @@ export const professionalCourse: Course = {
         { speaker: "Colleague 2", en: "We will hit the ground running.", fr: "Nous démarrerons sur les chapeaux de roue." }
       ],
       tips: [
-        "Jargon can be useful but don't overdo it.",
-        "Ensure everyone understands the terms you use.",
-        "In US business, 'circles back' means to revisit a topic later."
+        "💡 Jargon can be useful but don't overdo it.",
+        "💡 Ensure everyone understands the terms you use.",
+        "💡 In US business, 'circles back' signifie to revisit a topic later."
       ]
     },
     {
@@ -635,9 +635,9 @@ export const professionalCourse: Course = {
         { speaker: "Support", en: "You're welcome. Have a nice day!", fr: "De rien. Bonne journée !" }
       ],
       tips: [
-        "Always remain calm even with angry customers.",
-        "Empathize by using phrases like 'I understand your frustration'.",
-        "Clarify the customer's problem before offering a solution."
+        "💡 toujours remain calm even with angry customers.",
+        "💡 Empathize by using phrases like 'I understand your frustration'.",
+        "💡 Clarify the customer's problem avant offering a solution."
       ]
     },
     {
@@ -698,9 +698,9 @@ export const professionalCourse: Course = {
         { speaker: "Marketer", en: "I'll update the plan.", fr: "Je vais mettre à jour le plan." }
       ],
       tips: [
-        "Focus on the benefits for the customer, not just features.",
-        "Social proof (like reviews) is essential for online sales.",
-        "A/B testing is the best way to optimize your ads."
+        "💡 Focus on the benefits for the customer, not just features.",
+        "💡 Social proof (like reviews) is essential for online sales.",
+        "💡 A/B testing is the best way to optimize your ads."
       ]
     },
     {
@@ -761,9 +761,9 @@ export const professionalCourse: Course = {
         { speaker: "Manager", en: "Thanks for the hard work.", fr: "Merci pour le travail acharné." }
       ],
       tips: [
-        "In English, 'the numbers don't add up' means something is wrong.",
-        "The fiscal year often differs from the calendar year.",
-        "Always keep digital copies of every invoice."
+        "💡 In English, 'the numbers don't add up' signifie something is wrong.",
+        "💡 The fiscal year souvent differs from the calendar year.",
+        "💡 toujours keep digital copies of every invoice."
       ]
     },
     {
@@ -824,9 +824,9 @@ export const professionalCourse: Course = {
         { speaker: "Employee", en: "I'll go meet him now.", fr: "Je vais le rencontrer maintenant." }
       ],
       tips: [
-        "In the US, PTO stands for Paid Time Off.",
-        "HR is there to protect both the employee and the company.",
-        "Onboarding usually takes the first whole week."
+        "💡 Aux USA, PTO stands for Paid Time Off.",
+        "💡 HR is there to protect both the employee and the company.",
+        "💡 Onboarding généralement takes the first whole week."
       ]
     },
     {
@@ -887,9 +887,9 @@ export const professionalCourse: Course = {
         { speaker: "Client", en: "Perfect. Thank you for the help.", fr: "Parfait. Merci pour l'aide." }
       ],
       tips: [
-        "NDA stands for Non-Disclosure Agreement.",
-        "Always keep a copy of every signed document.",
-        "Terms like 'Heretofore' are common in legal English but rare in regular speech."
+        "💡 NDA stands for Non-Disclosure Agreement.",
+        "💡 toujours keep a copy of every signed document.",
+        "💡 Terms like 'Heretofore' are common in legal English but rare in regular speech."
       ]
     },
     {
@@ -950,9 +950,9 @@ export const professionalCourse: Course = {
         { speaker: "Lead", en: "Good luck. Let me know if you need help.", fr: "Bonne chance. Dis-moi si tu as besoin d'aide." }
       ],
       tips: [
-        "UI means User Interface; UX means User Experience.",
-        "A 'Stack' refers to the set of technologies used in a project.",
-        "Production is the live environment where real users are."
+        "💡 UI signifie User Interface; UX signifie User Experience.",
+        "💡 A 'Stack' refers to the set of technologies used in a project.",
+        "💡 Production is the live environment where real users are."
       ]
     },
     {
@@ -1013,9 +1013,9 @@ export const professionalCourse: Course = {
         { speaker: "Freelancer", en: "Looking forward to starting!", fr: "Hâte de commencer !" }
       ],
       tips: [
-        "Always get a signed contract before starting work.",
-        "Set aside 30% of your income for taxes.",
-        "Charge more for urgent projects with tight deadlines."
+        "💡 toujours get a signed contract avant starting work.",
+        "💡 Set aside 30% of your income for taxes.",
+        "💡 Charge more for urgent projects with tight deadlines."
       ]
     },
     {
@@ -1076,9 +1076,9 @@ export const professionalCourse: Course = {
         { speaker: "Professional", en: "Great. Email me the details.", fr: "Super. Envoyez-moi les détails par e-mail." }
       ],
       tips: [
-        "Always keep paper receipts even if you have digital ones.",
-        "Join loyalty programs to get free upgrades.",
-        "Check visa requirements at least a month before travel."
+        "💡 toujours keep paper receipts even if you have digital ones.",
+        "💡 Join loyalty programs to get free upgrades.",
+        "💡 Check visa requirements at least a month avant travel."
       ]
     },
     {
@@ -1139,9 +1139,9 @@ export const professionalCourse: Course = {
         { speaker: "Manager", en: "I'll make sure credit is shared.", fr: "Je m'assurerai que le mérite est partagé." }
       ],
       tips: [
-        "Address conflicts early before they escalate.",
-        "Always focus on the problem, not the person.",
-        "Keep a paper trail if the conflict is serious."
+        "💡 Address conflicts early avant they escalate.",
+        "💡 toujours focus on the problem, not the person.",
+        "💡 Keep a paper trail if the conflict is serious."
       ]
     },
     {
@@ -1202,9 +1202,9 @@ export const professionalCourse: Course = {
         { speaker: "Manager", en: "I believe you will.", fr: "Je crois que tu le feras." }
       ],
       tips: [
-        "Network with people outside your department.",
-        "Keep a 'wins' folder with all your positive feedback.",
-        "Always be learning a new skill (soft or hard)."
+        "💡 Network with people outside your department.",
+        "💡 Keep a 'wins' folder with all your positive feedback.",
+        "💡 toujours be learning a new skill (soft or hard)."
       ]
     },
     {
@@ -1266,8 +1266,8 @@ export const professionalCourse: Course = {
       ],
       tips: [
         "Use idioms sparingly to avoid sounding like a cliché.",
-        "Always understand the literal meaning before using them.",
-        "Idioms vary slightly between UK and US business English."
+        "💡 toujours understand the literal meaning avant using them.",
+        "💡 Idioms vary slightly between UK and US business English."
       ]
     },
     {
@@ -1318,8 +1318,8 @@ export const professionalCourse: Course = {
         { speaker: "Tom", en: "Done. I'll hit send right now.", fr: "C'est fait. J'envoie maintenant." }
       ],
       tips: [
-        "Keep emails short and to the point. Americans value efficiency in written communication.",
-        "Always proofread before sending. Typos look unprofessional.",
+        "💡 Keep emails short and to the point. Americans value efficiency in written communication.",
+        "💡 toujours proofread avant sending. Typos look unprofessional.",
         "Use 'Hi [Name]' for semi-formal emails. 'Dear [Name]' for very formal ones."
       ]
     },
@@ -1371,9 +1371,9 @@ export const professionalCourse: Course = {
         { speaker: "Dev", en: "Agreed. I'll update the timeline today.", fr: "D'accord. Je mettrai à jour le calendrier aujourd'hui." }
       ],
       tips: [
-        "Agile methodology is the most common project management approach in US tech companies.",
-        "Always clarify ownership: every task should have one person responsible.",
-        "'Scope creep' is the biggest enemy of project management. Learn to say no politely."
+        "💡 Agile methodology is the most common project management approach in US tech companies.",
+        "💡 toujours clarify ownership: every task should have one person responsible.",
+        "💡 'Scope creep' is the biggest enemy of project management. Learn to say no politely."
       ]
     },
     {
@@ -1424,9 +1424,9 @@ export const professionalCourse: Course = {
         { speaker: "Seller", en: "I think we can make it work. Deal.", fr: "Je pense qu'on peut s'arranger. Marché conclu." }
       ],
       tips: [
-        "Never accept the first offer in the US. It's expected that you negotiate.",
-        "Research the market rate before negotiating. Data is your best weapon.",
-        "American negotiators respect confidence but not arrogance. Be assertive but polite."
+        "💡 jamais accept the first offer in the US. It's attendu that you negotiate.",
+        "💡 Research the market rate avant negotiating. Data is your best weapon.",
+        "💡 American negotiators respect confidence but not arrogance. Be assertive but polite."
       ]
     },
     {
@@ -1477,9 +1477,9 @@ export const professionalCourse: Course = {
         { speaker: "Employee", en: "I appreciate that. It means a lot.", fr: "J'apprécie ça. Ça compte beaucoup." }
       ],
       tips: [
-        "American management culture emphasizes empowerment over control.",
-        "Regular one-on-ones are expected in US companies. Missing them sends a bad signal.",
-        "Recognition doesn't have to be formal. A simple 'great job' goes a long way in American culture."
+        "💡 American management culture emphasizes empowerment over control.",
+        "💡 Regular one-on-ones are attendu in US companies. Missing them sends a bad signal.",
+        "💡 Recognition doesn't have to be formal. A simple 'great job' goes a long way in American culture."
       ]
     },
     {
@@ -1530,9 +1530,9 @@ export const professionalCourse: Course = {
         { speaker: "Manager", en: "Will do. Thanks for leading this effort.", fr: "Ce sera fait. Merci de mener cet effort." }
       ],
       tips: [
-        "DEI (Diversity, Equity, Inclusion) is a major focus in American companies.",
-        "Including pronouns in your email signature is common and appreciated in US workplaces.",
-        "When in doubt about terminology, ask respectfully. Americans appreciate genuine curiosity."
+        "💡 DEI (Diversity, Equity, Inclusion) is a major focus in American companies.",
+        "💡 Including pronouns in your email signature is common and appreciated in US workplaces.",
+        "💡 When in doubt about terminology, ask respectfully. Americans appreciate genuine curiosity."
       ]
     },
     {
@@ -1583,9 +1583,9 @@ export const professionalCourse: Course = {
         { speaker: "Director", en: "Good catch. Let's dig deeper into that.", fr: "Bien vu. Creusons plus sur ce point." }
       ],
       tips: [
-        "In US companies, 'data-driven' is not just a buzzword—decisions without data are questioned.",
-        "Always present data visually. A good chart beats a table of numbers every time.",
-        "Learn to tell a story with data. The best analysts are great storytellers."
+        "💡 In US companies, 'data-driven' is not just a buzzword—decisions without data are questioned.",
+        "💡 toujours present data visually. A good chart beats a table of numbers every time.",
+        "💡 Learn to tell a story with data. The best analysts are great storytellers."
       ]
     },
     {
@@ -1636,9 +1636,9 @@ export const professionalCourse: Course = {
         { speaker: "Participant", en: "No, I think we covered everything.", fr: "Non, je pense qu'on a tout couvert." }
       ],
       tips: [
-        "In the US, meetings should start and end on time. Being late is seen as disrespectful.",
-        "Always mute yourself when not speaking in virtual meetings.",
-        "End every meeting with clear action items and owners. No action items = wasted meeting."
+        "💡 Aux USA, meetings should start and end on time. Being late is seen as disrespectful.",
+        "💡 toujours mute yourself when not speaking in virtual meetings.",
+        "💡 End every meeting with clear action items and owners. No action items = wasted meeting."
       ]
     },
     {
@@ -1689,9 +1689,9 @@ export const professionalCourse: Course = {
         { speaker: "Jordan", en: "Sounds great. I'll send you a message.", fr: "Ça me va. Je t'enverrai un message." }
       ],
       tips: [
-        "In America, your online presence IS your resume. Keep LinkedIn updated.",
-        "Your elevator pitch should be under 30 seconds and answer: Who are you? What do you do? What value do you bring?",
-        "Networking is a two-way street. Always think about how you can help others, not just what you can get."
+        "💡 En Amérique, your online presence IS your resume. Keep LinkedIn updated.",
+        "💡 Your elevator pitch should be under 30 seconds and answer: Who are you? What do you do? What value do you bring?",
+        "💡 Networking is a two-way street. toujours think about how you can help others, not just what you can get."
       ]
     },
     {
@@ -1742,9 +1742,9 @@ export const professionalCourse: Course = {
         { speaker: "Employee", en: "That's great. Thank you for the recognition.", fr: "C'est super. Merci pour la reconnaissance." }
       ],
       tips: [
-        "Always prepare for performance reviews with specific examples and data.",
-        "In the US, it's expected to advocate for yourself. Don't wait for your manager to offer a raise.",
-        "Keep a 'wins' document throughout the year so you're ready for review season."
+        "💡 toujours prepare for performance reviews with specific examples and data.",
+        "💡 Aux USA, it's attendu to advocate for yourself. Don't wait for your manager to offer a raise.",
+        "💡 Keep a 'wins' document throughout the year so you're ready for review season."
       ]
     },
     {
@@ -1795,9 +1795,9 @@ export const professionalCourse: Course = {
         { speaker: "Manager", en: "Your health comes first. We'll figure it out.", fr: "Ta santé passe en premier. On va trouver une solution." }
       ],
       tips: [
-        "In the US, PTO is not automatically given. Always negotiate it when accepting a job offer.",
-        "The concept of 'hustle culture' is being replaced by 'sustainable productivity' in many US companies.",
-        "Setting boundaries is not lazy—it's professional. The best performers protect their energy."
+        "💡 Aux USA, PTO is not automatically given. toujours negotiate it when accepting a job offer.",
+        "💡 The concept of 'hustle culture' is being replaced by 'sustainable productivity' in many US companies.",
+        "💡 Setting boundaries is not lazy—it's professional. The best performers protect their energy."
       ]
     },
     {
@@ -1848,9 +1848,9 @@ export const professionalCourse: Course = {
         { speaker: "Investor", en: "Send me the deck. I'd like to discuss terms.", fr: "Envoyez-moi la présentation. J'aimerais discuter des conditions." }
       ],
       tips: [
-        "In the US, failure is a badge of honor. Many successful founders failed multiple times before succeeding.",
-        "Your pitch deck should be 10-15 slides max. Investors see hundreds of pitches a year.",
-        "Product-market fit is everything. Don't scale before you find it."
+        "💡 Aux USA, failure is a badge of honor. Many successful founders failed multiple times avant succeeding.",
+        "💡 Your pitch deck should be 10-15 slides max. Investors see hundreds of pitches a year.",
+        "💡 Product-market fit is everything. Don't scale avant you find it."
       ]
     },
     {
@@ -1901,9 +1901,9 @@ export const professionalCourse: Course = {
         { speaker: "Manager", en: "I'll prepare a proposal by Friday.", fr: "Je préparerai une proposition d'ici vendredi." }
       ],
       tips: [
-        "In the US tech industry, knowing AI basics is becoming as important as knowing Excel was 20 years ago.",
-        "Don't be afraid to ask what technical terms mean in meetings. It shows curiosity, not ignorance.",
-        "'Prompt engineering' is a real skill. Learning to communicate effectively with AI tools gives you a competitive edge."
+        "💡 In the US tech industry, knowing AI basics is becoming as important as knowing Excel was 20 years ago.",
+        "💡 Don't be afraid to ask what technical terms mean in meetings. It shows curiosity, not ignorance.",
+        "💡 'Prompt engineering' is a real skill. Learning to communicate effectively with AI tools gives you a competitive edge."
       ]
     },
     {
@@ -1954,9 +1954,9 @@ export const professionalCourse: Course = {
         { speaker: "Director", en: "Makes sense. Let's get this right.", fr: "Ça a du sens. Faisons les choses bien." }
       ],
       tips: [
-        "Americans are generally more direct in business communication than many other cultures.",
-        "When working across cultures, never assume your way is the 'right' way.",
-        "Learning even basic greetings in your colleague's language shows respect and builds trust."
+        "💡 Americans are généralement more direct in business communication than many other cultures.",
+        "💡 When working across cultures, jamais assume your way is the 'right' way.",
+        "💡 Learning even basic greetings in your colleague's language shows respect and builds trust."
       ]
     },
     {
@@ -2007,8 +2007,8 @@ export const professionalCourse: Course = {
         { speaker: "Content Lead", en: "Yes, engagement begets engagement.", fr: "Oui, l'engagement appelle l'engagement." }
       ],
       tips: [
-        "On LinkedIn, commenting on others' posts is more effective than just posting your own content.",
-        "Keep your LinkedIn profile in English if you target international opportunities.",
+        "💡 On LinkedIn, commenting on others' posts is more effective than just posting your own content.",
+        "💡 Keep your LinkedIn profile in English if you target international opportunities.",
         "Post between 7-9am or 5-6pm EST for maximum reach in the US market."
       ]
     }

@@ -86,10 +86,10 @@ export const everydayCourse: Course = {
     { speaker: "Sarah", en: "See ya!", fr: "Salut !" }
   ],
   tips: [
-    "💡 The Handshake: In the US, a firm handshake and eye contact are expected when meeting someone for the first time.",
-    "💡 How's it going?: Americans often use 'How are you?' as a greeting. You don't need to give a long medical history—a simple 'Good, how about you?' is perfect.",
-    "💡 First Names: Americans tend to use first names very quickly, even in business settings. Using 'Mr.' or 'Ms.' is reserved for very formal situations or teachers.",
-    "💡 Have a good one: This is a very common American way to say goodbye. It replaces 'Have a nice day' or 'Have a good evening'."
+    "💡 La poignée de main : Aux USA, une poignée de main ferme et un contact visuel sont attendus lors d'une première rencontre.",
+    "💡 How's it going ? : Les Américains utilisent 'How are you ?' comme salutation. Pas besoin de raconter ta vie—un simple 'Good, how about you?' suffit.",
+    "💡 Les prénoms : Les Américains utilisent très vite les prénoms, même au travail. 'Mr.' ou 'Ms.' sont réservés aux situations très formelles ou aux enseignants.",
+    "💡 Have a good one : C'est une façon très courante de dire au revoir. Remplace 'Have a nice day' ou 'Have a good evening'."
   ]
 },
 {
@@ -165,10 +165,10 @@ export const everydayCourse: Course = {
     { speaker: "Waiter", en: "Perfect. I'll get that started for you.", fr: "Parfait. Je lance cela pour vous." }
   ],
   tips: [
-    "💡 Tipping Culture: In the US, tipping is mandatory. A standard tip is 18% to 20% of the total bill before tax.",
+    "💡 Tipping Culture: Aux USA, tipping is mandatory. A standard tip is 18% to 20% of the total bill avant tax.",
     "💡 Free Refills: Most US restaurants offer free refills on soda, iced tea, and coffee. Just ask for a 'refill'!",
-    "💡 Water is Free: Tap water is always free in American restaurants and is usually served with lots of ice as soon as you sit down.",
-    "💡 Doggy Bags: US portions are huge. It's very common to ask for a 'to-go box' to take your leftovers home."
+    "💡 Water is Free: Tap water is toujours free in American restaurants and is généralement served with lots of ice as soon as you sit down.",
+    "💡 Doggy Bags: US portions are huge. It's très courant to ask for a 'to-go box' to take your leftovers home."
   ]
 },
 {
@@ -309,10 +309,10 @@ export const everydayCourse: Course = {
     { speaker: "Clerk", en: "Of course. Have a good one!", fr: "Bien sûr. Bonne journée !" }
   ],
   tips: [
-    "💡 Sales Tax: In the US, the price on the tag is NOT the final price. Sales tax (usually 5-10%) is added at the register.",
-    "💡 Generous Returns: American stores often have very generous return policies. You can often return items within 30 days if you have the receipt.",
-    "💡 Black Friday: The Friday after Thanksgiving is the biggest shopping day in the US with massive discounts.",
-    "💡 Standard Sizes: US sizes are different from European sizes. A US medium is often equivalent to a European large."
+    "💡 Sales Tax: Aux USA, the price on the tag is NOT the final price. Sales tax (généralement 5-10%) is added at the register.",
+    "💡 Generous Returns: American stores souvent have very generous return policies. You can souvent return items within 30 days if you have the receipt.",
+    "💡 Black Friday: The Friday après Thanksgiving is the biggest shopping day in the US with massive discounts.",
+    "💡 Standard Sizes: US sizes are different from European sizes. A US medium is souvent equivalent to a European large."
   ]
 },
 {
@@ -373,8 +373,8 @@ export const everydayCourse: Course = {
   tips: [
     "💡 American Greetings: When answering the phone, a simple 'Hello?' is standard. If it's a business, they will state the company name.",
     "💡 Texting Speed: Americans are very fast at texting. Expect many abbreviations like 'omw' (on my way) or 'brb' (be right back).",
-    "💡 Voicemail Use: While declining, voicemail is still common in professional settings in the US. Always state your name and number clearly.",
-    "💡 Area Codes: Long distance doesn't exist for cell phones in the US, but the 3-digit area code tells you where someone originally got their phone number."
+    "💡 Voicemail Use: While declining, voicemail is still common in professional settings in the US. toujours state your name and number clearly.",
+    "💡 Area Codes: Long distance doesn't exist for cell phones Aux USA, but the 3-digit area code tells you where someone originally got their phone number."
   ]
 },
 {
@@ -437,7 +437,7 @@ export const everydayCourse: Course = {
     "💡 Fahrenheit: Americans use Fahrenheit. To quickly convert to Celsius: (F - 30) / 2 is a rough estimate.",
     "💡 Small Talk: The weather is the most common topic for small talk with strangers in America. It's safe and polite.",
     "💡 Air Conditioning: Americans love cold AC. Even in summer, bring a light sweater if you're going to a mall or cinema.",
-    "💡 Extreme Weather: Depending on where you are in the US, be aware of hurricanes (East/South Coast) or tornadoes (Midwest)."
+    "💡 Extreme Weather: Depending on where you are Aux USA, be aware of hurricanes (East/South Coast) or tornadoes (Midwest)."
   ]
 },
 {
@@ -493,10 +493,10 @@ export const everydayCourse: Course = {
     { speaker: "You", en: "Sounds fair. Can I think about it?", fr: "Ça semble honnête. Puis-je y réfléchir ?" }
   ],
   tips: [
-    "💡 Credit Score: To rent an apartment in the US, you often need a 'Credit Score'. Foreigners might need a co-signer or a larger deposit.",
+    "💡 Credit Score: To rent an apartment Aux USA, you souvent need a 'Credit Score'. Foreigners might need a co-signer or a larger deposit.",
     "💡 Coin-Op Laundry: Many city apartments don't have washers inside. You'll likely use 'coin-operated' machines or a 'laundromat'.",
-    "💡 Studio vs One-Bedroom: A 'Studio' is one room for everything. A 'One-bedroom' means there is a separate room with a door for sleeping.",
-    "💡 Trash pickup: Rules for recycling and trash vary by city. In NYC, you often just put bags on the sidewalk on specific nights."
+    "💡 Studio vs One-Bedroom: A 'Studio' is one room for everything. A 'One-bedroom' signifie there is a separate room with a door for sleeping.",
+    "💡 Trash pickup: Rules for recycling and trash vary by city. In NYC, you souvent just put bags on the sidewalk on specific nights."
   ]
 },
 {
@@ -553,8 +553,8 @@ export const everydayCourse: Course = {
   ],
   tips: [
     "💡 The 911 Number: 911 is the universal emergency number for police, fire, and ambulance in the USA.",
-    "💡 Expensive Healthcare: Health care in the US is very expensive. Never travel there without travel health insurance!",
-    "💡 Co-pay: Even with insurance, you often pay a 'co-pay' (a small fixed fee like $20) at every visit.",
+    "💡 Expensive Healthcare: Health care in the US is very expensive. jamais travel there without travel health insurance!",
+    "💡 Co-pay: Even with insurance, you souvent pay a 'co-pay' (a small fixed fee like $20) at every visit.",
     "💡 Urgent Care: For non-life-threatening issues, 'Urgent Care' clinics are faster and cheaper than the Hospital Emergency Room (ER)."
   ]
 },
@@ -608,7 +608,7 @@ export const everydayCourse: Course = {
   ],
   tips: [
     "💡 Credit Cards: Americans use credit cards for almost everything. It helps build a 'credit history', which is vital for renting or buying a car.",
-    "💡 ATM Fees: Using an ATM that doesn't belong to your bank usually costs $2 to $5.",
+    "💡 ATM Fees: Using an ATM that doesn't belong to your bank généralement costs $2 to $5.",
     "💡 Cash is still used: While cards are king, some small shops or food trucks might be 'Cash Only'.",
     "💡 Personal Checks: Americans still use paper checks for things like paying rent, though it's becoming less common."
   ]
@@ -664,9 +664,9 @@ export const everydayCourse: Course = {
     { speaker: "You", en: "Yes, please. Thanks!", fr: "Oui, s'il vous plaît. Merci !" }
   ],
   tips: [
-    "💡 Loyalty Programs: American grocery stores have huge discounts for 'members'. It's usually free to sign up, but it's the only way to get the advertised 'sale' prices.",
-    "💡 Paper or Plastic?: Cashiers will often ask this. Many states now charge for bags, so it's best to bring your own.",
-    "💡 Bagging Service: In the US, it's common for a 'bagger' (an employee) to pack your bags for you. You don't tip them.",
+    "💡 Loyalty Programs: American grocery stores have huge discounts for 'members'. It's généralement free to sign up, but it's the only way to get the advertised 'sale' prices.",
+    "💡 Paper or Plastic?: Cashiers will souvent ask this. Many states now charge for bags, so it's best to bring your own.",
+    "💡 Bagging Service: Aux USA, it's common for a 'bagger' (an employee) to pack your bags for you. You don't tip them.",
     "💡 Weekly Ads: Check the 'weekly ad' at the entrance of the store for the best deals on meat and produce."
   ]
 },
@@ -1436,7 +1436,7 @@ export const everydayCourse: Course = {
       { speaker: "Mike", en: "See you there around seven.", fr: "On se voit là-bas vers sept heures." }
     ],
     tips: [
-      "💡 GPA explained: GPA stands for Grade Point Average. It's usually on a 4.0 scale.",
+      "💡 GPA explained: GPA stands for Grade Point Average. It's généralement on a 4.0 scale.",
       "💡 Major vs Minor: A 'major' is your primary field of study, while a 'minor' is secondary.",
       "💡 Years names: Americans say Freshman (1st year), Sophomore (2nd), Junior (3rd), and Senior (4th)."
     ]
@@ -1504,7 +1504,7 @@ export const everydayCourse: Course = {
     ],
     tips: [
       "💡 In-laws: Add '-in-law' for family through marriage: mother-in-law, brother-in-law, etc.",
-      "💡 Sleep through the night: To 'sleep through the night' means a baby doesn't wake up until morning.",
+      "💡 Sleep through the night: To 'sleep through the night' signifie a baby doesn't wake up until morning.",
       "💡 Grounded: Common American punishment where a kid can't leave the house for fun."
     ]
   },
@@ -1626,8 +1626,8 @@ export const everydayCourse: Course = {
     ],
     tips: [
       "💡 DMV: Department of Motor Vehicles. Famous for long waits and bureaucracy.",
-      "💡 Right on Red: In most US states, you can turn right at a red light after stopping, unless a sign says no.",
-      "💡 Gas vs Petrol: Americans say 'gas station' and 'gas', never 'petrol station'."
+      "💡 Right on Red: In most US states, you can turn right at a red light après stopping, unless a sign says no.",
+      "💡 Gas vs Petrol: Americans say 'gas station' and 'gas', jamais 'petrol station'."
     ]
   },
   {
@@ -1804,7 +1804,7 @@ export const everydayCourse: Course = {
     tips: [
       "💡 Overwhelmed: Used when you have too much to do or feel too many emotions at once.",
       "💡 Self-care: Refers to activities like meditation, baths, or hobbies to maintain mental health.",
-      "💡 Therapy: In the US, it is increasingly common and socially accepted to talk about seeing a therapist."
+      "💡 Therapy: Aux USA, it is increasingly common and socially accepted to talk about seeing a therapist."
     ]
   },
   {
@@ -1851,8 +1851,8 @@ export const everydayCourse: Course = {
     ],
     tips: [
       "💡 Safe topics: Weather, commute, sports, and weekend plans are the safest small talk topics in the US.",
-      "💡 Have a good one: A very common American way to say 'Have a good day/evening/weekend'.",
-      "💡 How are you: Often just a greeting, not a literal question. A short 'Good, you?' is the standard reply."
+      "💡 Have a good one: A très courant American way to say 'Have a good day/evening/weekend'.",
+      "💡 How are you: souvent just a greeting, not a literal question. A short 'Good, you?' is the standard reply."
     ]
   },
   {
@@ -1898,7 +1898,7 @@ export const everydayCourse: Course = {
     tips: [
       "💡 Tipping Culture: In restaurants, 18-20% is the standard tip for good service.",
       "💡 Free Refills: Most casual American restaurants offer free refills on soda, iced tea, and coffee.",
-      "💡 Tailgating: Socializing and grilling food in a parking lot before a sporting event."
+      "💡 Tailgating: Socializing and grilling food in a parking lot avant a sporting event."
     ]
   },
   {
@@ -1945,8 +1945,8 @@ export const everydayCourse: Course = {
     ],
     tips: [
       "💡 Break a leg: This is only used to wish luck to someone performing on stage.",
-      "💡 Hit the sack: Very common informal way to say you're going to sleep.",
-      "💡 Literal vs Figurative: Never use 'spill the beans' when talking about actually spilling food!"
+      "💡 Hit the sack: très courant informal way to say you're going to sleep.",
+      "💡 Literal vs Figurative: jamais use 'spill the beans' when talking about actually spilling food!"
     ]
   },
   ]

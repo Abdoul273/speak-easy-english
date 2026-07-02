@@ -73,9 +73,9 @@ export const slangCourse: Course = {
         { speaker: "Jade", en: "You're highkey the best.", fr: "T'es vraiment le meilleur." }
       ],
       tips: [
-        "💡 No Cap History: Originally from AAVE, 'cap' refers to bragging or lying. 'No cap' means you are being 100% honest.",
+        "💡 No Cap History: Originally from AAVE, 'cap' refers to bragging or lying. 'No cap' signifie you are being 100% honest.",
         "💡 Vibe Culture: Americans use 'vibe' for everything: people, places, music. It captures the general feeling of a situation.",
-        "💡 Bet Usage: While 'bet' usually means a wager, in slang it's a synonym for 'OK' or 'Challenge accepted'."
+        "💡 Bet Usage: While 'bet' généralement signifie a wager, in slang it's a synonym for 'OK' or 'Challenge accepted'."
       ]
     },
     {
@@ -143,7 +143,7 @@ export const slangCourse: Course = {
       tips: [
         "💡 I can't even: This incomplete sentence is used when something is so overwhelming (positively or negatively) that you can't finish your thought.",
         "💡 Pressed vs. Salty: Use 'pressed' when someone is visibly bothered or stressed, and 'salty' when they are acting bitter because of a loss.",
-        "💡 Savage: While it sounds negative, 'savage' is often a compliment for someone who is bold or has a great comeback."
+        "💡 Savage: While it sounds negative, 'savage' is souvent a compliment for someone who is bold or has a great comeback."
       ]
     },
     {
@@ -278,8 +278,8 @@ export const slangCourse: Course = {
       ],
       tips: [
         "💡 Bread, Dough, Cheese: American slang uses many food words for money. This dates back to when bread was the primary necessity of life.",
-        "💡 The 'Bag': The 'bag' usually refers to a large sum of money or a lucrative contract. 'Securing the bag' means completing a goal that pays well.",
-        "💡 Bands and Racks: A 'band' is a rubber band around $1,000. A 'rack' is also $1,000. These terms are very common in hip-hop culture."
+        "💡 The 'Bag': The 'bag' généralement refers to a large sum of money or a lucrative contract. 'Securing the bag' signifie completing a goal that pays well.",
+        "💡 Bands and Racks: A 'band' is a rubber band around $1,000. A 'rack' is also $1,000. These terms are très courant in hip-hop culture."
       ]
     },
     {
@@ -346,7 +346,7 @@ export const slangCourse: Course = {
       ],
       tips: [
         "💡 Cuffing Season: Occurs during the colder months when single people actively seek serious relationships to have someone to stay inside with.",
-        "💡 Ghosting vs. Caspering: Ghosting is disappearing completely. 'Caspering' is a friendlier version where you let the person down easy before disappearing.",
+        "💡 Ghosting vs. Caspering: Ghosting is disappearing completely. 'Caspering' is a friendlier version where you let the person down easy avant disappearing.",
         "💡 Rizz: The word 'rizz' actually comes from the middle of the word 'charisma' (cha-rizz-ma)."
       ]
     },
@@ -413,7 +413,7 @@ export const slangCourse: Course = {
         { speaker: "Emma", en: "Period. Bye Felicia!", fr: "Point final. Salut, on s'en fout !" }
       ],
       tips: [
-        "💡 Throwing Shade: This means giving someone a dirty look or making a subtle, indirect insult. It's an art form in American pop culture.",
+        "💡 Throwing Shade: This signifie giving someone a dirty look or making a subtle, indirect insult. It's an art form in American pop culture.",
         "💡 Bye Felicia: A famous line from the movie 'Friday'. It's used to dismiss someone who is irrelevant or annoying.",
         "💡 The Ratio: On social media, if a reply gets more likes than the original post, the original poster is 'ratioed', meaning their opinion is unpopular."
       ]
@@ -482,8 +482,8 @@ export const slangCourse: Course = {
       ],
       tips: [
         "💡 Entrée Confusion: In the USA, 'Entrée' means the main course. In French (and British English), it means the starter or appetizer.",
-        "💡 Tipping Culture: In American restaurants, you are expected to tip 15-20% of the total bill. It is not optional like in many European countries.",
-        "💡 Slaps vs. Bussin: While 'bussin' is usually only for food, 'slaps' can be used for food, music, or anything else that is high quality."
+        "💡 Tipping Culture: In American restaurants, you are attendu to tip 15-20% of the total bill. It is not optional like in many European countries.",
+        "💡 Slaps vs. Bussin: While 'bussin' is généralement only for food, 'slaps' can be used for food, music, or anything else that is high quality."
       ]
     },
     {
@@ -549,9 +549,9 @@ export const slangCourse: Course = {
         { speaker: "Zoey", en: "Perfect. Let's get turnt!", fr: "Parfait. On va mettre le feu !" }
       ],
       tips: [
-        "💡 Pregaming: Common in the US because drinks at bars/clubs are expensive. People drink cheaper alcohol at home before going out.",
+        "💡 Pregaming: Common in the US because drinks at bars/clubs are expensive. People drink cheaper alcohol at home avant going out.",
         "💡 Red Solo Cups: The iconic red plastic cups you see in movies are real! They are used at almost every American party to hide what you're drinking.",
-        "💡 Last Call: Bars usually have a 'Last Call' about 15-30 minutes before they close, often around 2:00 AM."
+        "💡 Last Call: Bars généralement have a 'Last Call' about 15-30 minutes avant they close, souvent around 2:00 AM."
       ]
     },
     {
@@ -617,9 +617,9 @@ export const slangCourse: Course = {
         { speaker: "Chloe", en: "Yesss, slay!", fr: "Grave, on va tout casser !" }
       ],
       tips: [
-        "💡 Bad vs. Baddie: In slang, 'bad' often means good or attractive. A 'baddie' is a woman who is confident, attractive, and stylish.",
-        "💡 Drip: This term originated in hip-hop. If you have 'drip', it means your diamond jewelry or clothes are so 'cool' they are 'dripping' like water.",
-        "💡 Ate: To 'eat' a performance or a look means you did it perfectly. You left no crumbs because you were so good."
+        "💡 Bad vs. Baddie: In slang, 'bad' souvent signifie good or attractive. A 'baddie' is a woman who is confident, attractive, and stylish.",
+        "💡 Drip: This term originated in hip-hop. If you have 'drip', it signifie your diamond jewelry or clothes are so 'cool' they are 'dripping' like water.",
+        "💡 Ate: To 'eat' a performance or a look signifie you did it perfectly. You left no crumbs because you were so good."
       ]
     },
     {
@@ -687,7 +687,7 @@ export const slangCourse: Course = {
       tips: [
         "💡 Period.: Used at the end of a statement to indicate it is final and non-negotiable.",
         "💡 Mood & Real: These are one-word reactions to show empathy or agreement with someone's experience, especially negative ones like being tired.",
-        "💡 Say Less: This doesn't mean 'shutup'. It means 'I'm so convinced by what you said that you don't need to explain anything more'."
+        "💡 Say Less: This doesn't mean 'shutup'. It signifie 'I'm so convinced by what you said that you don't need to explain anything more'."
       ]
     },
     {
@@ -755,7 +755,7 @@ export const slangCourse: Course = {
       tips: [
         "💡 Uppercase vs Lowercase: In texting, using CALL CAPS can mean you are shouting. Lowercase is more casual and 'chill'.",
         "💡 FR vs FR FR: Adding the second 'FR' emphasizes that you are being extremely serious or that something is very true.",
-        "💡 The 'Seen' Receipt: Being 'left on read' is a major social insult in the US, showing the person doesn't care enough to reply."
+        "💡 The 'Seen' Receipt: Being 'left on read' is a major social insult Aux USA, showing the person doesn't care enough to reply."
       ]
     },
     {

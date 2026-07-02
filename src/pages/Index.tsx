@@ -6,6 +6,7 @@ import CourseCard from "@/components/CourseCard";
 import LessonList from "@/components/LessonList";
 import LessonView from "@/components/LessonView";
 import FlashcardView from "@/components/FlashcardView";
+import VoiceSelector from "@/components/VoiceSelector";
 import { ArrowLeft, Flame, Zap, Brain, Trophy, Target } from "lucide-react";
 
 type View = "home" | "course" | "lesson" | "flashcards";
@@ -84,7 +85,11 @@ const Index = () => {
                 <p className="text-muted-foreground text-sm max-w-xs mx-auto">
                   Apprends le vrai anglais américain — étape par étape 🇺🇸
                 </p>
+                <div className="flex justify-center pt-1">
+                  <VoiceSelector />
+                </div>
               </div>
+
 
               {/* Daily Stats */}
               <div className="grid grid-cols-3 gap-3">
