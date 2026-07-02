@@ -85,7 +85,11 @@ const Index = () => {
                 <p className="text-muted-foreground text-sm max-w-xs mx-auto">
                   Apprends le vrai anglais américain — étape par étape 🇺🇸
                 </p>
+                <div className="flex justify-center pt-1">
+                  <VoiceSelector />
+                </div>
               </div>
+
 
               {/* Daily Stats */}
               <div className="grid grid-cols-3 gap-3">
