@@ -1,7 +1,17 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Lesson } from "@/data/courses";
-import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight, BookOpen, MessageCircle, Volume2, Lightbulb, CheckCircle2, Plus, Info } from "lucide-react";
+import {
+  ArrowLeft,
+  ChevronLeft,
+  ChevronRight,
+  BookOpen,
+  MessageCircle,
+  Volume2,
+  Lightbulb,
+  CheckCircle2,
+  Plus,
+} from "lucide-react";
 import QuizView from "./QuizView";
 import WordCard from "./lesson/WordCard";
 import PhraseCard from "./lesson/PhraseCard";
@@ -28,7 +38,6 @@ const STEPS = [
 const LessonView = ({
   lesson,
   gradient,
-  courseId,
   onBack,
   completedSteps,
   onStepComplete,
@@ -42,23 +51,16 @@ const LessonView = ({
   const hasDialogue = !!lesson.dialogues && lesson.dialogues.length > 0;
   const availableSteps = STEPS.filter((s) => s.id !== 2 || hasDialogue);
 
-  const goNext = () => {
-    const currentIdx = availableSteps.findIndex((s) => s.id === currentStep);
-    if (currentIdx < availableSteps.length - 1) {
-      onStepComplete(currentStep);
-      setCurrentStep(availableSteps[currentIdx + 1].id);
+  // For the words/phrases section: last item advances step; for dialogue, button = next step
+  const goToNextStep = () => {
+    const idx = availableSteps.findIndex((s) => s.id === currentStep);
+    onStepComplete(currentStep);
+    if (idx < availableSteps.length - 1) {
+      setCurrentStep(availableSteps[idx + 1].id);
+      setWordIndex(0);
+      setPhraseIndex(0);
     }
   };
-
-  const goPrev = () => {
-    const currentIdx = availableSteps.findIndex((s) => s.id === currentStep);
-    if (currentIdx > 0) {
-      setCurrentStep(availableSteps[currentIdx - 1].id);
-    }
-  };
-
-  const isLastStep = availableSteps.findIndex((s) => s.id === currentStep) === availableSteps.length - 1;
-  const isFirstStep = availableSteps.findIndex((s) => s.id === currentStep) === 0;
 
   return (
     <div className="space-y-5">
@@ -77,7 +79,7 @@ const LessonView = ({
       </div>
 
       {/* Step indicator */}
-      <div className="flex items-center gap-1">
+      <div className="flex items-center gap-1 overflow-x-auto">
         {availableSteps.map((step) => {
           const Icon = step.icon;
           const isActive = currentStep === step.id;
@@ -86,7 +88,7 @@ const LessonView = ({
             <button
               key={step.id}
               onClick={() => setCurrentStep(step.id)}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all shrink-0 ${
                 isActive
                   ? `${gradient} text-primary-foreground`
                   : isDone
@@ -114,7 +116,6 @@ const LessonView = ({
         </div>
       )}
 
-      {/* Content */}
       <AnimatePresence mode="wait">
         {/* WORDS */}
         {currentStep === 0 && (
@@ -159,12 +160,17 @@ const LessonView = ({
                 onClick={() => {
                   if (wordIndex < lesson.words.length - 1) {
                     setWordIndex((i) => i + 1);
+                  } else {
+                    goToNextStep();
                   }
                 }}
-                disabled={wordIndex === lesson.words.length - 1}
-                className={`flex items-center gap-1 px-4 py-2.5 rounded-xl font-medium disabled:opacity-30 transition-colors ${gradient} text-primary-foreground`}
+                className={`flex items-center gap-1 px-5 py-2.5 rounded-xl font-medium transition-colors ${gradient} text-primary-foreground`}
               >
-                Suivant <ChevronRight className="w-4 h-4" />
+                {wordIndex < lesson.words.length - 1 ? (
+                  <>Suivant <ChevronRight className="w-4 h-4" /></>
+                ) : (
+                  <>Passer aux phrases <ChevronRight className="w-4 h-4" /></>
+                )}
               </button>
             </div>
           </motion.div>
@@ -213,12 +219,19 @@ const LessonView = ({
                 onClick={() => {
                   if (phraseIndex < lesson.phrases.length - 1) {
                     setPhraseIndex((i) => i + 1);
+                  } else {
+                    goToNextStep();
                   }
                 }}
-                disabled={phraseIndex === lesson.phrases.length - 1}
-                className={`flex items-center gap-1 px-4 py-2.5 rounded-xl font-medium disabled:opacity-30 transition-colors ${gradient} text-primary-foreground`}
+                className={`flex items-center gap-1 px-5 py-2.5 rounded-xl font-medium transition-colors ${gradient} text-primary-foreground`}
               >
-                Suivant <ChevronRight className="w-4 h-4" />
+                {phraseIndex < lesson.phrases.length - 1 ? (
+                  <>Suivant <ChevronRight className="w-4 h-4" /></>
+                ) : hasDialogue ? (
+                  <>Passer au dialogue <ChevronRight className="w-4 h-4" /></>
+                ) : (
+                  <>Passer au quiz <ChevronRight className="w-4 h-4" /></>
+                )}
               </button>
             </div>
           </motion.div>
@@ -226,7 +239,21 @@ const LessonView = ({
 
         {/* DIALOGUE */}
         {currentStep === 2 && lesson.dialogues && (
-          <DialogueChat dialogues={lesson.dialogues} gradient={gradient} />
+          <motion.div
+            key="dialogue"
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -30 }}
+            className="space-y-4"
+          >
+            <DialogueChat dialogues={lesson.dialogues} gradient={gradient} />
+            <button
+              onClick={goToNextStep}
+              className={`w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-display font-semibold transition-colors ${gradient} text-primary-foreground`}
+            >
+              Passer au quiz <ChevronRight className="w-4 h-4" />
+            </button>
+          </motion.div>
         )}
 
         {/* QUIZ */}
@@ -245,32 +272,20 @@ const LessonView = ({
                 onStepComplete(3);
               }}
             />
+            {/* "Terminer" button appears once quiz is done via completedSteps */}
+            {completedSteps.includes(3) && (
+              <motion.button
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                onClick={onBack}
+                className={`w-full mt-6 flex items-center justify-center gap-2 px-6 py-3 rounded-xl ${gradient} text-primary-foreground font-display font-bold`}
+              >
+                <CheckCircle2 className="w-5 h-5" /> Terminer la leçon
+              </motion.button>
+            )}
           </motion.div>
         )}
       </AnimatePresence>
-
-      {/* Step navigation (not for quiz) */}
-      {currentStep !== 3 && (
-        <div className="flex items-center justify-between gap-3 pt-4 border-t border-border">
-          <button
-            onClick={goPrev}
-            disabled={isFirstStep}
-            className="flex items-center gap-1 px-4 py-2.5 rounded-xl bg-card border border-border text-foreground disabled:opacity-30 hover:bg-muted transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4" /> Étape précédente
-          </button>
-          <button
-            onClick={() => {
-              onStepComplete(currentStep);
-              goNext();
-            }}
-            disabled={isLastStep}
-            className={`flex items-center gap-1 px-4 py-2.5 rounded-xl font-medium transition-colors ${gradient} text-primary-foreground`}
-          >
-            Étape suivante <ArrowRight className="w-4 h-4" />
-          </button>
-        </div>
-      )}
     </div>
   );
 };
