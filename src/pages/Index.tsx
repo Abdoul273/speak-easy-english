@@ -6,6 +6,7 @@ import CourseCard from "@/components/CourseCard";
 import LessonList from "@/components/LessonList";
 import LessonView from "@/components/LessonView";
 import FlashcardView from "@/components/FlashcardView";
+import VoiceSelector from "@/components/VoiceSelector";
 import { ArrowLeft, Flame, Zap, Brain, Trophy, Target } from "lucide-react";
 
 type View = "home" | "course" | "lesson" | "flashcards";
